@@ -1,0 +1,291 @@
+{
+ "name": "Soc-Epinions1",
+ "label": "Soc-Epinions1",
+ "split": "Validation",
+ "part": "A",
+ "quick": false,
+ "local": false,
+ "started": "2026-09-28T07:45:56Z",
+ "n": 75879,
+ "m": 405740,
+ "provenance": {
+  "url": "https://snap.stanford.edu/data/soc-Epinions1.txt.gz",
+  "test_url_override": false,
+  "download": [
+   {
+    "attempt": 1,
+    "ok": true,
+    "time": 1790581557.9242413
+   }
+  ],
+  "compressed_sha256": "69a2dab71fa5e3a0715487599fc16ca17ddc847379325a6c765bbad6e3e36938",
+  "edge_file_bytes": 5663083,
+  "sha256_matches_manifest": true,
+  "bytes_match_manifest": true,
+  "parse_seconds": 0.5533666999999696,
+  "dense_edges_sha256": "eb41e244586f3c109a500391e730b1c89b1a073e651cd45d4ca7551bacd90f2a"
+ },
+ "checks": {
+  "n_matches_artifact": true,
+  "m_matches_artifact": true,
+  "stored_neigh_labels": [
+   "NeighStored4"
+  ],
+  "stored_neigh_work": 7985079,
+  "stored_neigh_work_matches": true,
+  "artifact_reference_work": 7985079
+ },
+ "status": "done",
+ "finished": "2026-09-28T07:46:52Z",
+ "graph_seconds": 55.33341889999974,
+ "reference": {
+  "label": "NeighStored4",
+  "work": 7985079,
+  "forward_min": 7985079,
+  "forward_min_label": "NeighStored4",
+  "candidate_works": {
+   "Natural": 15115446,
+   "Natural-rev": 9548108,
+   "Random": 11240052,
+   "Random-rev": 11039013,
+   "Degree": 8883488,
+   "Degree-rev": 15160096,
+   "Core": 10111902,
+   "Core-rev": 15778080,
+   "SmallestLast": 10430408,
+   "SmallestLast-rev": 15825587,
+   "Split": 9191695,
+   "Split-rev": 9148106,
+   "Check": 8672374,
+   "Check-rev": 8623812,
+   "NeighStored4": 7985079,
+   "NeighStored4-rev": 8015747
+  },
+  "builtin_seconds": {
+   "Natural": 5.809999993289239e-05,
+   "Random": 0.0013068999996903585,
+   "Degree": 0.009858500000063941,
+   "Core": 0.9877476999999999,
+   "SmallestLast": 0.016508000000158063,
+   "Split": 0.009408800000073825,
+   "Check": 0.38805590000038137
+  },
+  "seconds": 1.769683200000145,
+  "neigh_candidates": [
+   "NeighStored4"
+  ]
+ },
+ "T": {
+  "work": 7010478,
+  "rounds": 28,
+  "improving_rounds": 27,
+  "start_work": 7985079,
+  "first_round_s": 0.0044290999999248015,
+  "stopped": "converged",
+  "seconds": 0.12047589999974662
+ },
+ "DOVE": {
+  "work": 7055402,
+  "seconds": 12.59141210000007,
+  "inner_seconds": 12.57877819999976,
+  "initial_work": 7985079
+ },
+ "budget": 12.59141210000007,
+ "TILS": {
+  "1": {
+   "work": 7000504,
+   "info": {
+    "budget": 12.59141210000007,
+    "seed": 1,
+    "start_work": 7985079,
+    "T_phase": {
+     "rounds": 28,
+     "improving_rounds": 27,
+     "start_work": 7985079,
+     "first_round_s": 0.004901100000097358,
+     "stopped": "converged",
+     "seconds": 0.13434639999968567,
+     "seconds_since_start": 0.18496689999983573,
+     "work": 7010478
+    },
+    "reserve": 0.13434639999968567,
+    "status": "finished",
+    "ils": {
+     "proposals": 160256,
+     "accepted": 14626,
+     "improving": 1189,
+     "kicks": 0,
+     "chunks": 626,
+     "undone_moves": 0,
+     "incumbent_updates": 537,
+     "relabels": 1,
+     "relabel_work": 17,
+     "calls": 108,
+     "final_undo": 0
+    },
+    "ils_end": 12.472986099999616,
+    "ils_incumbent_work": 7003603,
+    "final_T": {
+     "rounds": 12,
+     "improving_rounds": 11,
+     "start_work": 7003603,
+     "first_round_s": 0.003757499999665015,
+     "stopped": "converged"
+    },
+    "total_seconds": 12.531206299999667,
+    "overshoot": 0.0
+   }
+  },
+  "2": {
+   "work": 7000511,
+   "info": {
+    "budget": 12.59141210000007,
+    "seed": 2,
+    "start_work": 7985079,
+    "T_phase": {
+     "rounds": 28,
+     "improving_rounds": 27,
+     "start_work": 7985079,
+     "first_round_s": 0.0043733000002248446,
+     "stopped": "converged",
+     "seconds": 0.12542450000000827,
+     "seconds_since_start": 0.1771005000000514,
+     "work": 7010478
+    },
+    "reserve": 0.12542450000000827,
+    "status": "finished",
+    "ils": {
+     "proposals": 151296,
+     "accepted": 13852,
+     "improving": 1147,
+     "kicks": 0,
+     "chunks": 591,
+     "undone_moves": 0,
+     "incumbent_updates": 511,
+     "relabels": 0,
+     "relabel_work": 0,
+     "calls": 107,
+     "final_undo": 0
+    },
+    "ils_end": 12.469213699999727,
+    "ils_incumbent_work": 7003735,
+    "final_T": {
+     "rounds": 14,
+     "improving_rounds": 13,
+     "start_work": 7003735,
+     "first_round_s": 0.00552739999966434,
+     "stopped": "converged"
+    },
+    "total_seconds": 12.537330599999677,
+    "overshoot": 0.0
+   }
+  },
+  "3": {
+   "work": 7000912,
+   "info": {
+    "budget": 12.59141210000007,
+    "seed": 3,
+    "start_work": 7985079,
+    "T_phase": {
+     "rounds": 28,
+     "improving_rounds": 27,
+     "start_work": 7985079,
+     "first_round_s": 0.004462400000193156,
+     "stopped": "converged",
+     "seconds": 0.1385566000003564,
+     "seconds_since_start": 0.1952796999999009,
+     "work": 7010478
+    },
+    "reserve": 0.1385566000003564,
+    "status": "finished",
+    "ils": {
+     "proposals": 141312,
+     "accepted": 12969,
+     "improving": 1074,
+     "kicks": 0,
+     "chunks": 552,
+     "undone_moves": 0,
+     "incumbent_updates": 468,
+     "relabels": 0,
+     "relabel_work": 0,
+     "calls": 109,
+     "final_undo": 0
+    },
+    "ils_end": 12.474077599999873,
+    "ils_incumbent_work": 7003982,
+    "final_T": {
+     "rounds": 10,
+     "improving_rounds": 9,
+     "start_work": 7003982,
+     "first_round_s": 0.00364369999988412,
+     "stopped": "converged"
+    },
+    "total_seconds": 12.516206299999794,
+    "overshoot": 0.0
+   }
+  }
+ },
+ "verification": {
+  "orders": {
+   "Rstar": {
+    "file": "D:\\Work\\Triangle Ordering\\pc_eval_results\\partA\\Soc-Epinions1\\orders\\Rstar.npy",
+    "permutation": true,
+    "claimed": 7985079,
+    "dove_work": 7985079,
+    "lister_probes": 7985079,
+    "triangles": 1624481,
+    "ok": true
+   },
+   "T": {
+    "file": "D:\\Work\\Triangle Ordering\\pc_eval_results\\partA\\Soc-Epinions1\\orders\\T.npy",
+    "permutation": true,
+    "claimed": 7010478,
+    "dove_work": 7010478,
+    "lister_probes": 7010478,
+    "triangles": 1624481,
+    "ok": true
+   },
+   "DOVE": {
+    "file": "D:\\Work\\Triangle Ordering\\pc_eval_results\\partA\\Soc-Epinions1\\orders\\DOVE.npy",
+    "permutation": true,
+    "claimed": 7055402,
+    "dove_work": 7055402,
+    "lister_probes": 7055402,
+    "triangles": 1624481,
+    "ok": true
+   },
+   "TILS_seed1": {
+    "file": "D:\\Work\\Triangle Ordering\\pc_eval_results\\partA\\Soc-Epinions1\\orders\\TILS_seed1.npy",
+    "permutation": true,
+    "claimed": 7000504,
+    "dove_work": 7000504,
+    "lister_probes": 7000504,
+    "triangles": 1624481,
+    "ok": true
+   },
+   "TILS_seed2": {
+    "file": "D:\\Work\\Triangle Ordering\\pc_eval_results\\partA\\Soc-Epinions1\\orders\\TILS_seed2.npy",
+    "permutation": true,
+    "claimed": 7000511,
+    "dove_work": 7000511,
+    "lister_probes": 7000511,
+    "triangles": 1624481,
+    "ok": true
+   },
+   "TILS_seed3": {
+    "file": "D:\\Work\\Triangle Ordering\\pc_eval_results\\partA\\Soc-Epinions1\\orders\\TILS_seed3.npy",
+    "permutation": true,
+    "claimed": 7000912,
+    "dove_work": 7000912,
+    "lister_probes": 7000912,
+    "triangles": 1624481,
+    "ok": true
+   }
+  },
+  "triangles": [
+   1624481
+  ],
+  "all_ok": true,
+  "n_orders": 6
+ }
+}

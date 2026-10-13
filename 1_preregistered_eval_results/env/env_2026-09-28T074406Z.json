@@ -1,0 +1,62 @@
+{
+ "utc": "2026-09-28T07:44:06Z",
+ "argv": [
+  "run_eval.py",
+  "--artifact",
+  "D:\\Work\\Triangle Ordering\\audit_workspace\\DOVE_AISTATS_2027_code_and_data",
+  "--data",
+  "D:\\Work\\Triangle Ordering\\pc_eval_data",
+  "--out",
+  "D:\\Work\\Triangle Ordering\\pc_eval_results",
+  "--part",
+  "both"
+ ],
+ "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+ "executable": "D:\\Work\\Triangle Ordering\\.venv\\Scripts\\python.exe",
+ "platform": "Windows-10-10.0.19045-SP0",
+ "processor": "AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD",
+ "machine": "AMD64",
+ "cpu_count": 12,
+ "numpy": "2.1.0",
+ "scipy": "1.15.2",
+ "numba": "0.61.0",
+ "networkx": "3.4.2",
+ "threads": {
+  "OMP_NUM_THREADS": "1",
+  "OPENBLAS_NUM_THREADS": "1",
+  "MKL_NUM_THREADS": "1",
+  "NUMBA_NUM_THREADS": "1"
+ },
+ "package_sha256": {
+  "core.py": "a1a820d79477db9143098c5d1862225ca5d22954715fae4146265845bca30108",
+  "graphs.py": "fc84624f3eb501cbc050b54e130f7e1bd450564284500745890e1fc79d2bf3c0",
+  "make_tables.py": "b78c49b6655f21a31be2f13409fcece84f8e3509b04444fd1674e9ba692dee86",
+  "methods.py": "3ca6e606491d71403926f2090ad310db51934518d732429e787262e6b2c915e7",
+  "run_eval.py": "dc2aba627c9d79e4221325e47ab4a6ac23e7bd15174263082ef43d3538c2934a",
+  "PREREGISTRATION.md": "bdda241b6d7d9f13fe0a0b643f56ed2c0c229dc596ea283edc23f28c50a7ed4b",
+  "PREREGISTRATION.sha256": "9b8bbb76d4b9976c3bc19179d71f1ff47a3405cb6f09a0356af70456040154c7"
+ },
+ "artifact": {
+  "files": {
+   "__init__.py": "bca61e0d0a9b689c3bf16910b10fcb6b6f1b5d2fdf7945e6a5b50de58b66136e",
+   "graph.py": "665b789424600b50d8642db0d0b2c6587cb5a602af37d1abd167825b9a8615c9",
+   "orderings.py": "a27d2278cde6a2e84639977e0b9a47a66900b3479e2deea38a8a9d7420b13e32",
+   "relaxation.py": "c1930feb600560f96f781ed3e6e1c5350ed8b977f5f99e62a4c8489d989c129e"
+  },
+  "mismatches": []
+ },
+ "prereg": {
+  "sha256": "bdda241b6d7d9f13fe0a0b643f56ed2c0c229dc596ea283edc23f28c50a7ed4b",
+  "normalised": false
+ },
+ "args": {
+  "artifact": "D:\\Work\\Triangle Ordering\\audit_workspace\\DOVE_AISTATS_2027_code_and_data",
+  "data": "D:\\Work\\Triangle Ordering\\pc_eval_data",
+  "out": "D:\\Work\\Triangle Ordering\\pc_eval_results",
+  "part": "both",
+  "volt": null,
+  "quick": false,
+  "local_npz": null,
+  "allow_dove_mismatch": false
+ }
+}

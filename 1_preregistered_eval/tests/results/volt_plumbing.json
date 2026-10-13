@@ -1,0 +1,38 @@
+{
+ "native:ba-1": {
+  "neigh": [
+   "Neigh1",
+   "Neigh2",
+   "Neigh3",
+   "Neigh5"
+  ],
+  "R": "Check-rev"
+ },
+ "native:er-1": {
+  "neigh": [
+   "Neigh1",
+   "Neigh2",
+   "Neigh3",
+   "Neigh5"
+  ],
+  "R": "Check-rev"
+ },
+ "wsl:ba-1": {
+  "neigh": [
+   "Neigh1",
+   "Neigh2",
+   "Neigh3",
+   "Neigh5"
+  ],
+  "R": "Check-rev"
+ },
+ "wsl:er-1": {
+  "neigh": [
+   "Neigh1",
+   "Neigh2",
+   "Neigh3",
+   "Neigh5"
+  ],
+  "R": "Check-rev"
+ }
+}

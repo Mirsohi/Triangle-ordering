@@ -1,0 +1,27 @@
+{
+  "reference": {
+    "optimal": 22,
+    "total": 26,
+    "total_additive_gap": 6
+  },
+  "tangent": {
+    "optimal": 23,
+    "total": 26,
+    "total_additive_gap": 5
+  },
+  "dove": {
+    "optimal": 24,
+    "total": 26,
+    "total_additive_gap": 4
+  },
+  "dove_tangent": {
+    "optimal": 24,
+    "total": 26,
+    "total_additive_gap": 4
+  },
+  "insertion": {
+    "optimal": 26,
+    "total": 26,
+    "total_additive_gap": 0
+  }
+}

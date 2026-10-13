@@ -1,0 +1,2357 @@
+{
+ "test": false,
+ "problems": [],
+ "complete": true,
+ "macros": {
+  "SuiteRefDrop": "0.05",
+  "SuiteDoveMean": "4.36",
+  "SuiteTMean": "4.43",
+  "SuiteTIKMean": "5.70",
+  "SuiteTIKMedian": "3.65",
+  "SuiteTIKITR": "32/0/0",
+  "SuiteTIKGeo": "0.9413",
+  "SuiteTIKvsDove": "31/1/0",
+  "SuiteTriCheck": "passed for all 192 saved orders",
+  "HeldCount": "9 of 10",
+  "HeldDoveMean": "10.61",
+  "HeldTMean": "7.71",
+  "HeldTIKMean": "14.83",
+  "HeldTIKMedian": "9.52",
+  "HeldTIKITR": "9/0/0",
+  "HeldTIKGeo": "0.8467",
+  "HeldTIKvsDove": "9/0/0",
+  "HeldNeigh": "none (VOLT not available)",
+  "HeldTriCheck": "passed for all 54 saved orders",
+  "SuiteTIKCI": "[3.95, 7.67]\\%",
+  "SuiteTIKvsDoveP": "<0.001",
+  "SuiteTIKvsT": "31/1/0",
+  "HeldTIKCI": "[9.53, 20.93]\\%",
+  "HeldTIKvsDoveP": "0.0039",
+  "HeldTIKvsT": "9/0/0",
+  "SuiteCount": "32"
+ },
+ "suite": {
+  "count": 32,
+  "mean_T": 4.429431525269882,
+  "mean_D": 4.358013494993692,
+  "mean_tils": 5.703013862359488,
+  "median_tils": 3.6533513984631876,
+  "itr": "32/0/0",
+  "geo": 0.9413429063981282,
+  "vs_dove": "31/1/0",
+  "vs_T": "31/1/0",
+  "vs_dove_seeds": "93/3/0",
+  "vs_T_seeds": "93/3/0",
+  "ref_drop": 0.051632589588942686,
+  "orders": 192,
+  "orders_ok": 192,
+  "orders_failed": 0,
+  "graphs_ver_ok": 32,
+  "ci": [
+   3.9488788541305913,
+   7.67255769676475
+  ],
+  "sign_p": 9.313225746154785e-10
+ },
+ "suite_splits": {
+  "Development": {
+   "count": 13,
+   "mean_T": 1.6311483804532887,
+   "mean_D": 1.6745481501965231,
+   "mean_tils": 2.1997705128938128,
+   "median_tils": 1.9787783194723259,
+   "itr": "13/0/0",
+   "geo": 0.9779489124480201,
+   "vs_dove": "12/1/0",
+   "vs_T": "12/1/0",
+   "vs_dove_seeds": "36/3/0",
+   "vs_T_seeds": "36/3/0",
+   "ref_drop": 0.07928590139690439,
+   "orders": 78,
+   "orders_ok": 78,
+   "orders_failed": 0,
+   "graphs_ver_ok": 13,
+   "ci": [
+    1.6785914333073153,
+    2.7819796782823274
+   ],
+   "sign_p": 0.00048828125
+  },
+  "Validation": {
+   "count": 11,
+   "mean_T": 5.2243340910179015,
+   "mean_D": 5.087588890321419,
+   "mean_tils": 6.114200270577272,
+   "median_tils": 4.803585657594556,
+   "itr": "11/0/0",
+   "geo": 0.9380875533130699,
+   "vs_dove": "11/0/0",
+   "vs_T": "11/0/0",
+   "vs_dove_seeds": "33/0/0",
+   "vs_T_seeds": "33/0/0",
+   "ref_drop": 0.03107782926646028,
+   "orders": 66,
+   "orders_ok": 66,
+   "orders_failed": 0,
+   "graphs_ver_ok": 11,
+   "ci": [
+    3.9582750759647034,
+    8.367219578854293
+   ],
+   "sign_p": 0.0009765625
+  },
+  "Audit": {
+   "count": 8,
+   "mean_T": 7.883650607693318,
+   "mean_D": 7.715478511713467,
+   "mean_tils": 10.830402993941757,
+   "median_tils": 10.707013677507923,
+   "itr": "8/0/0",
+   "geo": 0.8889820770350635,
+   "vs_dove": "8/0/0",
+   "vs_T": "8/0/0",
+   "vs_dove_seeds": "24/0/0",
+   "vs_T_seeds": "24/0/0",
+   "ref_drop": 0.03495875334441824,
+   "orders": 48,
+   "orders_ok": 48,
+   "orders_failed": 0,
+   "graphs_ver_ok": 8,
+   "ci": [
+    6.027485918523397,
+    15.60481087540272
+   ],
+   "sign_p": 0.0078125
+  }
+ },
+ "heldout": {
+  "count": 9,
+  "mean_T": 7.708854588220657,
+  "mean_D": 10.605248101638121,
+  "mean_tils": 14.827147723565615,
+  "median_tils": 9.518573887044345,
+  "itr": "9/0/0",
+  "geo": 0.8466960064880246,
+  "vs_dove": "9/0/0",
+  "vs_T": "9/0/0",
+  "vs_dove_seeds": "27/0/0",
+  "vs_T_seeds": "27/0/0",
+  "ref_drop": 0.4674176257974191,
+  "orders": 54,
+  "orders_ok": 54,
+  "orders_failed": 0,
+  "graphs_ver_ok": 9,
+  "ci": [
+   9.532610277124123,
+   20.931329132418384
+  ],
+  "sign_p": 0.00390625
+ },
+ "suite_graphs": [
+  {
+   "name": "Ego-0",
+   "label": "Ego-0",
+   "split": "Development",
+   "n": 333,
+   "m": 2519,
+   "R": 16307,
+   "T": 15835,
+   "D": 15824,
+   "tils": [
+    15657,
+    15657,
+    15657
+   ],
+   "imp_T": 2.894462500766542,
+   "imp_D": 2.9619181946403383,
+   "imp_tils": 3.986018274360704,
+   "sd_tils": 0.0,
+   "Wbar": 15657.0,
+   "itr": "I",
+   "vs_dove": "win",
+   "vs_T": "win",
+   "vs_dove_seeds": [
+    "win",
+    "win",
+    "win"
+   ],
+   "vs_T_seeds": [
+    "win",
+    "win",
+    "win"
+   ],
+   "ratio": 0.960139817256393,
+   "fwd": 16339,
+   "ref_drop": 0.1958504192423037,
+   "ref_label": "NeighStored5-rev",
+   "budget": 0.05838560000029247,
+   "tils_seconds": [
+    0.05853690000003553,
+    0.05878070000017033,
+    0.05882659999997486
+   ],
+   "ver_ok": true,
+   "n_orders": 6,
+   "n_orders_ok": 6,
+   "n_orders_bad": 0,
+   "triangles": [
+    10740
+   ],
+   "neigh": [
+    "NeighStored5"
+   ],
+   "volt": null
+  },
+  {
+   "name": "Ego-107",
+   "label": "Ego-107",
+   "split": "Development",
+   "n": 1034,
+   "m": 26749,
+   "R": 624726,
+   "T": 614829,
+   "D": 614244,
+   "tils": [
+    613357,
+    613281,
+    613357
+   ],
+   "imp_T": 1.5842145196454125,
+   "imp_D": 1.6778555718827133,
+   "imp_tils": 1.8238929279929657,
+   "sd_tils": 0.0070236584452083,
+   "Wbar": 613331.6666666666,
+   "itr": "I",
+   "vs_dove": "win",
+   "vs_T": "win",
+   "vs_dove_seeds": [
+    "win",
+    "win",
+    "win"
+   ],
+   "vs_T_seeds": [
+    "win",
+    "win",
+    "win"
+   ],
+   "ratio": 0.9817610707200702,
+   "fwd": 626249,
+   "ref_drop": 0.2431940011081854,
+   "ref_label": "NeighStored4-rev",
+   "budget": 0.5695323999998436,
+   "tils_seconds": [
+    0.5728539000001547,
+    0.5721451000003981,
+    0.5699694999998428
+   ],
+   "ver_ok": true,
+   "n_orders": 6,
+   "n_orders_ok": 6,
+   "n_orders_bad": 0,
+   "triangles": [
+    420329
+   ],
+   "neigh": [
+    "NeighStored4"
+   ],
+   "volt": null
+  },
+  {
+   "name": "Ego-1684",
+   "label": "Ego-1684",
+   "split": "Development",
+   "n": 786,
+   "m": 14024,
+   "R": 201862,
+   "T": 198060,
+   "D": 197750,
+   "tils": [
+    197066,
+    197024,
+    197066
+   ],
+   "imp_T": 1.8834649413956068,
+   "imp_D": 2.037035202266895,
+   "imp_tils": 2.382815983196441,
+   "sd_tils": 0.012012519100159687,
+   "Wbar": 197052.0,
+   "itr": "I",
+   "vs_dove": "win",
+   "vs_T": "win",
+   "vs_dove_seeds": [
+    "win",
+    "win",
+    "win"
+   ],
+   "vs_T_seeds": [
+    "win",
+    "win",
+    "win"
+   ],
+   "ratio": 0.9761718401680356,
+   "fwd": 201862,
+   "ref_drop": 0.0,
+   "ref_label": "NeighStored4",
+   "budget": 0.2213502000004155,
+   "tils_seconds": [
+    0.2223346999999194,
+    0.22096499999997832,
+    0.22101870000005874
+   ],
+   "ver_ok": true,
+   "n_orders": 6,
+   "n_orders_ok": 6,
+   "n_orders_bad": 0,
+   "triangles": [
+    121532
+   ],
+   "neigh": [
+    "NeighStored4"
+   ],
+   "volt": null
+  },
+  {
+   "name": "Ego-1912",
+   "label": "Ego-1912",
+   "split": "Development",
+   "n": 747,
+   "m": 30025,
+   "R": 1095493,
+   "T": 1083303,
+   "D": 1081953,
+   "tils": [
+    1081100,
+    1081018,
+    1081037
+   ],
+   "imp_T": 1.1127410216222284,
+   "imp_D": 1.2359732102350267,
+   "imp_tils": 1.318249713447127,
+   "sd_tils": 0.003918090815628335,
+   "Wbar": 1081051.6666666667,
+   "itr": "I",
+   "vs_dove": "win",
+   "vs_T": "win",
+   "vs_dove_seeds": [
+    "win",
+    "win",
+    "win"
+   ],
+   "vs_T_seeds": [
+    "win",
+    "win",
+    "win"
+   ],
+   "ratio": 0.9868175028655288,
+   "fwd": 1095554,
+   "ref_drop": 0.005567959224282874,
+   "ref_label": "NeighStored2-rev",
+   "budget": 0.6411530999998831,
+   "tils_seconds": [
+    0.6443681999999171,
+    0.6408580000002075,
+    0.6415348999998969
+   ],
+   "ver_ok": true,
+   "n_orders": 6,
+   "n_orders_ok": 6,
+   "n_orders_bad": 0,
+   "triangles": [
+    916277
+   ],
+   "neigh": [
+    "NeighStored2"
+   ],
+   "volt": null
+  },
+  {
+   "name": "Ego-3437",
+   "label": "Ego-3437",
+   "split": "Development",
+   "n": 534,
+   "m": 4813,
+   "R": 31251,
+   "T": 30758,
+   "D": 30682,
+   "tils": [
+    30515,
+    30515,
+    30520
+   ],
+   "imp_T": 1.5775495184154107,
+   "imp_D": 1.8207417362644396,
+   "imp_tils": 2.3497914733395198,
+   "sd_tils": 0.009237308713155276,
+   "Wbar": 30516.666666666668,
+   "itr": "I",
+   "vs_dove": "win",
+   "vs_T": "win",
+   "vs_dove_seeds": [
+    "win",
+    "win",
+    "win"
+   ],
+   "vs_T_seeds": [
+    "win",
+    "win",
+    "win"
+   ],
+   "ratio": 0.9765020852666049,
+   "fwd": 31251,
+   "ref_drop": 0.0,
+   "ref_label": "NeighStored5",
+   "budget": 0.09083129999999073,
+   "tils_seconds": [
+    0.09084619999975985,
+    0.09086919999981546,
+    0.0911590000000615
+   ],
+   "ver_ok": true,
+   "n_orders": 6,
+   "n_orders_ok": 6,
+   "n_orders_bad": 0,
+   "triangles": [
+    20849
+   ],
+   "neigh": [
+    "NeighStored5"
+   ],
+   "volt": null
+  },
+  {
+   "name": "Ego-348",
+   "label": "Ego-348",
+   "split": "Development",
+   "n": 224,
+   "m": 3192,
+   "R": 34870,
+   "T": 34231,
+   "D": 34219,
+   "tils": [
+    34180,
+    34180,
+    34180
+   ],
+   "imp_T": 1.8325207915113277,
+   "imp_D": 1.8669343275021508,
+   "imp_tils": 1.9787783194723259,
+   "sd_tils": 0.0,
+   "Wbar": 34180.0,
+   "itr": "I",
+   "vs_dove": "win",
+   "vs_T": "win",
+   "vs_dove_seeds": [
+    "win",
+    "win",
+    "win"
+   ],
+   "vs_T_seeds": [
+    "win",
+    "win",
+    "win"
+   ],
+   "ratio": 0.9802122168052767,
+   "fwd": 34870,
+   "ref_drop": 0.0,
+   "ref_label": "NeighStored4",
+   "budget": 0.06750920000013139,
+   "tils_seconds": [
+    0.06861140000000887,
+    0.06774730000006457,
+    0.06773639999983061
+   ],
+   "ver_ok": true,
+   "n_orders": 6,
+   "n_orders_ok": 6,
+   "n_orders_bad": 0,
+   "triangles": [
+    23503
+   ],
+   "neigh": [
+    "NeighStored4"
+   ],
+   "volt": null
+  },
+  {
+   "name": "Ego-3980",
+   "label": "Ego-3980",
+   "split": "Development",
+   "n": 52,
+   "m": 146,
+   "R": 221,
+   "T": 218,
+   "D": 218,
+   "tils": [
+    218,
+    218,
+    218
+   ],
+   "imp_T": 1.3574660633484164,
+   "imp_D": 1.3574660633484164,
+   "imp_tils": 1.3574660633484161,
+   "sd_tils": 0.0,
+   "Wbar": 218.0,
+   "itr": "I",
+   "vs_dove": "tie",
+   "vs_T": "tie",
+   "vs_dove_seeds": [
+    "tie",
+    "tie",
+    "tie"
+   ],
+   "vs_T_seeds": [
+    "tie",
+    "tie",
+    "tie"
+   ],
+   "ratio": 0.9864253393665159,
+   "fwd": 221,
+   "ref_drop": 0.0,
+   "ref_label": "NeighStored2",
+   "budget": 0.021412100000361534,
+   "tils_seconds": [
+    0.021495100000265666,
+    0.02151659999981348,
+    0.021502000000054977
+   ],
+   "ver_ok": true,
+   "n_orders": 6,
+   "n_orders_ok": 6,
+   "n_orders_bad": 0,
+   "triangles": [
+    168
+   ],
+   "neigh": [
+    "NeighStored2"
+   ],
+   "volt": null
+  },
+  {
+   "name": "Ego-414",
+   "label": "Ego-414",
+   "split": "Development",
+   "n": 150,
+   "m": 1693,
+   "R": 12871,
+   "T": 12789,
+   "D": 12786,
+   "tils": [
+    12743,
+    12743,
+    12743
+   ],
+   "imp_T": 0.6370911351099371,
+   "imp_D": 0.6603993473700567,
+   "imp_tils": 0.9944837230984384,
+   "sd_tils": 0.0,
+   "Wbar": 12743.0,
+   "itr": "I",
+   "vs_dove": "win",
+   "vs_T": "win",
+   "vs_dove_seeds": [
+    "win",
+    "win",
+    "win"
+   ],
+   "vs_T_seeds": [
+    "win",
+    "win",
+    "win"
+   ],
+   "ratio": 0.9900551627690156,
+   "fwd": 12871,
+   "ref_drop": 0.0,
+   "ref_label": "NeighStored5",
+   "budget": 0.04480210000019724,
+   "tils_seconds": [
+    0.04497259999970993,
+    0.04490070000019841,
+    0.04491039999993518
+   ],
+   "ver_ok": true,
+   "n_orders": 6,
+   "n_orders_ok": 6,
+   "n_orders_bad": 0,
+   "triangles": [
+    10618
+   ],
+   "neigh": [
+    "NeighStored5"
+   ],
+   "volt": null
+  },
+  {
+   "name": "Ego-686",
+   "label": "Ego-686",
+   "split": "Development",
+   "n": 168,
+   "m": 1656,
+   "R": 11657,
+   "T": 11464,
+   "D": 11428,
+   "tils": [
+    11289,
+    11287,
+    11287
+   ],
+   "imp_T": 1.6556575448228532,
+   "imp_D": 1.9644848588830746,
+   "imp_tils": 3.1683394812844927,
+   "sd_tils": 0.00990564071698769,
+   "Wbar": 11287.666666666666,
+   "itr": "I",
+   "vs_dove": "win",
+   "vs_T": "win",
+   "vs_dove_seeds": [
+    "win",
+    "win",
+    "win"
+   ],
+   "vs_T_seeds": [
+    "win",
+    "win",
+    "win"
+   ],
+   "ratio": 0.968316605187155,
+   "fwd": 11697,
+   "ref_drop": 0.34196802598957,
+   "ref_label": "NeighStored5-rev",
+   "budget": 0.04424449999987701,
+   "tils_seconds": [
+    0.04442209999979241,
+    0.04464030000008279,
+    0.04466279999996914
+   ],
+   "ver_ok": true,
+   "n_orders": 6,
+   "n_orders_ok": 6,
+   "n_orders_bad": 0,
+   "triangles": [
+    7945
+   ],
+   "neigh": [
+    "NeighStored5"
+   ],
+   "volt": null
+  },
+  {
+   "name": "Ego-698",
+   "label": "Ego-698",
+   "split": "Development",
+   "n": 61,
+   "m": 270,
+   "R": 748,
+   "T": 745,
+   "D": 748,
+   "tils": [
+    741,
+    740,
+    740
+   ],
+   "imp_T": 0.40106951871657753,
+   "imp_D": 0.0,
+   "imp_tils": 1.0249554367201428,
+   "sd_tils": 0.07718586486492328,
+   "Wbar": 740.3333333333334,
+   "itr": "I",
+   "vs_dove": "win",
+   "vs_T": "win",
+   "vs_dove_seeds": [
+    "win",
+    "win",
+    "win"
+   ],
+   "vs_T_seeds": [
+    "win",
+    "win",
+    "win"
+   ],
+   "ratio": 0.9897504456327986,
+   "fwd": 748,
+   "ref_drop": 0.0,
+   "ref_label": "NeighStored1",
+   "budget": 0.023742300000321848,
+   "tils_seconds": [
+    0.02401529999997365,
+    0.024026900000080786,
+    0.023902299999917886
+   ],
+   "ver_ok": true,
+   "n_orders": 6,
+   "n_orders_ok": 6,
+   "n_orders_bad": 0,
+   "triangles": [
+    679
+   ],
+   "neigh": [
+    "NeighStored1"
+   ],
+   "volt": null
+  },
+  {
+   "name": "CA-GrQc",
+   "label": "CA-GrQc",
+   "split": "Development",
+   "n": 5241,
+   "m": 14484,
+   "R": 54867,
+   "T": 54370,
+   "D": 54400,
+   "tils": [
+    54082,
+    54069,
+    54069
+   ],
+   "imp_T": 0.90582681757705,
+   "imp_D": 0.8511491424717954,
+   "imp_tils": 1.4465282713956782,
+   "sd_tils": 0.013679540524295354,
+   "Wbar": 54073.333333333336,
+   "itr": "I",
+   "vs_dove": "win",
+   "vs_T": "win",
+   "vs_dove_seeds": [
+    "win",
+    "win",
+    "win"
+   ],
+   "vs_T_seeds": [
+    "win",
+    "win",
+    "win"
+   ],
+   "ratio": 0.9855347172860432,
+   "fwd": 54867,
+   "ref_drop": 0.0,
+   "ref_label": "NeighStored2",
+   "budget": 0.22722440000006827,
+   "tils_seconds": [
+    0.22840069999983825,
+    0.22999939999999697,
+    0.23002220000034868
+   ],
+   "ver_ok": true,
+   "n_orders": 6,
+   "n_orders_ok": 6,
+   "n_orders_bad": 0,
+   "triangles": [
+    48260
+   ],
+   "neigh": [
+    "NeighStored2"
+   ],
+   "volt": null
+  },
+  {
+   "name": "CA-CondMat",
+   "label": "CA-CondMat",
+   "split": "Development",
+   "n": 23133,
+   "m": 93439,
+   "R": 316262,
+   "T": 306540,
+   "D": 306275,
+   "tils": [
+    302884,
+    302866,
+    302878
+   ],
+   "imp_T": 3.074033554458013,
+   "imp_D": 3.157824841428942,
+   "imp_tils": 4.232566669407011,
+   "sd_tils": 0.002897961623562532,
+   "Wbar": 302876.0,
+   "itr": "I",
+   "vs_dove": "win",
+   "vs_T": "win",
+   "vs_dove_seeds": [
+    "win",
+    "win",
+    "win"
+   ],
+   "vs_T_seeds": [
+    "win",
+    "win",
+    "win"
+   ],
+   "ratio": 0.9576743333059299,
+   "fwd": 317036,
+   "ref_drop": 0.24413631259541504,
+   "ref_label": "NeighStored4-rev",
+   "budget": 2.0672340000000986,
+   "tils_seconds": [
+    2.0603760999997576,
+    2.063246000000163,
+    2.0624762999996165
+   ],
+   "ver_ok": true,
+   "n_orders": 6,
+   "n_orders_ok": 6,
+   "n_orders_bad": 0,
+   "triangles": [
+    173361
+   ],
+   "neigh": [
+    "NeighStored4"
+   ],
+   "volt": null
+  },
+  {
+   "name": "CA-HepPh",
+   "label": "CA-HepPh",
+   "split": "Development",
+   "n": 12006,
+   "m": 118489,
+   "R": 3821951,
+   "T": 3734473,
+   "D": 3738734,
+   "tils": [
+    3725211,
+    3725135,
+    3725062
+   ],
+   "imp_T": 2.288831018503377,
+   "imp_D": 2.1773434562609517,
+   "imp_tils": 2.5331303305563053,
+   "sd_tils": 0.0019493979223443015,
+   "Wbar": 3725136.0,
+   "itr": "I",
+   "vs_dove": "win",
+   "vs_T": "win",
+   "vs_dove_seeds": [
+    "win",
+    "win",
+    "win"
+   ],
+   "vs_T_seeds": [
+    "win",
+    "win",
+    "win"
+   ],
+   "ratio": 0.9746686966944369,
+   "fwd": 3821951,
+   "ref_drop": 0.0,
+   "ref_label": "NeighStored2",
+   "budget": 2.84055619999981,
+   "tils_seconds": [
+    2.822734599999876,
+    2.834615499999927,
+    2.8356666999998197
+   ],
+   "ver_ok": true,
+   "n_orders": 6,
+   "n_orders_ok": 6,
+   "n_orders_bad": 0,
+   "triangles": [
+    3358499
+   ],
+   "neigh": [
+    "NeighStored2"
+   ],
+   "volt": null
+  },
+  {
+   "name": "Wiki-Vote",
+   "label": "Wiki-Vote",
+   "split": "Validation",
+   "n": 7115,
+   "m": 100762,
+   "R": 1891565,
+   "T": 1778892,
+   "D": 1778071,
+   "tils": [
+    1777373,
+    1777360,
+    1777360
+   ],
+   "imp_T": 5.956602072886737,
+   "imp_D": 6.000005286627739,
+   "imp_tils": 6.037364122653288,
+   "sd_tils": 0.0003967906733032197,
+   "Wbar": 1777364.3333333333,
+   "itr": "I",
+   "vs_dove": "win",
+   "vs_T": "win",
+   "vs_dove_seeds": [
+    "win",
+    "win",
+    "win"
+   ],
+   "vs_T_seeds": [
+    "win",
+    "win",
+    "win"
+   ],
+   "ratio": 0.9396263587734671,
+   "fwd": 1891565,
+   "ref_drop": 0.0,
+   "ref_label": "NeighStored4",
+   "budget": 2.1345658999998705,
+   "tils_seconds": [
+    2.1268965999997818,
+    2.120878400000038,
+    2.123679799999991
+   ],
+   "ver_ok": true,
+   "n_orders": 6,
+   "n_orders_ok": 6,
+   "n_orders_bad": 0,
+   "triangles": [
+    608389
+   ],
+   "neigh": [
+    "NeighStored4"
+   ],
+   "volt": null
+  },
+  {
+   "name": "Email-Enron",
+   "label": "Email-Enron",
+   "split": "Validation",
+   "n": 36692,
+   "m": 183831,
+   "R": 2158516,
+   "T": 1934290,
+   "D": 1934410,
+   "tils": [
+    1925468,
+    1925562,
+    1925519
+   ],
+   "imp_T": 10.38797025363722,
+   "imp_D": 10.382410878585102,
+   "imp_tils": 10.79443778348952,
+   "sd_tils": 0.002180048856881895,
+   "Wbar": 1925516.3333333333,
+   "itr": "I",
+   "vs_dove": "win",
+   "vs_T": "win",
+   "vs_dove_seeds": [
+    "win",
+    "win",
+    "win"
+   ],
+   "vs_T_seeds": [
+    "win",
+    "win",
+    "win"
+   ],
+   "ratio": 0.8920556221651047,
+   "fwd": 2158516,
+   "ref_drop": 0.0,
+   "ref_label": "NeighStored1",
+   "budget": 5.325169599999754,
+   "tils_seconds": [
+    5.292466599999898,
+    5.297309800000221,
+    5.295794500000284
+   ],
+   "ver_ok": true,
+   "n_orders": 6,
+   "n_orders_ok": 6,
+   "n_orders_bad": 0,
+   "triangles": [
+    727044
+   ],
+   "neigh": [
+    "NeighStored1"
+   ],
+   "volt": null
+  },
+  {
+   "name": "P2P-Gnutella31",
+   "label": "P2P-Gnutella31",
+   "split": "Validation",
+   "n": 62586,
+   "m": 147892,
+   "R": 203725,
+   "T": 195111,
+   "D": 194041,
+   "tils": [
+    188199,
+    188199,
+    188211
+   ],
+   "imp_T": 4.228248864891397,
+   "imp_D": 4.753466683028592,
+   "imp_tils": 7.619094367407044,
+   "sd_tils": 0.0034007624151552607,
+   "Wbar": 188203.0,
+   "itr": "I",
+   "vs_dove": "win",
+   "vs_T": "win",
+   "vs_dove_seeds": [
+    "win",
+    "win",
+    "win"
+   ],
+   "vs_T_seeds": [
+    "win",
+    "win",
+    "win"
+   ],
+   "ratio": 0.9238090563259296,
+   "fwd": 203725,
+   "ref_drop": 0.0,
+   "ref_label": "NeighStored2",
+   "budget": 4.228691799999979,
+   "tils_seconds": [
+    4.22207810000009,
+    4.22343839999985,
+    4.2210580999999365
+   ],
+   "ver_ok": true,
+   "n_orders": 6,
+   "n_orders_ok": 6,
+   "n_orders_bad": 0,
+   "triangles": [
+    2024
+   ],
+   "neigh": [
+    "NeighStored2"
+   ],
+   "volt": null
+  },
+  {
+   "name": "CA-AstroPh",
+   "label": "CA-AstroPh",
+   "split": "Validation",
+   "n": 18771,
+   "m": 198050,
+   "R": 2502046,
+   "T": 2404591,
+   "D": 2402197,
+   "tils": [
+    2391581,
+    2391598,
+    2391995
+   ],
+   "imp_T": 3.895012321915744,
+   "imp_D": 3.9906940160172915,
+   "imp_tils": 4.409244807382971,
+   "sd_tils": 0.009363128715292001,
+   "Wbar": 2391724.6666666665,
+   "itr": "I",
+   "vs_dove": "win",
+   "vs_T": "win",
+   "vs_dove_seeds": [
+    "win",
+    "win",
+    "win"
+   ],
+   "vs_T_seeds": [
+    "win",
+    "win",
+    "win"
+   ],
+   "ratio": 0.9559075519261703,
+   "fwd": 2502046,
+   "ref_drop": 0.0,
+   "ref_label": "NeighStored4",
+   "budget": 5.709674000000177,
+   "tils_seconds": [
+    5.680908299999828,
+    5.686372699999993,
+    5.691518999999971
+   ],
+   "ver_ok": true,
+   "n_orders": 6,
+   "n_orders_ok": 6,
+   "n_orders_bad": 0,
+   "triangles": [
+    1351441
+   ],
+   "neigh": [
+    "NeighStored4"
+   ],
+   "volt": null
+  },
+  {
+   "name": "CA-HepTh",
+   "label": "CA-HepTh",
+   "split": "Validation",
+   "n": 9875,
+   "m": 25973,
+   "R": 53365,
+   "T": 52047,
+   "D": 51955,
+   "tils": [
+    51278,
+    51278,
+    51338
+   ],
+   "imp_T": 2.469783566007683,
+   "imp_D": 2.6421812049095847,
+   "imp_tils": 3.87332521315469,
+   "sd_tils": 0.06491336297456686,
+   "Wbar": 51298.0,
+   "itr": "I",
+   "vs_dove": "win",
+   "vs_T": "win",
+   "vs_dove_seeds": [
+    "win",
+    "win",
+    "win"
+   ],
+   "vs_T_seeds": [
+    "win",
+    "win",
+    "win"
+   ],
+   "ratio": 0.9612667478684531,
+   "fwd": 53365,
+   "ref_drop": 0.0,
+   "ref_label": "NeighStored2",
+   "budget": 0.3979064999998627,
+   "tils_seconds": [
+    0.3979967000000215,
+    0.3987725000001774,
+    0.39887099999987186
+   ],
+   "ver_ok": true,
+   "n_orders": 6,
+   "n_orders_ok": 6,
+   "n_orders_bad": 0,
+   "triangles": [
+    28339
+   ],
+   "neigh": [
+    "NeighStored2"
+   ],
+   "volt": null
+  },
+  {
+   "name": "Soc-Epinions1",
+   "label": "Soc-Epinions1",
+   "split": "Validation",
+   "n": 75879,
+   "m": 405740,
+   "R": 7985079,
+   "T": 7010478,
+   "D": 7055402,
+   "tils": [
+    7000504,
+    7000511,
+    7000912
+   ],
+   "imp_T": 12.205276867016595,
+   "imp_D": 11.64267754896351,
+   "imp_tils": 12.328452438187107,
+   "sd_tils": 0.0029250106278121677,
+   "Wbar": 7000642.333333333,
+   "itr": "I",
+   "vs_dove": "win",
+   "vs_T": "win",
+   "vs_dove_seeds": [
+    "win",
+    "win",
+    "win"
+   ],
+   "vs_T_seeds": [
+    "win",
+    "win",
+    "win"
+   ],
+   "ratio": 0.8767154756181289,
+   "fwd": 7985079,
+   "ref_drop": 0.0,
+   "ref_label": "NeighStored4",
+   "budget": 12.59141210000007,
+   "tils_seconds": [
+    12.531206299999667,
+    12.537330599999677,
+    12.516206299999794
+   ],
+   "ver_ok": true,
+   "n_orders": 6,
+   "n_orders_ok": 6,
+   "n_orders_bad": 0,
+   "triangles": [
+    1624481
+   ],
+   "neigh": [
+    "NeighStored4"
+   ],
+   "volt": null
+  },
+  {
+   "name": "Soc-Slashdot0811",
+   "label": "Soc-Slashdot0811",
+   "split": "Validation",
+   "n": 77360,
+   "m": 469180,
+   "R": 4906888,
+   "T": 4356732,
+   "D": 4351663,
+   "tils": [
+    4340214,
+    4340238,
+    4340198
+   ],
+   "imp_T": 11.211912723502147,
+   "imp_D": 11.315216487517139,
+   "imp_tils": 11.54848721497889,
+   "sd_tils": 0.0004102985808397389,
+   "Wbar": 4340216.666666667,
+   "itr": "I",
+   "vs_dove": "win",
+   "vs_T": "win",
+   "vs_dove_seeds": [
+    "win",
+    "win",
+    "win"
+   ],
+   "vs_T_seeds": [
+    "win",
+    "win",
+    "win"
+   ],
+   "ratio": 0.8845151278502111,
+   "fwd": 4906888,
+   "ref_drop": 0.0,
+   "ref_label": "NeighStored4",
+   "budget": 15.557460600000013,
+   "tils_seconds": [
+    15.489185299999917,
+    15.478347400000075,
+    15.500271099999736
+   ],
+   "ver_ok": true,
+   "n_orders": 6,
+   "n_orders_ok": 6,
+   "n_orders_bad": 0,
+   "triangles": [
+    551724
+   ],
+   "neigh": [
+    "NeighStored4"
+   ],
+   "volt": null
+  },
+  {
+   "name": "Cit-HepTh",
+   "label": "Cit-HepTh",
+   "split": "Validation",
+   "n": 27769,
+   "m": 352285,
+   "R": 4212943,
+   "T": 4106200,
+   "D": 4140548,
+   "tils": [
+    4090315,
+    4090234,
+    4090427
+   ],
+   "imp_T": 2.53369200580212,
+   "imp_D": 1.7183949557352187,
+   "imp_tils": 2.910499066013157,
+   "sd_tils": 0.0023003883809682847,
+   "Wbar": 4090325.3333333335,
+   "itr": "I",
+   "vs_dove": "win",
+   "vs_T": "win",
+   "vs_dove_seeds": [
+    "win",
+    "win",
+    "win"
+   ],
+   "vs_T_seeds": [
+    "win",
+    "win",
+    "win"
+   ],
+   "ratio": 0.9708950093398685,
+   "fwd": 4226257,
+   "ref_drop": 0.3150305341109166,
+   "ref_label": "NeighStored1-rev",
+   "budget": 10.531614199999694,
+   "tils_seconds": [
+    10.477588399999604,
+    10.454901900000095,
+    10.472115599999597
+   ],
+   "ver_ok": true,
+   "n_orders": 6,
+   "n_orders_ok": 6,
+   "n_orders_bad": 0,
+   "triangles": [
+    1478735
+   ],
+   "neigh": [
+    "NeighStored1"
+   ],
+   "volt": null
+  },
+  {
+   "name": "Web-NotreDame",
+   "label": "Web-NotreDame",
+   "split": "Validation",
+   "n": 325729,
+   "m": 1090108,
+   "R": 9563275,
+   "T": 9534287,
+   "D": 9563275,
+   "tils": [
+    9516173,
+    9516218,
+    9515982
+   ],
+   "imp_T": 0.3031179172406942,
+   "imp_D": 0.0,
+   "imp_tils": 0.4930389083934809,
+   "sd_tils": 0.0013102307629882562,
+   "Wbar": 9516124.333333334,
+   "itr": "I",
+   "vs_dove": "win",
+   "vs_T": "win",
+   "vs_dove_seeds": [
+    "win",
+    "win",
+    "win"
+   ],
+   "vs_T_seeds": [
+    "win",
+    "win",
+    "win"
+   ],
+   "ratio": 0.9950696109160653,
+   "fwd": 9563298,
+   "ref_drop": 0.00024050280562207724,
+   "ref_label": "NeighStored1-rev",
+   "budget": 42.1318240999999,
+   "tils_seconds": [
+    42.00504079999973,
+    41.99605599999995,
+    42.016572200000155
+   ],
+   "ver_ok": true,
+   "n_orders": 6,
+   "n_orders_ok": 6,
+   "n_orders_bad": 0,
+   "triangles": [
+    8910005
+   ],
+   "neigh": [
+    "NeighStored1"
+   ],
+   "volt": null
+  },
+  {
+   "name": "Com-Amazon",
+   "label": "Com-Amazon",
+   "split": "Validation",
+   "n": 334863,
+   "m": 925872,
+   "R": 1084032,
+   "T": 1077881,
+   "D": 1084032,
+   "tils": [
+    1057596,
+    1057596,
+    1057596
+   ],
+   "imp_T": 0.5674186739874838,
+   "imp_D": 0.0,
+   "imp_tils": 2.4386733970952887,
+   "sd_tils": 0.0,
+   "Wbar": 1057596.0,
+   "itr": "I",
+   "vs_dove": "win",
+   "vs_T": "win",
+   "vs_dove_seeds": [
+    "win",
+    "win",
+    "win"
+   ],
+   "vs_T_seeds": [
+    "win",
+    "win",
+    "win"
+   ],
+   "ratio": 0.9756132660290471,
+   "fwd": 1084056,
+   "ref_drop": 0.00221390776860236,
+   "ref_label": "NeighStored5-rev",
+   "budget": 36.02248439999994,
+   "tils_seconds": [
+    36.02300150000019,
+    36.021065200000066,
+    36.03696530000025
+   ],
+   "ver_ok": true,
+   "n_orders": 6,
+   "n_orders_ok": 6,
+   "n_orders_bad": 0,
+   "triangles": [
+    667129
+   ],
+   "neigh": [
+    "NeighStored5"
+   ],
+   "volt": null
+  },
+  {
+   "name": "Com-DBLP",
+   "label": "Com-DBLP",
+   "split": "Validation",
+   "n": 317080,
+   "m": 1049866,
+   "R": 3556614,
+   "T": 3424712,
+   "D": 3431477,
+   "tils": [
+    3385706,
+    3385765,
+    3385836
+   ],
+   "imp_T": 3.708639734309093,
+   "imp_D": 3.5184307321514225,
+   "imp_tils": 4.803585657594556,
+   "sd_tils": 0.001830174492966789,
+   "Wbar": 3385769.0,
+   "itr": "I",
+   "vs_dove": "win",
+   "vs_T": "win",
+   "vs_dove_seeds": [
+    "win",
+    "win",
+    "win"
+   ],
+   "vs_T_seeds": [
+    "win",
+    "win",
+    "win"
+   ],
+   "ratio": 0.9519641434240544,
+   "fwd": 3557481,
+   "ref_drop": 0.024371177245922044,
+   "ref_label": "NeighStored4-rev",
+   "budget": 41.810490200000004,
+   "tils_seconds": [
+    41.631714099999954,
+    41.64806180000005,
+    41.667951099999755
+   ],
+   "ver_ok": true,
+   "n_orders": 6,
+   "n_orders_ok": 6,
+   "n_orders_bad": 0,
+   "triangles": [
+    2224385
+   ],
+   "neigh": [
+    "NeighStored4"
+   ],
+   "volt": null
+  },
+  {
+   "name": "Email-EuAll",
+   "label": "Email-EuAll",
+   "split": "Audit",
+   "n": 265009,
+   "m": 364481,
+   "R": 1276904,
+   "T": 1024630,
+   "D": 1030762,
+   "tils": [
+    1007875,
+    1007913,
+    1007886
+   ],
+   "imp_T": 19.756692750590492,
+   "imp_D": 19.27646870868914,
+   "imp_tils": 21.06757177255821,
+   "sd_tils": 0.001531308996975942,
+   "Wbar": 1007891.3333333334,
+   "itr": "I",
+   "vs_dove": "win",
+   "vs_T": "win",
+   "vs_dove_seeds": [
+    "win",
+    "win",
+    "win"
+   ],
+   "vs_T_seeds": [
+    "win",
+    "win",
+    "win"
+   ],
+   "ratio": 0.789324282274418,
+   "fwd": 1276904,
+   "ref_drop": 0.0,
+   "ref_label": "Degree",
+   "budget": 14.000588999999763,
+   "tils_seconds": [
+    13.907933500000127,
+    13.892017699999997,
+    13.885283199999776
+   ],
+   "ver_ok": true,
+   "n_orders": 6,
+   "n_orders_ok": 6,
+   "n_orders_bad": 0,
+   "triangles": [
+    267313
+   ],
+   "neigh": [
+    "NeighStored2"
+   ],
+   "volt": null
+  },
+  {
+   "name": "P2P-Gnutella04",
+   "label": "P2P-Gnutella04",
+   "split": "Audit",
+   "n": 10876,
+   "m": 39994,
+   "R": 73280,
+   "T": 71099,
+   "D": 70802,
+   "tils": [
+    69519,
+    69597,
+    69543
+   ],
+   "imp_T": 2.976255458515284,
+   "imp_D": 3.381550218340611,
+   "imp_tils": 5.085971615720524,
+   "sd_tils": 0.05451687869933998,
+   "Wbar": 69553.0,
+   "itr": "I",
+   "vs_dove": "win",
+   "vs_T": "win",
+   "vs_dove_seeds": [
+    "win",
+    "win",
+    "win"
+   ],
+   "vs_T_seeds": [
+    "win",
+    "win",
+    "win"
+   ],
+   "ratio": 0.9491402838427948,
+   "fwd": 73280,
+   "ref_drop": 0.0,
+   "ref_label": "NeighStored2",
+   "budget": 0.7313464000003478,
+   "tils_seconds": [
+    0.7301624000001539,
+    0.7306527000000642,
+    0.7295271000002685
+   ],
+   "ver_ok": true,
+   "n_orders": 6,
+   "n_orders_ok": 6,
+   "n_orders_bad": 0,
+   "triangles": [
+    934
+   ],
+   "neigh": [
+    "NeighStored2"
+   ],
+   "volt": null
+  },
+  {
+   "name": "Bitcoin-OTC",
+   "label": "Bitcoin-OTC",
+   "split": "Audit",
+   "n": 5881,
+   "m": 21492,
+   "R": 115800,
+   "T": 104125,
+   "D": 103755,
+   "tils": [
+    103302,
+    103299,
+    103299
+   ],
+   "imp_T": 10.082037996545768,
+   "imp_D": 10.401554404145077,
+   "imp_tils": 10.794473229706389,
+   "sd_tils": 0.0014957260859834918,
+   "Wbar": 103300.0,
+   "itr": "I",
+   "vs_dove": "win",
+   "vs_T": "win",
+   "vs_dove_seeds": [
+    "win",
+    "win",
+    "win"
+   ],
+   "vs_T_seeds": [
+    "win",
+    "win",
+    "win"
+   ],
+   "ratio": 0.8920552677029361,
+   "fwd": 115800,
+   "ref_drop": 0.0,
+   "ref_label": "NeighStored1",
+   "budget": 0.34206110000013723,
+   "tils_seconds": [
+    0.3403200000002471,
+    0.3401180999999269,
+    0.34053659999972297
+   ],
+   "ver_ok": true,
+   "n_orders": 6,
+   "n_orders_ok": 6,
+   "n_orders_bad": 0,
+   "triangles": [
+    33493
+   ],
+   "neigh": [
+    "NeighStored1"
+   ],
+   "volt": null
+  },
+  {
+   "name": "Web-Stanford",
+   "label": "Web-Stanford",
+   "split": "Audit",
+   "n": 281903,
+   "m": 1992636,
+   "R": 12284557,
+   "T": 12218395,
+   "D": 12284557,
+   "tils": [
+    12207452,
+    12207452,
+    12207275
+   ],
+   "imp_T": 0.5385786398321079,
+   "imp_D": 0.0,
+   "imp_tils": 0.6281382389287623,
+   "sd_tils": 0.0008318655499466581,
+   "Wbar": 12207393.0,
+   "itr": "I",
+   "vs_dove": "win",
+   "vs_T": "win",
+   "vs_dove_seeds": [
+    "win",
+    "win",
+    "win"
+   ],
+   "vs_T_seeds": [
+    "win",
+    "win",
+    "win"
+   ],
+   "ratio": 0.9937186176107123,
+   "fwd": 12290921,
+   "ref_drop": 0.05177805633930932,
+   "ref_label": "NeighStored1-rev",
+   "budget": 76.96054979999963,
+   "tils_seconds": [
+    76.36633100000017,
+    76.35697120000077,
+    76.48637700000018
+   ],
+   "ver_ok": true,
+   "n_orders": 6,
+   "n_orders_ok": 6,
+   "n_orders_bad": 0,
+   "triangles": [
+    11329473
+   ],
+   "neigh": [
+    "NeighStored1"
+   ],
+   "volt": null
+  },
+  {
+   "name": "AS-Caida",
+   "label": "AS-Caida",
+   "split": "Audit",
+   "n": 26475,
+   "m": 53381,
+   "R": 131589,
+   "T": 109592,
+   "D": 110303,
+   "tils": [
+    108511,
+    108511,
+    108525
+   ],
+   "imp_T": 16.71644286376521,
+   "imp_D": 16.17612414411539,
+   "imp_tils": 17.53439370565422,
+   "sd_tils": 0.006142537574306016,
+   "Wbar": 108515.66666666667,
+   "itr": "I",
+   "vs_dove": "win",
+   "vs_T": "win",
+   "vs_dove_seeds": [
+    "win",
+    "win",
+    "win"
+   ],
+   "vs_T_seeds": [
+    "win",
+    "win",
+    "win"
+   ],
+   "ratio": 0.8246560629434578,
+   "fwd": 131589,
+   "ref_drop": 0.0,
+   "ref_label": "NeighStored2",
+   "budget": 1.0343682000002445,
+   "tils_seconds": [
+    1.033294300000307,
+    1.03124680000019,
+    1.033412099999623
+   ],
+   "ver_ok": true,
+   "n_orders": 6,
+   "n_orders_ok": 6,
+   "n_orders_bad": 0,
+   "triangles": [
+    36365
+   ],
+   "neigh": [
+    "NeighStored2"
+   ],
+   "volt": null
+  },
+  {
+   "name": "Cit-HepPh",
+   "label": "Cit-HepPh",
+   "split": "Audit",
+   "n": 34546,
+   "m": 420877,
+   "R": 3972842,
+   "T": 3859720,
+   "D": 3856004,
+   "tils": [
+    3835935,
+    3837623,
+    3835760
+   ],
+   "imp_T": 2.847382302140382,
+   "imp_D": 2.94091735840489,
+   "imp_tils": 3.433377583771685,
+   "sd_tils": 0.025896148655310855,
+   "Wbar": 3836439.3333333335,
+   "itr": "I",
+   "vs_dove": "win",
+   "vs_T": "win",
+   "vs_dove_seeds": [
+    "win",
+    "win",
+    "win"
+   ],
+   "vs_T_seeds": [
+    "win",
+    "win",
+    "win"
+   ],
+   "ratio": 0.9656662241622832,
+   "fwd": 3981866,
+   "ref_drop": 0.22662741538765996,
+   "ref_label": "NeighStored1-rev",
+   "budget": 13.181683199999497,
+   "tils_seconds": [
+    13.116938000000118,
+    13.13036000000011,
+    13.122417800000221
+   ],
+   "ver_ok": true,
+   "n_orders": 6,
+   "n_orders_ok": 6,
+   "n_orders_bad": 0,
+   "triangles": [
+    1276868
+   ],
+   "neigh": [
+    "NeighStored1"
+   ],
+   "volt": null
+  },
+  {
+   "name": "RoadNet-PA",
+   "label": "RoadNet-PA",
+   "split": "Audit",
+   "n": 1088092,
+   "m": 1541898,
+   "R": 395391,
+   "T": 395203,
+   "D": 395391,
+   "tils": [
+    326744,
+    326317,
+    325772
+   ],
+   "imp_T": 0.04754787033594594,
+   "imp_D": 0.0,
+   "imp_tils": 17.47974367988481,
+   "sd_tils": 0.12321785170955703,
+   "Wbar": 326277.6666666667,
+   "itr": "I",
+   "vs_dove": "win",
+   "vs_T": "win",
+   "vs_dove_seeds": [
+    "win",
+    "win",
+    "win"
+   ],
+   "vs_T_seeds": [
+    "win",
+    "win",
+    "win"
+   ],
+   "ratio": 0.825202563201152,
+   "fwd": 395396,
+   "ref_drop": 0.0012645550283766147,
+   "ref_label": "NeighStored4-rev",
+   "budget": 72.37908009999956,
+   "tils_seconds": [
+    72.3906619999998,
+    72.42479550000007,
+    72.39194490000045
+   ],
+   "ver_ok": true,
+   "n_orders": 6,
+   "n_orders_ok": 6,
+   "n_orders_bad": 0,
+   "triangles": [
+    67150
+   ],
+   "neigh": [
+    "NeighStored4"
+   ],
+   "volt": null
+  },
+  {
+   "name": "Loc-Gowalla",
+   "label": "Loc-Gowalla",
+   "split": "Audit",
+   "n": 196591,
+   "m": 950327,
+   "R": 8631304,
+   "T": 7759174,
+   "D": 7807255,
+   "tils": [
+    7714544,
+    7714961,
+    7714589
+   ],
+   "imp_T": 10.104266979821357,
+   "imp_D": 9.547213260012624,
+   "imp_tils": 10.619554125309456,
+   "sd_tils": 0.0026516656974491953,
+   "Wbar": 7714698.0,
+   "itr": "I",
+   "vs_dove": "win",
+   "vs_T": "win",
+   "vs_dove_seeds": [
+    "win",
+    "win",
+    "win"
+   ],
+   "vs_T_seeds": [
+    "win",
+    "win",
+    "win"
+   ],
+   "ratio": 0.8938044587469054,
+   "fwd": 8631304,
+   "ref_drop": 0.0,
+   "ref_label": "NeighStored5",
+   "budget": 35.329006500000105,
+   "tils_seconds": [
+    35.032678399999895,
+    34.87465020000036,
+    34.92272629999934
+   ],
+   "ver_ok": true,
+   "n_orders": 6,
+   "n_orders_ok": 6,
+   "n_orders_bad": 0,
+   "triangles": [
+    2273138
+   ],
+   "neigh": [
+    "NeighStored5"
+   ],
+   "volt": null
+  }
+ ],
+ "heldout_graphs": [
+  {
+   "name": "Email-Eu-core",
+   "label": "Email-Eu-core",
+   "split": null,
+   "n": 986,
+   "m": 16064,
+   "R": 230108,
+   "T": 218170,
+   "D": 216735,
+   "tils": [
+    208272,
+    208256,
+    208087
+   ],
+   "imp_T": 5.187998678881221,
+   "imp_D": 5.81161889199854,
+   "imp_tils": 9.518573887044345,
+   "sd_tils": 0.044545890830087226,
+   "Wbar": 208205.0,
+   "itr": "I",
+   "vs_dove": "win",
+   "vs_T": "win",
+   "vs_dove_seeds": [
+    "win",
+    "win",
+    "win"
+   ],
+   "vs_T_seeds": [
+    "win",
+    "win",
+    "win"
+   ],
+   "ratio": 0.9048142611295565,
+   "fwd": 230108,
+   "ref_drop": 0.0,
+   "ref_label": "Check",
+   "budget": 0.25455799999963347,
+   "tils_seconds": [
+    0.25497249999989435,
+    0.2542188999996142,
+    0.25411220000023604
+   ],
+   "ver_ok": true,
+   "n_orders": 6,
+   "n_orders_ok": 6,
+   "n_orders_bad": 0,
+   "triangles": [
+    105461
+   ],
+   "neigh": [],
+   "volt": null
+  },
+  {
+   "name": "CollegeMsg",
+   "label": "CollegeMsg",
+   "split": null,
+   "n": 1899,
+   "m": 13838,
+   "R": 69026,
+   "T": 63384,
+   "D": 54493,
+   "tils": [
+    54326,
+    54329,
+    54343
+   ],
+   "imp_T": 8.17373163735404,
+   "imp_D": 21.054385304088314,
+   "imp_tils": 21.28666492819131,
+   "sd_tils": 0.013145440451247372,
+   "Wbar": 54332.666666666664,
+   "itr": "I",
+   "vs_dove": "win",
+   "vs_T": "win",
+   "vs_dove_seeds": [
+    "win",
+    "win",
+    "win"
+   ],
+   "vs_T_seeds": [
+    "win",
+    "win",
+    "win"
+   ],
+   "ratio": 0.7871333507180869,
+   "fwd": 69026,
+   "ref_drop": 0.0,
+   "ref_label": "Check",
+   "budget": 0.21951139999964653,
+   "tils_seconds": [
+    0.2194841999998971,
+    0.21983330000057322,
+    0.22023249999983818
+   ],
+   "ver_ok": true,
+   "n_orders": 6,
+   "n_orders_ok": 6,
+   "n_orders_bad": 0,
+   "triangles": [
+    14319
+   ],
+   "neigh": [],
+   "volt": null
+  },
+  {
+   "name": "LastFM-Asia",
+   "label": "LastFM-Asia",
+   "split": null,
+   "n": 7624,
+   "m": 27806,
+   "R": 95968,
+   "T": 90743,
+   "D": 90147,
+   "tils": [
+    87864,
+    87807,
+    87898
+   ],
+   "imp_T": 5.444523174391464,
+   "imp_D": 6.065563521173725,
+   "imp_tils": 8.452470267867065,
+   "sd_tils": 0.04791376343084297,
+   "Wbar": 87856.33333333333,
+   "itr": "I",
+   "vs_dove": "win",
+   "vs_T": "win",
+   "vs_dove_seeds": [
+    "win",
+    "win",
+    "win"
+   ],
+   "vs_T_seeds": [
+    "win",
+    "win",
+    "win"
+   ],
+   "ratio": 0.9154752973213293,
+   "fwd": 96939,
+   "ref_drop": 1.0016608382591115,
+   "ref_label": "Check-rev",
+   "budget": 0.44075840000004973,
+   "tils_seconds": [
+    0.4389273000006142,
+    0.43843939999987924,
+    0.43937260000075185
+   ],
+   "ver_ok": true,
+   "n_orders": 6,
+   "n_orders_ok": 6,
+   "n_orders_bad": 0,
+   "triangles": [
+    40433
+   ],
+   "neigh": [],
+   "volt": null
+  },
+  {
+   "name": "Deezer-Europe",
+   "label": "Deezer-Europe",
+   "split": null,
+   "n": 28281,
+   "m": 92752,
+   "R": 225511,
+   "T": 212387,
+   "D": 209629,
+   "tils": [
+    204454,
+    204454,
+    204453
+   ],
+   "imp_T": 5.819671767674304,
+   "imp_D": 7.042671976089858,
+   "imp_tils": 9.337608069377252,
+   "sd_tils": 0.0002560186727874035,
+   "Wbar": 204453.66666666666,
+   "itr": "I",
+   "vs_dove": "win",
+   "vs_T": "win",
+   "vs_dove_seeds": [
+    "win",
+    "win",
+    "win"
+   ],
+   "vs_T_seeds": [
+    "win",
+    "win",
+    "win"
+   ],
+   "ratio": 0.9066239193062274,
+   "fwd": 227823,
+   "ref_drop": 1.0148229107684474,
+   "ref_label": "Check-rev",
+   "budget": 1.928044699999191,
+   "tils_seconds": [
+    1.9222540000000663,
+    1.921470300000692,
+    1.9381986999997025
+   ],
+   "ver_ok": true,
+   "n_orders": 6,
+   "n_orders_ok": 6,
+   "n_orders_bad": 0,
+   "triangles": [
+    45034
+   ],
+   "neigh": [],
+   "volt": null
+  },
+  {
+   "name": "Amazon0302",
+   "label": "Amazon0302",
+   "split": null,
+   "n": 262111,
+   "m": 899792,
+   "R": 1376154,
+   "T": 1332502,
+   "D": 1311874,
+   "tils": [
+    1256055,
+    1256055,
+    1256055
+   ],
+   "imp_T": 3.172028711902883,
+   "imp_D": 4.670988857351721,
+   "imp_tils": 8.727148269743067,
+   "sd_tils": 0.0,
+   "Wbar": 1256055.0,
+   "itr": "I",
+   "vs_dove": "win",
+   "vs_T": "win",
+   "vs_dove_seeds": [
+    "win",
+    "win",
+    "win"
+   ],
+   "vs_T_seeds": [
+    "win",
+    "win",
+    "win"
+   ],
+   "ratio": 0.9127285173025693,
+   "fwd": 1379364,
+   "ref_drop": 0.2327159473496481,
+   "ref_label": "Check-rev",
+   "budget": 34.10775580000063,
+   "tils_seconds": [
+    34.012896100000034,
+    34.00965820000056,
+    34.01374140000007
+   ],
+   "ver_ok": true,
+   "n_orders": 6,
+   "n_orders_ok": 6,
+   "n_orders_bad": 0,
+   "triangles": [
+    717719
+   ],
+   "neigh": [],
+   "volt": null
+  },
+  {
+   "name": "Wiki-Talk",
+   "label": "Wiki-Talk",
+   "split": null,
+   "n": 2394385,
+   "m": 4659565,
+   "R": 57386025,
+   "T": 50799514,
+   "D": 51090388,
+   "tils": [
+    49896540,
+    49921661,
+    49898121
+   ],
+   "imp_T": 11.477552243773637,
+   "imp_D": 10.970679708169367,
+   "imp_tils": 13.035550612424077,
+   "sd_tils": 0.024517198446698692,
+   "Wbar": 49905440.666666664,
+   "itr": "I",
+   "vs_dove": "win",
+   "vs_T": "win",
+   "vs_dove_seeds": [
+    "win",
+    "win",
+    "win"
+   ],
+   "vs_T_seeds": [
+    "win",
+    "win",
+    "win"
+   ],
+   "ratio": 0.8696444938757592,
+   "fwd": 57386025,
+   "ref_drop": 0.0,
+   "ref_label": "Degree",
+   "budget": 228.7975279000002,
+   "tils_seconds": [
+    229.7858909000006,
+    224.26433180000004,
+    237.35979000000043
+   ],
+   "ver_ok": true,
+   "n_orders": 6,
+   "n_orders_ok": 6,
+   "n_orders_bad": 0,
+   "triangles": [
+    9203519
+   ],
+   "neigh": [],
+   "volt": null
+  },
+  {
+   "name": "com-Youtube",
+   "label": "com-Youtube",
+   "split": null,
+   "n": 1134890,
+   "m": 2987624,
+   "R": 21994900,
+   "T": 17685694,
+   "D": 17326948,
+   "tils": [
+    16622797,
+    16622833,
+    16622259
+   ],
+   "imp_T": 19.591841745131827,
+   "imp_D": 21.222883486626444,
+   "imp_tils": 24.425072782023708,
+   "sd_tils": 0.0014617525693766482,
+   "Wbar": 16622629.666666666,
+   "itr": "I",
+   "vs_dove": "win",
+   "vs_T": "win",
+   "vs_dove_seeds": [
+    "win",
+    "win",
+    "win"
+   ],
+   "vs_T_seeds": [
+    "win",
+    "win",
+    "win"
+   ],
+   "ratio": 0.7557492721797628,
+   "fwd": 22408967,
+   "ref_drop": 1.8477737059454815,
+   "ref_label": "Check-rev",
+   "budget": 124.0545204,
+   "tils_seconds": [
+    121.82782459999999,
+    121.53250230000049,
+    121.39384590000009
+   ],
+   "ver_ok": true,
+   "n_orders": 6,
+   "n_orders_ok": 6,
+   "n_orders_bad": 0,
+   "triangles": [
+    3056386
+   ],
+   "neigh": [],
+   "volt": null
+  },
+  {
+   "name": "web-Google",
+   "label": "web-Google",
+   "split": null,
+   "n": 875713,
+   "m": 4322051,
+   "R": 16782540,
+   "T": 16472078,
+   "D": 16409523,
+   "tils": [
+    15916015,
+    15916785,
+    15916921
+   ],
+   "imp_T": 1.849910680981544,
+   "imp_D": 2.2226492533311406,
+   "imp_tils": 5.159924143385527,
+   "sd_tils": 0.0029112088998131456,
+   "Wbar": 15916573.666666666,
+   "itr": "I",
+   "vs_dove": "win",
+   "vs_T": "win",
+   "vs_dove_seeds": [
+    "win",
+    "win",
+    "win"
+   ],
+   "vs_T_seeds": [
+    "win",
+    "win",
+    "win"
+   ],
+   "ratio": 0.9484007585661447,
+   "fwd": 16800985,
+   "ref_drop": 0.10978522985408296,
+   "ref_label": "Check-rev",
+   "budget": 168.56192139999985,
+   "tils_seconds": [
+    164.9619702,
+    164.96752339999966,
+    164.9294971999998
+   ],
+   "ver_ok": true,
+   "n_orders": 6,
+   "n_orders_ok": 6,
+   "n_orders_bad": 0,
+   "triangles": [
+    13391903
+   ],
+   "neigh": [],
+   "volt": null
+  },
+  {
+   "name": "roadNet-CA",
+   "label": "roadNet-CA",
+   "split": null,
+   "n": 1965206,
+   "m": 2766607,
+   "R": 861594,
+   "T": 786959,
+   "D": 720415,
+   "tils": [
+    572109,
+    573715,
+    573022
+   ],
+   "imp_T": 8.66243265389499,
+   "imp_D": 16.38579191591399,
+   "imp_tils": 33.501316552034176,
+   "sd_tils": 0.09349037951545104,
+   "Wbar": 572948.6666666666,
+   "itr": "I",
+   "vs_dove": "win",
+   "vs_T": "win",
+   "vs_dove_seeds": [
+    "win",
+    "win",
+    "win"
+   ],
+   "vs_T_seeds": [
+    "win",
+    "win",
+    "win"
+   ],
+   "ratio": 0.6649868344796582,
+   "fwd": 861594,
+   "ref_drop": 0.0,
+   "ref_label": "Check",
+   "budget": 130.3972463,
+   "tils_seconds": [
+    130.17574160000004,
+    130.27264960000048,
+    130.27653660000033
+   ],
+   "ver_ok": true,
+   "n_orders": 6,
+   "n_orders_ok": 6,
+   "n_orders_bad": 0,
+   "triangles": [
+    120676
+   ],
+   "neigh": [],
+   "volt": null
+  }
+ ],
+ "not_completed": [
+  {
+   "name": "Facebook-page-page",
+   "status": "missing",
+   "reason": "GraphMissing: download failed after 5 attempts: https://snap.stanford.edu/data/facebook_large.zip"
+  }
+ ]
+}

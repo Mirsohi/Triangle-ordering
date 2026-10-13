@@ -1,0 +1,75 @@
+[2026-09-29T02:02:24Z] ====================================================================================================
+[2026-09-29T02:02:24Z] neigh_supp start (SUPPLEMENTARY, NOT PRE-REGISTERED; declared in SUPP_PROTOCOL.md): neigh_supp.py --pc-eval /home/claude/pc_eval --posthoc /home/claude/review1/posthoc --artifact /home/claude/ideas/ref/code_data/DOVE_AISTATS_2027_code_and_data --results /mnt/user-data/uploads/Triangle Ordering/pc_eval_results --data /mnt/user-data/uploads/Triangle Ordering/pc_eval_data --out /home/claude/review2/neigh_run --volt /home/claude/review2/neigh_supp/volt/volt_linux --parts N
+[2026-09-29T02:02:27Z] numba warm-up 2.4s
+[2026-09-29T02:02:27Z] Part N: 9 completed held-out graphs; at most about 53 min
+[2026-09-29T02:02:28Z] N Email-Eu-core: reloaded n=986 m=16,064; frozen R* Check 230,108
+[2026-09-29T02:02:28Z] N Email-Eu-core: Neigh 5/5 seeds, best 215131; R*N = Neigh3 215,131 (gap 6.509%)
+[2026-09-29T02:02:28Z] N Email-Eu-core: T from R*N 208,302 (0.00s)
+[2026-09-29T02:02:28Z] N Email-Eu-core: DOVE from R*N 208,108 (0.29s = T+ILS budget)
+[2026-09-29T02:02:28Z] N Email-Eu-core: T+ILS from R*N seed 1 207,573 (0.28s of 0.29s)
+[2026-09-29T02:02:29Z] N Email-Eu-core: T+ILS from R*N seed 2 207,607 (0.28s of 0.29s)
+[2026-09-29T02:02:29Z] N Email-Eu-core: T+ILS from R*N seed 3 207,608 (0.28s of 0.29s)
+[2026-09-29T02:02:30Z] N Email-Eu-core: supplementary verification PASSED (15 orders); 2.6s
+[2026-09-29T02:02:30Z] N CollegeMsg: reloaded n=1,899 m=13,838; frozen R* Check 69,026
+[2026-09-29T02:02:30Z] N CollegeMsg: Neigh 5/5 seeds, best 56037; R*N = Neigh4-rev 56,037 (gap 18.818%)
+[2026-09-29T02:02:30Z] N CollegeMsg: T from R*N 54,433 (0.00s)
+[2026-09-29T02:02:30Z] N CollegeMsg: DOVE from R*N 54,498 (0.24s = T+ILS budget)
+[2026-09-29T02:02:31Z] N CollegeMsg: T+ILS from R*N seed 1 54,314 (0.24s of 0.24s)
+[2026-09-29T02:02:31Z] N CollegeMsg: T+ILS from R*N seed 2 54,314 (0.24s of 0.24s)
+[2026-09-29T02:02:31Z] N CollegeMsg: T+ILS from R*N seed 3 54,314 (0.24s of 0.24s)
+[2026-09-29T02:02:33Z] N CollegeMsg: supplementary verification PASSED (15 orders); 2.6s
+[2026-09-29T02:02:33Z] N LastFM-Asia: reloaded n=7,624 m=27,806; frozen R* Check-rev 95,968
+[2026-09-29T02:02:33Z] N LastFM-Asia: Neigh 5/5 seeds, best 93341; R*N = Neigh2 93,341 (gap 2.737%)
+[2026-09-29T02:02:33Z] N LastFM-Asia: T from R*N 89,398 (0.00s)
+[2026-09-29T02:02:33Z] N LastFM-Asia: DOVE from R*N 89,075 (0.45s = T+ILS budget)
+[2026-09-29T02:02:34Z] N LastFM-Asia: T+ILS from R*N seed 1 87,656 (0.45s of 0.45s)
+[2026-09-29T02:02:34Z] N LastFM-Asia: T+ILS from R*N seed 2 87,603 (0.45s of 0.45s)
+[2026-09-29T02:02:35Z] N LastFM-Asia: T+ILS from R*N seed 3 87,931 (0.45s of 0.45s)
+[2026-09-29T02:02:36Z] N LastFM-Asia: supplementary verification PASSED (15 orders); 3.5s
+[2026-09-29T02:02:36Z] N Deezer-Europe: reloaded n=28,281 m=92,752; frozen R* Check-rev 225,511
+[2026-09-29T02:02:37Z] N Deezer-Europe: Neigh 5/5 seeds, best 215726; R*N = Neigh5 215,726 (gap 4.339%)
+[2026-09-29T02:02:37Z] N Deezer-Europe: T from R*N 208,716 (0.01s)
+[2026-09-29T02:02:38Z] N Deezer-Europe: DOVE from R*N 208,113 (1.51s = T+ILS budget)
+[2026-09-29T02:02:40Z] N Deezer-Europe: T+ILS from R*N seed 1 205,150 (1.51s of 1.51s)
+[2026-09-29T02:02:41Z] N Deezer-Europe: T+ILS from R*N seed 2 205,045 (1.51s of 1.51s)
+[2026-09-29T02:02:43Z] N Deezer-Europe: T+ILS from R*N seed 3 205,112 (1.51s of 1.51s)
+[2026-09-29T02:02:45Z] N Deezer-Europe: supplementary verification PASSED (15 orders); 8.7s
+[2026-09-29T02:02:45Z] N Amazon0302: reloaded n=262,111 m=899,792; frozen R* Check-rev 1,376,154
+[2026-09-29T02:02:51Z] N Amazon0302: Neigh 5/5 seeds, best 1291144; R*N = Neigh1-rev 1,291,144 (gap 6.177%)
+[2026-09-29T02:02:52Z] N Amazon0302: T from R*N 1,286,130 (0.10s)
+[2026-09-29T02:03:11Z] N Amazon0302: DOVE from R*N 1,291,144 (18.60s = T+ILS budget)
+[2026-09-29T02:03:29Z] N Amazon0302: T+ILS from R*N seed 1 1,259,789 (18.58s of 18.60s)
+[2026-09-29T02:03:48Z] N Amazon0302: T+ILS from R*N seed 2 1,260,067 (18.60s of 18.60s)
+[2026-09-29T02:04:07Z] N Amazon0302: T+ILS from R*N seed 3 1,261,116 (18.60s of 18.60s)
+[2026-09-29T02:04:10Z] N Amazon0302: supplementary verification PASSED (15 orders); 85.2s
+[2026-09-29T02:04:14Z] N Wiki-Talk: reloaded n=2,394,385 m=4,659,565; frozen R* Degree 57,386,025
+[2026-09-29T02:05:43Z] N Wiki-Talk: Neigh 5/5 seeds, best 92886211; R*N = Rstar 57,386,025 (gap 0.000%)
+[2026-09-29T02:05:43Z] N Wiki-Talk: R*N = frozen R*; frozen runs reused
+[2026-09-29T02:05:57Z] N Wiki-Talk: supplementary verification PASSED (10 orders); 107.1s
+[2026-09-29T02:05:59Z] N com-Youtube: reloaded n=1,134,890 m=2,987,624; frozen R* Check-rev 21,994,900
+[2026-09-29T02:06:37Z] N com-Youtube: Neigh 5/5 seeds, best 19000907; R*N = Neigh3-rev 19,000,907 (gap 13.612%)
+[2026-09-29T02:06:40Z] N com-Youtube: T from R*N 16,034,778 (2.33s)
+[2026-09-29T02:08:03Z] N com-Youtube: DOVE from R*N 16,383,156 (80.82s = T+ILS budget)
+[2026-09-29T02:09:23Z] N com-Youtube: T+ILS from R*N seed 1 15,935,753 (79.29s of 80.82s)
+[2026-09-29T02:10:45Z] N com-Youtube: T+ILS from R*N seed 2 15,934,449 (79.91s of 80.82s)
+[2026-09-29T02:12:06Z] N com-Youtube: T+ILS from R*N seed 3 15,933,107 (79.61s of 80.82s)
+[2026-09-29T02:12:21Z] N com-Youtube: supplementary verification PASSED (15 orders); 383.3s
+[2026-09-29T02:12:24Z] N web-Google: reloaded n=875,713 m=4,322,051; frozen R* Check-rev 16,782,540
+[2026-09-29T02:13:08Z] N web-Google: Neigh 5/5 seeds, best 16098281; R*N = Neigh3-rev 16,098,281 (gap 4.077%)
+[2026-09-29T02:13:12Z] N web-Google: T from R*N 15,947,938 (1.71s)
+[2026-09-29T02:15:28Z] N web-Google: DOVE from R*N 16,098,281 (133.77s = T+ILS budget)
+[2026-09-29T02:17:43Z] N web-Google: T+ILS from R*N seed 1 15,875,094 (133.68s of 133.77s)
+[2026-09-29T02:19:59Z] N web-Google: T+ILS from R*N seed 2 15,874,155 (133.61s of 133.77s)
+[2026-09-29T02:22:14Z] N web-Google: T+ILS from R*N seed 3 15,873,881 (133.36s of 133.77s)
+[2026-09-29T02:22:36Z] N web-Google: supplementary verification PASSED (15 orders); 615.5s
+[2026-09-29T02:22:39Z] N roadNet-CA: reloaded n=1,965,206 m=2,766,607; frozen R* Check 861,594
+[2026-09-29T02:23:03Z] N roadNet-CA: Neigh 5/5 seeds, best 700273; R*N = Neigh3-rev 700,273 (gap 18.724%)
+[2026-09-29T02:23:04Z] N roadNet-CA: T from R*N 699,911 (0.33s)
+[2026-09-29T02:24:14Z] N roadNet-CA: DOVE from R*N 700,273 (69.90s = T+ILS budget)
+[2026-09-29T02:25:25Z] N roadNet-CA: T+ILS from R*N seed 1 580,717 (69.97s of 69.90s)
+[2026-09-29T02:26:36Z] N roadNet-CA: T+ILS from R*N seed 2 580,717 (69.98s of 69.90s)
+[2026-09-29T02:27:46Z] N roadNet-CA: T+ILS from R*N seed 3 580,717 (70.00s of 69.90s)
+[2026-09-29T02:27:53Z] N roadNet-CA: supplementary verification PASSED (15 orders); 317.0s
+[2026-09-29T02:27:53Z] neigh_supp finished; writing tables
+[2026-09-29T02:27:53Z] supplementary tables: 9 held-out graphs; validation 0/0 identical
+[2026-09-29T02:27:53Z] all analysed graphs passed

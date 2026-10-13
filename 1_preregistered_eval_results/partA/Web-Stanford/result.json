@@ -1,0 +1,291 @@
+{
+ "name": "Web-Stanford",
+ "label": "Web-Stanford",
+ "split": "Audit",
+ "part": "A",
+ "quick": false,
+ "local": false,
+ "started": "2026-09-28T07:58:23Z",
+ "n": 281903,
+ "m": 1992636,
+ "provenance": {
+  "url": "https://snap.stanford.edu/data/web-Stanford.txt.gz",
+  "test_url_override": false,
+  "download": [
+   {
+    "attempt": 1,
+    "ok": true,
+    "time": 1790582304.6961503
+   }
+  ],
+  "compressed_sha256": "49bfc0e366c3028dbd84e8557b09287cbd61051bde29d160c277688c727cb679",
+  "edge_file_bytes": 32888333,
+  "sha256_matches_manifest": true,
+  "bytes_match_manifest": true,
+  "parse_seconds": 3.2126486000001933,
+  "dense_edges_sha256": "b04e604afe5a814adeec29f7152e82c2c88fc36b26a90521f740b92657eacd48"
+ },
+ "checks": {
+  "n_matches_artifact": true,
+  "m_matches_artifact": true,
+  "stored_neigh_labels": [
+   "NeighStored1"
+  ],
+  "stored_neigh_work": 12290921,
+  "stored_neigh_work_matches": true,
+  "artifact_reference_work": 12290921
+ },
+ "status": "done",
+ "finished": "2026-09-28T08:03:52Z",
+ "graph_seconds": 328.53084979999994,
+ "reference": {
+  "label": "NeighStored1-rev",
+  "work": 12284557,
+  "forward_min": 12290921,
+  "forward_min_label": "NeighStored1",
+  "candidate_works": {
+   "Natural": 21554332,
+   "Natural-rev": 20908569,
+   "Random": 20912425,
+   "Random-rev": 21696608,
+   "Degree": 13581441,
+   "Degree-rev": 14444701,
+   "Core": 26270059,
+   "Core-rev": 16356944,
+   "SmallestLast": 24226659,
+   "SmallestLast-rev": 16356278,
+   "Split": 15102182,
+   "Split-rev": 15096885,
+   "Check": 14064440,
+   "Check-rev": 14082504,
+   "NeighStored1": 12290921,
+   "NeighStored1-rev": 12284557
+  },
+  "builtin_seconds": {
+   "Natural": 0.00047380000023622415,
+   "Random": 0.004967500000020664,
+   "Degree": 0.045693199999732315,
+   "Core": 6.725678999999673,
+   "SmallestLast": 0.14126409999971656,
+   "Split": 0.0457618000000366,
+   "Check": 1.5382793999997375
+  },
+  "seconds": 11.262159599999904,
+  "neigh_candidates": [
+   "NeighStored1"
+  ]
+ },
+ "T": {
+  "work": 12218395,
+  "rounds": 30,
+  "improving_rounds": 29,
+  "start_work": 12284557,
+  "first_round_s": 0.03685369999993782,
+  "stopped": "converged",
+  "seconds": 1.1728993000001537
+ },
+ "DOVE": {
+  "work": 12284557,
+  "seconds": 76.96054979999963,
+  "inner_seconds": 76.87117210000042,
+  "initial_work": 12284557
+ },
+ "budget": 76.96054979999963,
+ "TILS": {
+  "1": {
+   "work": 12207452,
+   "info": {
+    "budget": 76.96054979999963,
+    "seed": 1,
+    "start_work": 12284557,
+    "T_phase": {
+     "rounds": 30,
+     "improving_rounds": 29,
+     "start_work": 12284557,
+     "first_round_s": 0.041965800000070885,
+     "stopped": "converged",
+     "seconds": 1.1720930999999837,
+     "seconds_since_start": 1.6072636999997485,
+     "work": 12218395
+    },
+    "reserve": 1.1720930999999837,
+    "status": "finished",
+    "ils": {
+     "proposals": 96000,
+     "accepted": 10006,
+     "improving": 383,
+     "kicks": 0,
+     "chunks": 375,
+     "undone_moves": 0,
+     "incumbent_updates": 242,
+     "relabels": 9,
+     "relabel_work": 27,
+     "calls": 114,
+     "final_undo": 0
+    },
+    "ils_end": 75.83572089999961,
+    "ils_incumbent_work": 12211606,
+    "final_T": {
+     "rounds": 13,
+     "improving_rounds": 12,
+     "start_work": 12211606,
+     "first_round_s": 0.038042399999540066,
+     "stopped": "converged"
+    },
+    "total_seconds": 76.36633100000017,
+    "overshoot": 0.0
+   }
+  },
+  "2": {
+   "work": 12207452,
+   "info": {
+    "budget": 76.96054979999963,
+    "seed": 2,
+    "start_work": 12284557,
+    "T_phase": {
+     "rounds": 30,
+     "improving_rounds": 29,
+     "start_work": 12284557,
+     "first_round_s": 0.039973599999939324,
+     "stopped": "converged",
+     "seconds": 1.2071556000000783,
+     "seconds_since_start": 1.6299925000002986,
+     "work": 12218395
+    },
+    "reserve": 1.2071556000000783,
+    "status": "finished",
+    "ils": {
+     "proposals": 95744,
+     "accepted": 9980,
+     "improving": 382,
+     "kicks": 0,
+     "chunks": 374,
+     "undone_moves": 0,
+     "incumbent_updates": 241,
+     "relabels": 9,
+     "relabel_work": 27,
+     "calls": 114,
+     "final_undo": 45
+    },
+    "ils_end": 75.82556990000012,
+    "ils_incumbent_work": 12211593,
+    "final_T": {
+     "rounds": 13,
+     "improving_rounds": 12,
+     "start_work": 12211593,
+     "first_round_s": 0.040822799999659765,
+     "stopped": "converged"
+    },
+    "total_seconds": 76.35697120000077,
+    "overshoot": 0.0
+   }
+  },
+  "3": {
+   "work": 12207275,
+   "info": {
+    "budget": 76.96054979999963,
+    "seed": 3,
+    "start_work": 12284557,
+    "T_phase": {
+     "rounds": 30,
+     "improving_rounds": 29,
+     "start_work": 12284557,
+     "first_round_s": 0.03852310000002035,
+     "stopped": "converged",
+     "seconds": 1.2052371999998286,
+     "seconds_since_start": 1.6180340000000797,
+     "work": 12218395
+    },
+    "reserve": 1.2052371999998286,
+    "status": "finished",
+    "ils": {
+     "proposals": 96512,
+     "accepted": 10066,
+     "improving": 387,
+     "kicks": 0,
+     "chunks": 377,
+     "undone_moves": 0,
+     "incumbent_updates": 244,
+     "relabels": 9,
+     "relabel_work": 27,
+     "calls": 113,
+     "final_undo": 0
+    },
+    "ils_end": 75.9521678000001,
+    "ils_incumbent_work": 12211561,
+    "final_T": {
+     "rounds": 13,
+     "improving_rounds": 12,
+     "start_work": 12211561,
+     "first_round_s": 0.03963180000027933,
+     "stopped": "converged"
+    },
+    "total_seconds": 76.48637700000018,
+    "overshoot": 0.0
+   }
+  }
+ },
+ "verification": {
+  "orders": {
+   "Rstar": {
+    "file": "D:\\Work\\Triangle Ordering\\pc_eval_results\\partA\\Web-Stanford\\orders\\Rstar.npy",
+    "permutation": true,
+    "claimed": 12284557,
+    "dove_work": 12284557,
+    "lister_probes": 12284557,
+    "triangles": 11329473,
+    "ok": true
+   },
+   "T": {
+    "file": "D:\\Work\\Triangle Ordering\\pc_eval_results\\partA\\Web-Stanford\\orders\\T.npy",
+    "permutation": true,
+    "claimed": 12218395,
+    "dove_work": 12218395,
+    "lister_probes": 12218395,
+    "triangles": 11329473,
+    "ok": true
+   },
+   "DOVE": {
+    "file": "D:\\Work\\Triangle Ordering\\pc_eval_results\\partA\\Web-Stanford\\orders\\DOVE.npy",
+    "permutation": true,
+    "claimed": 12284557,
+    "dove_work": 12284557,
+    "lister_probes": 12284557,
+    "triangles": 11329473,
+    "ok": true
+   },
+   "TILS_seed1": {
+    "file": "D:\\Work\\Triangle Ordering\\pc_eval_results\\partA\\Web-Stanford\\orders\\TILS_seed1.npy",
+    "permutation": true,
+    "claimed": 12207452,
+    "dove_work": 12207452,
+    "lister_probes": 12207452,
+    "triangles": 11329473,
+    "ok": true
+   },
+   "TILS_seed2": {
+    "file": "D:\\Work\\Triangle Ordering\\pc_eval_results\\partA\\Web-Stanford\\orders\\TILS_seed2.npy",
+    "permutation": true,
+    "claimed": 12207452,
+    "dove_work": 12207452,
+    "lister_probes": 12207452,
+    "triangles": 11329473,
+    "ok": true
+   },
+   "TILS_seed3": {
+    "file": "D:\\Work\\Triangle Ordering\\pc_eval_results\\partA\\Web-Stanford\\orders\\TILS_seed3.npy",
+    "permutation": true,
+    "claimed": 12207275,
+    "dove_work": 12207275,
+    "lister_probes": 12207275,
+    "triangles": 11329473,
+    "ok": true
+   }
+  },
+  "triangles": [
+   11329473
+  ],
+  "all_ok": true,
+  "n_orders": 6
+ }
+}

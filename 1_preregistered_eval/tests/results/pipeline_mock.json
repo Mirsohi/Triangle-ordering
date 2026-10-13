@@ -1,0 +1,66 @@
+{
+ "statuses": {
+  "Audit-BadN": [
+   "excluded_check_failed",
+   "n/m (160,800) differ from artifact per_graph.csv (161,800)"
+  ],
+  "Audit-Mock": [
+   "done",
+   ""
+  ],
+  "CA-GrQc": [
+   "done",
+   ""
+  ],
+  "Ego-1": [
+   "done",
+   ""
+  ],
+  "P2P-Mock": [
+   "done",
+   ""
+  ],
+  "Amazon0302": [
+   "done",
+   ""
+  ],
+  "CollegeMsg": [
+   "done",
+   ""
+  ],
+  "Deezer-Europe": [
+   "missing",
+   "GraphMissing: /tmp/claude-0/-home-claude/ac478d6c-77cf-546d-9d01-7e7f63e07ea2/scratchpad/mock/data/partB/raw/deezer_euro"
+  ],
+  "Email-Eu-core": [
+   "done",
+   ""
+  ],
+  "Facebook-page-page": [
+   "done",
+   ""
+  ],
+  "LastFM-Asia": [
+   "done",
+   ""
+  ],
+  "Wiki-Talk": [
+   "missing",
+   "GraphMissing: download failed after 5 attempts: http://127.0.0.1:40225/wiki-Talk.txt.gz"
+  ],
+  "com-Youtube": [
+   "missing",
+   "GraphMissing: decompression failed: BadGzipFile(\"Not a gzipped file (b'no')\")"
+  ],
+  "roadNet-CA": [
+   "done",
+   ""
+  ],
+  "web-Google": [
+   "done",
+   ""
+  ]
+ },
+ "make_tables_refused_without_flag": true,
+ "run1_tail": " (1,491 bytes)\n[2026-09-28T06:44:04Z] web-Google: n=206 m=596\n[2026-09-28T06:44:04Z] web-Google: R* = Check-rev work 1,025 (forward-only min 1,048; 0.0s)\n[2026-09-28T06:44:04Z] web-Google: T work 972 (3 rounds, 0.00s)\n[2026-09-28T06:44:04Z] web-Google: DOVE work 904 in 0.02s (= T+ILS budget)\n[2026-09-28T06:44:04Z] web-Google: T+ILS seed 1 work 885 (0.02s of 0.02s; 31,232 proposals)\n[2026-09-28T06:44:04Z] web-Google: T+ILS seed 2 work 885 (0.02s of 0.02s; 25,600 proposals)\n[2026-09-28T06:44:04Z] web-Google: T+ILS seed 3 work 885 (0.02s of 0.02s; 22,784 proposals)\n[2026-09-28T06:44:04Z] web-Google: verification PASSED (6 orders, triangles [170])\n[2026-09-28T06:44:04Z]   downloaded http://127.0.0.1:40225/roadNet-CA.txt.gz -> /tmp/claude-0/-home-claude/ac478d6c-77cf-546d-9d01-7e7f63e07ea2/scratchpad/mock/data/partB/raw/roadNet-CA.txt.gz (1,901 bytes)\n[2026-09-28T06:44:04Z] roadNet-CA: n=160 m=835\n[2026-09-28T06:44:04Z] roadNet-CA: R* = Natural work 0 (forward-only min 0; 0.0s)\n[2026-09-28T06:44:04Z] roadNet-CA: T work 0 (1 rounds, 0.00s)\n[2026-09-28T06:44:04Z] roadNet-CA: DOVE work 0 in 0.00s (= T+ILS budget)\n[2026-09-28T06:44:04Z] roadNet-CA: T+ILS seed 1 work 0 (0.00s of 0.00s; 0 proposals)\n[2026-09-28T06:44:04Z] roadNet-CA: T+ILS seed 2 work 0 (0.00s of 0.00s; 0 proposals)\n[2026-09-28T06:44:04Z] roadNet-CA: T+ILS seed 3 work 0 (0.00s of 0.00s; 0 proposals)\n[2026-09-28T06:44:04Z] roadNet-CA: verification PASSED (6 orders, triangles [0])\n[2026-09-28T06:44:04Z] run_eval finished\n"
+}

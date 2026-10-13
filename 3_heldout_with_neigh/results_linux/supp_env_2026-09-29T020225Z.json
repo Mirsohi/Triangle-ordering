@@ -1,0 +1,72 @@
+{
+ "utc": "2026-09-29T02:02:24Z",
+ "argv": [
+  "neigh_supp.py",
+  "--pc-eval",
+  "/home/claude/pc_eval",
+  "--posthoc",
+  "/home/claude/review1/posthoc",
+  "--artifact",
+  "/home/claude/ideas/ref/code_data/DOVE_AISTATS_2027_code_and_data",
+  "--results",
+  "/mnt/user-data/uploads/Triangle Ordering/pc_eval_results",
+  "--data",
+  "/mnt/user-data/uploads/Triangle Ordering/pc_eval_data",
+  "--out",
+  "/home/claude/review2/neigh_run",
+  "--volt",
+  "/home/claude/review2/neigh_supp/volt/volt_linux",
+  "--parts",
+  "N"
+ ],
+ "python": "3.11.15 (main, Mar  3 2026, 09:26:23) [GCC 13.3.0]",
+ "platform": "Linux-6.18.44-fc-v49-x86_64-with-glibc2.39",
+ "processor": "x86_64",
+ "numpy": "2.4.4",
+ "scipy": "1.17.1",
+ "numba": "0.67.0",
+ "volt_sha256": "fa5ea73b68a3e05013ba263f342b0b819872cd13198ab498d8600f3d04c2110e",
+ "protocol_sha256": "b2584ac2e9f17c0eeda0fa16c3b7d7cb7cbb7cf23cf2c5dadcbea9dc5aeb940b",
+ "supp_sha256": {
+  "make_supp_tables.py": "aaeeabe82c0935777dcd8e10f5c6528c7a4c66ed6a728b57c3426928a08af567",
+  "neigh_supp.py": "6812afae99835a34689ba16dfe5e0051e3054ee9f07d11d10c78cf381bf91b9c"
+ },
+ "pc_eval_sha256": {
+  "core.py": "a1a820d79477db9143098c5d1862225ca5d22954715fae4146265845bca30108",
+  "graphs.py": "fc84624f3eb501cbc050b54e130f7e1bd450564284500745890e1fc79d2bf3c0",
+  "make_tables.py": "b78c49b6655f21a31be2f13409fcece84f8e3509b04444fd1674e9ba692dee86",
+  "methods.py": "3ca6e606491d71403926f2090ad310db51934518d732429e787262e6b2c915e7",
+  "run_eval.py": "dc2aba627c9d79e4221325e47ab4a6ac23e7bd15174263082ef43d3538c2934a"
+ },
+ "posthoc_sha256": {
+  "make_posthoc_tables.py": "4bf451a9457d8a5256c17bd3fb97e1cb0214adf397565d60f3cc7922da024dad",
+  "ph_kernels.py": "54b99ecf8e490c0093a54b6d91b082ae27694e59a73b1b5ac7d30658f96eadb1",
+  "ph_methods.py": "e7b1ad20e26cfaf1e23abd5558886a779003e1d15315fa09fcc9bd39bc0b3755",
+  "posthoc_eval.py": "ef02a6e9404d88e78a8a34a76a07aa02d5b93fba2691c64fbf431ae04d614624"
+ },
+ "artifact": {
+  "files": {
+   "__init__.py": "bca61e0d0a9b689c3bf16910b10fcb6b6f1b5d2fdf7945e6a5b50de58b66136e",
+   "graph.py": "665b789424600b50d8642db0d0b2c6587cb5a602af37d1abd167825b9a8615c9",
+   "orderings.py": "a27d2278cde6a2e84639977e0b9a47a66900b3479e2deea38a8a9d7420b13e32",
+   "relaxation.py": "c1930feb600560f96f781ed3e6e1c5350ed8b977f5f99e62a4c8489d989c129e"
+  },
+  "mismatches": []
+ },
+ "args": {
+  "pc_eval": "/home/claude/pc_eval",
+  "posthoc": "/home/claude/review1/posthoc",
+  "artifact": "/home/claude/ideas/ref/code_data/DOVE_AISTATS_2027_code_and_data",
+  "results": "/mnt/user-data/uploads/Triangle Ordering/pc_eval_results",
+  "data": "/mnt/user-data/uploads/Triangle Ordering/pc_eval_data",
+  "out": "/home/claude/review2/neigh_run",
+  "volt": "/home/claude/review2/neigh_supp/volt/volt_linux",
+  "local_npz": "None",
+  "parts": "['N']",
+  "seeds": "[1, 2, 3]",
+  "timing_reps": "21",
+  "only": "None",
+  "force": "False",
+  "allow_dove_mismatch": "False"
+ }
+}

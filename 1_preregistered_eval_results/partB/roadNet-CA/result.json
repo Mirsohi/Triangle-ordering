@@ -1,0 +1,279 @@
+{
+ "name": "roadNet-CA",
+ "label": "roadNet-CA",
+ "split": null,
+ "part": "B",
+ "quick": false,
+ "local": false,
+ "started": "2026-09-28T08:54:30Z",
+ "n": 1965206,
+ "m": 2766607,
+ "provenance": {
+  "url": "https://snap.stanford.edu/data/roadNet-CA.txt.gz",
+  "member": null,
+  "test_url_override": false,
+  "download": [
+   {
+    "attempt": 1,
+    "ok": true,
+    "time": 1790585673.2240334
+   }
+  ],
+  "downloaded_sha256": "383f7b14424530a9e25c392969a9c19dace32ebcfd141f0967a1433498c2acdd",
+  "downloaded_bytes": 17892860,
+  "edge_file_bytes": 87787225,
+  "edge_file_sha256": "04b991d4d5285bda35c699244ccdac9f4b35818c0d0bfb037b1f852be103b540",
+  "parse_seconds": 5.74803619999966,
+  "dense_edges_sha256": "15c72a7ca1aa1777537e22396ab955bb3847d46a906849a8dfcf96ba0bc90a7d"
+ },
+ "checks": {},
+ "status": "done",
+ "finished": "2026-09-28T09:03:52Z",
+ "graph_seconds": 561.1799366999994,
+ "reference": {
+  "label": "Check",
+  "work": 861594,
+  "forward_min": 861594,
+  "forward_min_label": "Check",
+  "candidate_works": {
+   "Natural": 2918852,
+   "Natural-rev": 2870690,
+   "Random": 1912887,
+   "Random-rev": 1912833,
+   "Degree": 2268741,
+   "Degree-rev": 2343823,
+   "Core": 3341165,
+   "Core-rev": 3322581,
+   "SmallestLast": 3543956,
+   "SmallestLast-rev": 3494794,
+   "Split": 1613935,
+   "Split-rev": 1613725,
+   "Check": 861594,
+   "Check-rev": 861594
+  },
+  "builtin_seconds": {
+   "Natural": 0.002345200000490877,
+   "Random": 0.03785090000019409,
+   "Degree": 0.30772220000017114,
+   "Core": 9.810899099999915,
+   "SmallestLast": 0.766159200000402,
+   "Split": 0.3086812999999893,
+   "Check": 10.289811199999349
+  },
+  "seconds": 24.954945399999815,
+  "neigh_candidates": []
+ },
+ "T": {
+  "work": 786959,
+  "rounds": 6,
+  "improving_rounds": 5,
+  "start_work": 861594,
+  "first_round_s": 0.07454310000048281,
+  "stopped": "converged",
+  "seconds": 0.48893300000054296
+ },
+ "DOVE": {
+  "work": 720415,
+  "seconds": 130.3972463,
+  "inner_seconds": 130.19163209999988,
+  "initial_work": 861594
+ },
+ "budget": 130.3972463,
+ "TILS": {
+  "1": {
+   "work": 572109,
+   "info": {
+    "budget": 130.3972463,
+    "seed": 1,
+    "start_work": 861594,
+    "T_phase": {
+     "rounds": 6,
+     "improving_rounds": 5,
+     "start_work": 861594,
+     "first_round_s": 0.07712050000009185,
+     "stopped": "converged",
+     "seconds": 0.4887687000000369,
+     "seconds_since_start": 0.8215556000004653,
+     "work": 786959
+    },
+    "reserve": 0.4887687000000369,
+    "status": "finished",
+    "ils": {
+     "proposals": 139561728,
+     "accepted": 33939064,
+     "improving": 177375,
+     "kicks": 6646,
+     "chunks": 545163,
+     "undone_moves": 20430171,
+     "incumbent_updates": 77143,
+     "relabels": 0,
+     "relabel_work": 0,
+     "calls": 114,
+     "final_undo": 2381
+    },
+    "ils_end": 129.90854209999998,
+    "ils_incumbent_work": 573026,
+    "final_T": {
+     "rounds": 3,
+     "improving_rounds": 2,
+     "start_work": 573026,
+     "first_round_s": 0.07253539999965142,
+     "stopped": "converged"
+    },
+    "total_seconds": 130.17574160000004,
+    "overshoot": 0.0
+   }
+  },
+  "2": {
+   "work": 573715,
+   "info": {
+    "budget": 130.3972463,
+    "seed": 2,
+    "start_work": 861594,
+    "T_phase": {
+     "rounds": 6,
+     "improving_rounds": 5,
+     "start_work": 861594,
+     "first_round_s": 0.07566349999979138,
+     "stopped": "converged",
+     "seconds": 0.4747102999999697,
+     "seconds_since_start": 0.8238898999998128,
+     "work": 786959
+    },
+    "reserve": 0.4747102999999697,
+    "status": "finished",
+    "ils": {
+     "proposals": 139088128,
+     "accepted": 33834378,
+     "improving": 178906,
+     "kicks": 6894,
+     "chunks": 543313,
+     "undone_moves": 21207337,
+     "incumbent_updates": 75861,
+     "relabels": 0,
+     "relabel_work": 0,
+     "calls": 114,
+     "final_undo": 2069
+    },
+    "ils_end": 129.92271940000046,
+    "ils_incumbent_work": 574796,
+    "final_T": {
+     "rounds": 4,
+     "improving_rounds": 3,
+     "start_work": 574796,
+     "first_round_s": 0.07115069999963453,
+     "stopped": "converged"
+    },
+    "total_seconds": 130.27264960000048,
+    "overshoot": 0.0
+   }
+  },
+  "3": {
+   "work": 573022,
+   "info": {
+    "budget": 130.3972463,
+    "seed": 3,
+    "start_work": 861594,
+    "T_phase": {
+     "rounds": 6,
+     "improving_rounds": 5,
+     "start_work": 861594,
+     "first_round_s": 0.07499899999947957,
+     "stopped": "converged",
+     "seconds": 0.485657799999899,
+     "seconds_since_start": 0.8245136000005004,
+     "work": 786959
+    },
+    "reserve": 0.485657799999899,
+    "status": "finished",
+    "ils": {
+     "proposals": 138856192,
+     "accepted": 33775869,
+     "improving": 176929,
+     "kicks": 6824,
+     "chunks": 542407,
+     "undone_moves": 20988319,
+     "incumbent_updates": 76202,
+     "relabels": 0,
+     "relabel_work": 0,
+     "calls": 111,
+     "final_undo": 706
+    },
+    "ils_end": 129.92817660000037,
+    "ils_incumbent_work": 574158,
+    "final_T": {
+     "rounds": 4,
+     "improving_rounds": 3,
+     "start_work": 574158,
+     "first_round_s": 0.07221309999931691,
+     "stopped": "converged"
+    },
+    "total_seconds": 130.27653660000033,
+    "overshoot": 0.0
+   }
+  }
+ },
+ "verification": {
+  "orders": {
+   "Rstar": {
+    "file": "D:\\Work\\Triangle Ordering\\pc_eval_results\\partB\\roadNet-CA\\orders\\Rstar.npy",
+    "permutation": true,
+    "claimed": 861594,
+    "dove_work": 861594,
+    "lister_probes": 861594,
+    "triangles": 120676,
+    "ok": true
+   },
+   "T": {
+    "file": "D:\\Work\\Triangle Ordering\\pc_eval_results\\partB\\roadNet-CA\\orders\\T.npy",
+    "permutation": true,
+    "claimed": 786959,
+    "dove_work": 786959,
+    "lister_probes": 786959,
+    "triangles": 120676,
+    "ok": true
+   },
+   "DOVE": {
+    "file": "D:\\Work\\Triangle Ordering\\pc_eval_results\\partB\\roadNet-CA\\orders\\DOVE.npy",
+    "permutation": true,
+    "claimed": 720415,
+    "dove_work": 720415,
+    "lister_probes": 720415,
+    "triangles": 120676,
+    "ok": true
+   },
+   "TILS_seed1": {
+    "file": "D:\\Work\\Triangle Ordering\\pc_eval_results\\partB\\roadNet-CA\\orders\\TILS_seed1.npy",
+    "permutation": true,
+    "claimed": 572109,
+    "dove_work": 572109,
+    "lister_probes": 572109,
+    "triangles": 120676,
+    "ok": true
+   },
+   "TILS_seed2": {
+    "file": "D:\\Work\\Triangle Ordering\\pc_eval_results\\partB\\roadNet-CA\\orders\\TILS_seed2.npy",
+    "permutation": true,
+    "claimed": 573715,
+    "dove_work": 573715,
+    "lister_probes": 573715,
+    "triangles": 120676,
+    "ok": true
+   },
+   "TILS_seed3": {
+    "file": "D:\\Work\\Triangle Ordering\\pc_eval_results\\partB\\roadNet-CA\\orders\\TILS_seed3.npy",
+    "permutation": true,
+    "claimed": 573022,
+    "dove_work": 573022,
+    "lister_probes": 573022,
+    "triangles": 120676,
+    "ok": true
+   }
+  },
+  "triangles": [
+   120676
+  ],
+  "all_ok": true,
+  "n_orders": 6
+ }
+}

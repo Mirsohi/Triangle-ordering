@@ -1,0 +1,279 @@
+{
+ "name": "Deezer-Europe",
+ "label": "Deezer-Europe",
+ "split": null,
+ "part": "B",
+ "quick": false,
+ "local": false,
+ "started": "2026-09-28T08:12:43Z",
+ "n": 28281,
+ "m": 92752,
+ "provenance": {
+  "url": "https://snap.stanford.edu/data/deezer_europe.zip",
+  "member": "deezer_europe_edges.csv",
+  "test_url_override": false,
+  "download": [
+   {
+    "attempt": 1,
+    "ok": true,
+    "time": 1790583163.4871533
+   }
+  ],
+  "downloaded_sha256": "dd66a73f8d8690b5bc300ba378883fb2c2f6316aec8917b6a2428e352fc9e498",
+  "downloaded_bytes": 2622306,
+  "edge_file_bytes": 1036676,
+  "edge_file_sha256": "a4aabf57e3eb20d40d5df7c7d15142b20656d9ca8f77a083106c1ee81226e530",
+  "parse_seconds": 0.10248419999970793,
+  "dense_edges_sha256": "bb4ad5f43f8d99bf261aee58fd800b1f3550a188cd370c5ecb7b2503750202e3"
+ },
+ "checks": {},
+ "status": "done",
+ "finished": "2026-09-28T08:12:51Z",
+ "graph_seconds": 8.95613989999947,
+ "reference": {
+  "label": "Check-rev",
+  "work": 225511,
+  "forward_min": 227823,
+  "forward_min_label": "Check",
+  "candidate_works": {
+   "Natural": 326153,
+   "Natural-rev": 324636,
+   "Random": 326247,
+   "Random-rev": 327050,
+   "Degree": 316215,
+   "Degree-rev": 396810,
+   "Core": 384160,
+   "Core-rev": 441325,
+   "SmallestLast": 395998,
+   "SmallestLast-rev": 443633,
+   "Split": 278733,
+   "Split-rev": 279085,
+   "Check": 227823,
+   "Check-rev": 225511
+  },
+  "builtin_seconds": {
+   "Natural": 2.009999934671214e-05,
+   "Random": 0.0005473999999594525,
+   "Degree": 0.0036992999994254205,
+   "Core": 0.22477100000014616,
+   "SmallestLast": 0.006937400000424532,
+   "Split": 0.0039059000000634114,
+   "Check": 0.14561649999996007
+  },
+  "seconds": 0.4406010000002425,
+  "neigh_candidates": []
+ },
+ "T": {
+  "work": 212387,
+  "rounds": 11,
+  "improving_rounds": 10,
+  "start_work": 225511,
+  "first_round_s": 0.0009263000001737964,
+  "stopped": "converged",
+  "seconds": 0.01057530000070983
+ },
+ "DOVE": {
+  "work": 209629,
+  "seconds": 1.928044699999191,
+  "inner_seconds": 1.9260193999998592,
+  "initial_work": 225511
+ },
+ "budget": 1.928044699999191,
+ "TILS": {
+  "1": {
+   "work": 204454,
+   "info": {
+    "budget": 1.928044699999191,
+    "seed": 1,
+    "start_work": 225511,
+    "T_phase": {
+     "rounds": 11,
+     "improving_rounds": 10,
+     "start_work": 225511,
+     "first_round_s": 0.000912600000447128,
+     "stopped": "converged",
+     "seconds": 0.011294900000393682,
+     "seconds_since_start": 0.022907100000338687,
+     "work": 212387
+    },
+    "reserve": 0.011294900000393682,
+    "status": "finished",
+    "ils": {
+     "proposals": 1335808,
+     "accepted": 195073,
+     "improving": 4378,
+     "kicks": 0,
+     "chunks": 5218,
+     "undone_moves": 0,
+     "incumbent_updates": 2068,
+     "relabels": 32,
+     "relabel_work": 138,
+     "calls": 106,
+     "final_undo": 416
+    },
+    "ils_end": 1.9170050000002448,
+    "ils_incumbent_work": 204533,
+    "final_T": {
+     "rounds": 4,
+     "improving_rounds": 3,
+     "start_work": 204533,
+     "first_round_s": 0.0008696000004420057,
+     "stopped": "converged"
+    },
+    "total_seconds": 1.9222540000000663,
+    "overshoot": 0.0
+   }
+  },
+  "2": {
+   "work": 204454,
+   "info": {
+    "budget": 1.928044699999191,
+    "seed": 2,
+    "start_work": 225511,
+    "T_phase": {
+     "rounds": 11,
+     "improving_rounds": 10,
+     "start_work": 225511,
+     "first_round_s": 0.0009083999993890757,
+     "stopped": "converged",
+     "seconds": 0.011077400000431226,
+     "seconds_since_start": 0.021410800000012387,
+     "work": 212387
+    },
+    "reserve": 0.011077400000431226,
+    "status": "finished",
+    "ils": {
+     "proposals": 1369088,
+     "accepted": 199685,
+     "improving": 4388,
+     "kicks": 0,
+     "chunks": 5348,
+     "undone_moves": 0,
+     "incumbent_updates": 2078,
+     "relabels": 33,
+     "relabel_work": 141,
+     "calls": 104,
+     "final_undo": 0
+    },
+    "ils_end": 1.9182467999999062,
+    "ils_incumbent_work": 204521,
+    "final_T": {
+     "rounds": 3,
+     "improving_rounds": 2,
+     "start_work": 204521,
+     "first_round_s": 0.0008919000001696986,
+     "stopped": "converged"
+    },
+    "total_seconds": 1.921470300000692,
+    "overshoot": 0.0
+   }
+  },
+  "3": {
+   "work": 204453,
+   "info": {
+    "budget": 1.928044699999191,
+    "seed": 3,
+    "start_work": 225511,
+    "T_phase": {
+     "rounds": 11,
+     "improving_rounds": 10,
+     "start_work": 225511,
+     "first_round_s": 0.0009006999998746323,
+     "stopped": "converged",
+     "seconds": 0.00995729999976902,
+     "seconds_since_start": 0.021513200000299548,
+     "work": 212387
+    },
+    "reserve": 0.00995729999976902,
+    "status": "finished",
+    "ils": {
+     "proposals": 1430272,
+     "accepted": 208134,
+     "improving": 4447,
+     "kicks": 4,
+     "chunks": 5587,
+     "undone_moves": 7090,
+     "incumbent_updates": 2082,
+     "relabels": 36,
+     "relabel_work": 150,
+     "calls": 104,
+     "final_undo": 891
+    },
+    "ils_end": 1.9339192999996158,
+    "ils_incumbent_work": 204516,
+    "final_T": {
+     "rounds": 3,
+     "improving_rounds": 2,
+     "start_work": 204516,
+     "first_round_s": 0.001355399999738438,
+     "stopped": "converged"
+    },
+    "total_seconds": 1.9381986999997025,
+    "overshoot": 0.010154000000511587
+   }
+  }
+ },
+ "verification": {
+  "orders": {
+   "Rstar": {
+    "file": "D:\\Work\\Triangle Ordering\\pc_eval_results\\partB\\Deezer-Europe\\orders\\Rstar.npy",
+    "permutation": true,
+    "claimed": 225511,
+    "dove_work": 225511,
+    "lister_probes": 225511,
+    "triangles": 45034,
+    "ok": true
+   },
+   "T": {
+    "file": "D:\\Work\\Triangle Ordering\\pc_eval_results\\partB\\Deezer-Europe\\orders\\T.npy",
+    "permutation": true,
+    "claimed": 212387,
+    "dove_work": 212387,
+    "lister_probes": 212387,
+    "triangles": 45034,
+    "ok": true
+   },
+   "DOVE": {
+    "file": "D:\\Work\\Triangle Ordering\\pc_eval_results\\partB\\Deezer-Europe\\orders\\DOVE.npy",
+    "permutation": true,
+    "claimed": 209629,
+    "dove_work": 209629,
+    "lister_probes": 209629,
+    "triangles": 45034,
+    "ok": true
+   },
+   "TILS_seed1": {
+    "file": "D:\\Work\\Triangle Ordering\\pc_eval_results\\partB\\Deezer-Europe\\orders\\TILS_seed1.npy",
+    "permutation": true,
+    "claimed": 204454,
+    "dove_work": 204454,
+    "lister_probes": 204454,
+    "triangles": 45034,
+    "ok": true
+   },
+   "TILS_seed2": {
+    "file": "D:\\Work\\Triangle Ordering\\pc_eval_results\\partB\\Deezer-Europe\\orders\\TILS_seed2.npy",
+    "permutation": true,
+    "claimed": 204454,
+    "dove_work": 204454,
+    "lister_probes": 204454,
+    "triangles": 45034,
+    "ok": true
+   },
+   "TILS_seed3": {
+    "file": "D:\\Work\\Triangle Ordering\\pc_eval_results\\partB\\Deezer-Europe\\orders\\TILS_seed3.npy",
+    "permutation": true,
+    "claimed": 204453,
+    "dove_work": 204453,
+    "lister_probes": 204453,
+    "triangles": 45034,
+    "ok": true
+   }
+  },
+  "triangles": [
+   45034
+  ],
+  "all_ok": true,
+  "n_orders": 6
+ }
+}

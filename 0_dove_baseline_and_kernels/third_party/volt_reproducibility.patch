@@ -1,0 +1,243 @@
+diff --git a/order/order_deg.cpp b/order/order_deg.cpp
+index 8965e5a..008a461 100644
+--- a/order/order_deg.cpp
++++ b/order/order_deg.cpp
+@@ -24,7 +24,7 @@ vector<ul> rank_from_deg(const vector<ul> &deg, const ul &n, bool desc, bool ord
+   if(desc) sort(toSort.begin(), toSort.end(), compare_nodedeg_desc);
+   else     sort(toSort.begin(), toSort.end(), compare_nodedeg_asc);
+ 
+-  vector<ul> rank; rank.reserve(n);
++  vector<ul> rank(n);
+   if(order)
+     for (ul i = 0; i < n; ++i) rank[i] = toSort[i].key;
+   else
+@@ -54,7 +54,7 @@ vector<ul> order_deg_split(Edgelist &g, bool desc) {
+   Debug("Order deg Split from edgelist")
+   g.compute_degrees();
+   vector<ul> order = order_from_deg(g.deg, g.n, desc);
+-  vector<ul> rank; rank.reserve(g.n);
++  vector<ul> rank(g.n);
+   for (ul i = 0; i < g.n; ++i)
+     rank[ order[i] ] = (i % 2 == 0) ? (i / 2) : (g.n - (i+1)/2);
+ 	return rank;
+@@ -72,7 +72,7 @@ vector<ul> order_degOut(Adjlist &g) {
+     // cout << "before sort: "<< endl; for (ul i = 0; i < 10; ++i) cout << "\t" << toSort[i].node << " \t " << toSort[i].deg << endl;
+     sort(toSort.begin(), toSort.end(), compare_nodedeg_desc);
+ 
+-    vector<ul> rank; rank.reserve(g.n);
++    vector<ul> rank(g.n);
+     for (ul u = 0; u < g.n; ++u)
+     	rank[ toSort[u].key ] = u;
+ 
+@@ -91,7 +91,7 @@ vector<ul> order_degIn(Adjlist &g) {
+ 
+ 	sort(toSort.begin(), toSort.end(), compare_nodedeg_desc);
+ 
+-	vector<ul> rank; rank.reserve(g.n);
++	vector<ul> rank(g.n);
+ 	for (ul u = 0; u < g.n; ++u)
+ 		rank[ toSort[u].key ] = u;
+ 	return rank;
+diff --git a/order/order_kcore.h b/order/order_kcore.h
+index 3aa70cb..042ebcd 100644
+--- a/order/order_kcore.h
++++ b/order/order_kcore.h
+@@ -30,8 +30,8 @@ struct Kdegeneracies {
+   std::vector<ul> degeneracies;
+   std::vector<ul> rank;
+   Kdegeneracies(ul n) : n(n) {
+-    degeneracies.reserve(n);
+-    rank.reserve(n);
++    degeneracies.resize(n);
++    rank.resize(n);
+   }
+ };
+ 
+diff --git a/order/order_triangles.cpp b/order/order_triangles.cpp
+index 46da69e..81b0d00 100644
+--- a/order/order_triangles.cpp
++++ b/order/order_triangles.cpp
+@@ -18,7 +18,7 @@ vector<ul> tmp__order_deg_desc(const Adjlist &g) {
+   vector<Keyvalue> toSort; toSort.reserve(g.n);
+   for (ul u = 0; u < g.n; ++u) toSort.push_back( Keyvalue(u, g.get_degree(u)) );
+   sort(toSort.begin(), toSort.end(), tmp__compare_nodedeg_desc);
+-  vector<ul> order; order.reserve(g.n);
++  vector<ul> order(g.n);
+   for (ul i = 0; i < g.n; ++i) order[i] = toSort[i].key;
+   return order;
+ }
+@@ -29,7 +29,7 @@ vector<ul> optimise_dpm_degcheck(const Adjlist &g) {
+   vector<ul> order = tmp__order_deg_desc(g);
+   vector<ul> current_dp(g.n, 0);
+   vector<ul> current_dm(g.n, 0);
+-  vector<ul> rank; rank.reserve(g.n);
++  vector<ul> rank(g.n);
+ 
+   ul i = 0, j = g.n - 1;
+   while(i <= j) {
+diff --git a/utils/adjlist.cpp b/utils/adjlist.cpp
+index 4c1bc65..2b477eb 100644
+--- a/utils/adjlist.cpp
++++ b/utils/adjlist.cpp
+@@ -17,8 +17,8 @@ Adjlist::Adjlist(Edgelist &g, int edge_factor/*=1*/, int node_factor/*=1*/) :
+     directed(edge_factor == node_factor),
+     n(g.n),
+     e(edge_factor * g.e) {
+-  cd.reserve(n*node_factor + 1); // warning: .size() will not be defined
+-	adj.reserve(g.e*edge_factor);
++  cd.resize(n*node_factor + 1);
++	adj.resize(g.e*edge_factor);
+   ranker_reset();
+ }
+ 
+@@ -140,7 +140,7 @@ vector<ul> Uadjlist::compute_degrees(Edgelist &g) { // warning: if input file is
+ 	vector<ul> deg;
+   if(g.deg_computed) {
+     Info("Transfering degrees instead of recomputing");
+-    deg.reserve(n);
++    deg.resize(n);
+     for (ul u = 0; u < n; u++)
+       deg[ranker(u)] = g.deg[u];
+   }
+@@ -174,7 +174,7 @@ vector<ul> Dadjlist::compute_degrees(Edgelist &g) {
+ 	vector<ul> deg;
+   if(g.deg_computed) {
+     Info("Transfering degrees instead of recomputing");
+-    deg.reserve(n);
++    deg.resize(n);
+     for (ul u = 0; u < n; u++)
+       deg[ranker(u)] = g.degOut[u];
+   }
+@@ -205,7 +205,7 @@ vector<ul> Badjlist::compute_degrees(Edgelist &g) {
+ 	vector<ul> deg;
+   if(g.deg_computed) {
+     Info("Transfering degrees instead of recomputing");
+-    deg.reserve(2*n);
++    deg.resize(2*n);
+     for (ul u = 0; u < n; u++) {
+       deg[ranker(u)] = g.degOut[u];
+       deg[ranker(u) + n] = g.degIn[u];
+diff --git a/utils/continuousrank.cpp b/utils/continuousrank.cpp
+index d1c9190..53b226d 100644
+--- a/utils/continuousrank.cpp
++++ b/utils/continuousrank.cpp
+@@ -6,7 +6,7 @@ using namespace std;
+ 
+ 
+ ContinuousRank::ContinuousRank(ul n) : n(n) {
+-  altitude.reserve(n);
++  altitude.resize(n);
+   pointer.reserve(n);
+   for(ul u=0; u<n; ++u)
+     pointer.push_back(chain.insert(chain.end(), u));
+@@ -14,8 +14,8 @@ ContinuousRank::ContinuousRank(ul n) : n(n) {
+ }
+ 
+ ContinuousRank::ContinuousRank(ul n, vector<ul> &order) : n(n) {
+-  altitude.reserve(n);
+-  pointer.reserve(n);
++  altitude.resize(n);
++  pointer.resize(n);
+   for(auto &u : order) {
+     pointer[u] = chain.insert(chain.end(), u);
+   }
+@@ -59,7 +59,7 @@ void ContinuousRank::move(ul &u, list<ul>::iterator pointer_next) {
+ }
+ 
+ vector<ul> ContinuousRank::to_rank() {
+-  vector<ul> rank; rank.reserve(n);
++  vector<ul> rank(n);
+   ul counter = 0;
+   for(auto &u : chain) rank[u] = counter++;
+   return rank;
+diff --git a/utils/edgelist.cpp b/utils/edgelist.cpp
+index a833ac6..7d2a272 100644
+--- a/utils/edgelist.cpp
++++ b/utils/edgelist.cpp
+@@ -116,7 +116,7 @@ void Edgelist::compute_degrees(bool force) {
+     ++degIn[edge.second];
+   }
+ 
+-  deg.reserve(n);
++  deg.resize(n);
+   for (ul u = 0; u < n; ++u) {
+     deg[u] = degIn[u] + degOut[u];
+   }
+diff --git a/utils/heap.cpp b/utils/heap.cpp
+index 0449fe8..dc7944d 100644
+--- a/utils/heap.cpp
++++ b/utils/heap.cpp
+@@ -7,7 +7,7 @@ using namespace std;
+ 
+ Bheap::Bheap(ul n_max) : n_max(n_max) {
+ 	n = 0;
+-	pt.reserve(n_max);
++	pt.resize(n_max);
+ 	kv.reserve(n_max);
+ }
+ 
+diff --git a/utils/tools.cpp b/utils/tools.cpp
+index 98bd082..3dcc240 100644
+--- a/utils/tools.cpp
++++ b/utils/tools.cpp
+@@ -20,7 +20,7 @@ vector<ul> order_identity(const ul &n) {
+   return rank;
+ }
+ vector<ul> rank_from_order(const vector<ul> &order, const ul &n) {
+-  vector<ul> rank; rank.reserve(n);
++  vector<ul> rank(n);
+   Debug("rank_from_order " << n)
+   for (ul u = 0; u < n; ++u) {
+     if(order[u] >= n) {
+diff --git a/volt.cpp b/volt.cpp
+index d632955..a41228f 100644
+--- a/volt.cpp
++++ b/volt.cpp
+@@ -44,8 +44,9 @@ int main(int argc, char** argv) {
+ 
+   CLI::App app{"Vertex Orderings to List Triangles: apply an ordering on a list of edges to list all triangles faster. See README.md for more information."};
+ 
+-  string filename, ordering="check", algorithm="PM", output_edges="null";
+-  double number = 1e-2; int parallel_threads = 1; bool output_triangles = false;
++  string filename, ordering="check", algorithm="PM", output_edges="null", output_rank="null";
++  double number = 1e-2; int parallel_threads = 1; bool output_triangles = false, order_only = false;
++  unsigned int random_seed = 1;
+   app.add_option("dataset", filename, "Text file: list of `a b` edges with nodes IDs ranging from 0 to N-1")->required();
+   app.add_option("-o,--order", ordering, "Ordering used to relabel the nodes")//->required()
+     ->check(CLI::IsMember({
+@@ -53,6 +54,9 @@ int main(int argc, char** argv) {
+   app.add_option("-a,--algo", algorithm, "Algorithm to execute on the reordered graph")
+     ->check(CLI::IsMember({"comparison", "PM", "PP"}, CLI::ignore_case))->capture_default_str();
+   app.add_option("-e,--edges", output_edges, "File in which to output edges with new indices")->capture_default_str();
++  app.add_option("--rank-output", output_rank, "File in which to output the rank of every original vertex")->capture_default_str();
++  app.add_option("--seed", random_seed, "Random seed used by randomized orderings")->capture_default_str();
++  app.add_flag("--order-only", order_only, "Stop after constructing and exporting the ordering")->capture_default_str();
+   app.add_flag("-t,--triangles", output_triangles, "Print triangles in standard output (add >f to redirect into file f)")->capture_default_str();
+   app.add_option("-n", number, "Numeric parameter used in different orders")->capture_default_str();
+   app.add_option("-p", parallel_threads, "Number of parallel threads")->capture_default_str();
+@@ -64,7 +68,7 @@ int main(int argc, char** argv) {
+   vector<ul> rank;
+   Edgelist* h = NULL;
+   Adjlist* g = NULL;
+-  srand ( unsigned ( time(0) ) ); // initialise randomness
++  srand(random_seed); // initialise randomness reproducibly
+   omp_set_num_threads(parallel_threads);
+   if(parallel_threads > 1) { Info("Running "<< parallel_threads <<" parallel threads") }
+ 
+@@ -109,6 +113,16 @@ int main(int argc, char** argv) {
+ 
+ 	TimeStep("Order")
+ 
++  if(output_rank != "null") {
++    Info("Export vertex ranks into file " << output_rank)
++    c_printorder(rank, n, output_rank.c_str());
++  }
++
++  if(order_only) {
++    TimeTotal()
++    return 0;
++  }
++
+   // --------------------------------------------------
+   // -------- Export edges with new indices -----------
+   // --------------------------------------------------

@@ -1,0 +1,75 @@
+{
+ "mode": "full",
+ "graphs": [
+  {
+   "name": "Email-Eu-core",
+   "label": "Email-Eu-core",
+   "url": "https://snap.stanford.edu/data/email-Eu-core.txt.gz",
+   "member": null
+  },
+  {
+   "name": "CollegeMsg",
+   "label": "CollegeMsg",
+   "url": "https://snap.stanford.edu/data/CollegeMsg.txt.gz",
+   "member": null
+  },
+  {
+   "name": "LastFM-Asia",
+   "label": "LastFM-Asia",
+   "url": "https://snap.stanford.edu/data/lastfm_asia.zip",
+   "member": "lastfm_asia_edges.csv"
+  },
+  {
+   "name": "Deezer-Europe",
+   "label": "Deezer-Europe",
+   "url": "https://snap.stanford.edu/data/deezer_europe.zip",
+   "member": "deezer_europe_edges.csv"
+  },
+  {
+   "name": "Facebook-page-page",
+   "label": "Facebook page--page",
+   "url": "https://snap.stanford.edu/data/facebook_large.zip",
+   "member": "musae_facebook_edges.csv"
+  },
+  {
+   "name": "Amazon0302",
+   "label": "Amazon0302",
+   "url": "https://snap.stanford.edu/data/amazon0302.txt.gz",
+   "member": null
+  },
+  {
+   "name": "Wiki-Talk",
+   "label": "Wiki-Talk",
+   "url": "https://snap.stanford.edu/data/wiki-Talk.txt.gz",
+   "member": null
+  },
+  {
+   "name": "com-Youtube",
+   "label": "com-Youtube",
+   "url": "https://snap.stanford.edu/data/bigdata/communities/com-youtube.ungraph.txt.gz",
+   "member": null
+  },
+  {
+   "name": "web-Google",
+   "label": "web-Google",
+   "url": "https://snap.stanford.edu/data/web-Google.txt.gz",
+   "member": null
+  },
+  {
+   "name": "roadNet-CA",
+   "label": "roadNet-CA",
+   "url": "https://snap.stanford.edu/data/roadNet-CA.txt.gz",
+   "member": null
+  }
+ ],
+ "seeds": [
+  1,
+  2,
+  3
+ ],
+ "volt": null,
+ "prereg": {
+  "sha256": "bdda241b6d7d9f13fe0a0b643f56ed2c0c229dc596ea283edc23f28c50a7ed4b",
+  "normalised": false
+ }
+}

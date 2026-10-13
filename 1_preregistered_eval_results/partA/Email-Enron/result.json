@@ -1,0 +1,291 @@
+{
+ "name": "Email-Enron",
+ "label": "Email-Enron",
+ "split": "Validation",
+ "part": "A",
+ "quick": false,
+ "local": false,
+ "started": "2026-09-28T07:44:48Z",
+ "n": 36692,
+ "m": 183831,
+ "provenance": {
+  "url": "https://snap.stanford.edu/data/email-Enron.txt.gz",
+  "test_url_override": false,
+  "download": [
+   {
+    "attempt": 1,
+    "ok": true,
+    "time": 1790581488.5943153
+   }
+  ],
+  "compressed_sha256": "55cfead79b1f0161786179a48796c2a119bd7026a246238b257b6be9d8b69b68",
+  "edge_file_bytes": 4049333,
+  "sha256_matches_manifest": true,
+  "bytes_match_manifest": true,
+  "parse_seconds": 0.35118340000008175,
+  "dense_edges_sha256": "0ae3a682c40deabe4cbcc814982aae55ae466379e9d8f40ba94e05b0f6372dea"
+ },
+ "checks": {
+  "n_matches_artifact": true,
+  "m_matches_artifact": true,
+  "stored_neigh_labels": [
+   "NeighStored1"
+  ],
+  "stored_neigh_work": 2158516,
+  "stored_neigh_work_matches": true,
+  "artifact_reference_work": 2158516
+ },
+ "status": "done",
+ "finished": "2026-09-28T07:45:11Z",
+ "graph_seconds": 23.284759099999974,
+ "reference": {
+  "label": "NeighStored1",
+  "work": 2158516,
+  "forward_min": 2158516,
+  "forward_min_label": "NeighStored1",
+  "candidate_works": {
+   "Natural": 3822734,
+   "Natural-rev": 2578378,
+   "Random": 2834257,
+   "Random-rev": 2891291,
+   "Degree": 2306820,
+   "Degree-rev": 3750998,
+   "Core": 2708850,
+   "Core-rev": 3930833,
+   "SmallestLast": 2671485,
+   "SmallestLast-rev": 3923162,
+   "Split": 2332294,
+   "Split-rev": 2308562,
+   "Check": 2187950,
+   "Check-rev": 2173737,
+   "NeighStored1": 2158516,
+   "NeighStored1-rev": 2169499
+  },
+  "builtin_seconds": {
+   "Natural": 2.5599999844416743e-05,
+   "Random": 0.0006831000000602216,
+   "Degree": 0.004730600000129925,
+   "Core": 0.36512660000016695,
+   "SmallestLast": 0.007904699999926379,
+   "Split": 0.0046715000003132445,
+   "Check": 0.1844586000001982
+  },
+  "seconds": 0.6968994000003477,
+  "neigh_candidates": [
+   "NeighStored1"
+  ]
+ },
+ "T": {
+  "work": 1934290,
+  "rounds": 24,
+  "improving_rounds": 23,
+  "start_work": 2158516,
+  "first_round_s": 0.0015720999999757623,
+  "stopped": "converged",
+  "seconds": 0.047430399999939254
+ },
+ "DOVE": {
+  "work": 1934410,
+  "seconds": 5.325169599999754,
+  "inner_seconds": 5.320106300000134,
+  "initial_work": 2158516
+ },
+ "budget": 5.325169599999754,
+ "TILS": {
+  "1": {
+   "work": 1925468,
+   "info": {
+    "budget": 5.325169599999754,
+    "seed": 1,
+    "start_work": 2158516,
+    "T_phase": {
+     "rounds": 24,
+     "improving_rounds": 23,
+     "start_work": 2158516,
+     "first_round_s": 0.0018510999998397892,
+     "stopped": "converged",
+     "seconds": 0.04835090000005948,
+     "seconds_since_start": 0.06759699999975055,
+     "work": 1934290
+    },
+    "reserve": 0.04835090000005948,
+    "status": "finished",
+    "ils": {
+     "proposals": 191744,
+     "accepted": 26745,
+     "improving": 2079,
+     "kicks": 0,
+     "chunks": 749,
+     "undone_moves": 0,
+     "incumbent_updates": 689,
+     "relabels": 18,
+     "relabel_work": 84,
+     "calls": 108,
+     "final_undo": 0
+    },
+    "ils_end": 5.277471299999888,
+    "ils_incumbent_work": 1927164,
+    "final_T": {
+     "rounds": 9,
+     "improving_rounds": 8,
+     "start_work": 1927164,
+     "first_round_s": 0.0015325999997912731,
+     "stopped": "converged"
+    },
+    "total_seconds": 5.292466599999898,
+    "overshoot": 0.0
+   }
+  },
+  "2": {
+   "work": 1925562,
+   "info": {
+    "budget": 5.325169599999754,
+    "seed": 2,
+    "start_work": 2158516,
+    "T_phase": {
+     "rounds": 24,
+     "improving_rounds": 23,
+     "start_work": 2158516,
+     "first_round_s": 0.0014548999997714418,
+     "stopped": "converged",
+     "seconds": 0.048127800000202114,
+     "seconds_since_start": 0.0665751999999884,
+     "work": 1934290
+    },
+    "reserve": 0.048127800000202114,
+    "status": "finished",
+    "ils": {
+     "proposals": 173824,
+     "accepted": 24269,
+     "improving": 1951,
+     "kicks": 0,
+     "chunks": 679,
+     "undone_moves": 0,
+     "incumbent_updates": 630,
+     "relabels": 17,
+     "relabel_work": 81,
+     "calls": 109,
+     "final_undo": 29
+    },
+    "ils_end": 5.281825300000037,
+    "ils_incumbent_work": 1927385,
+    "final_T": {
+     "rounds": 8,
+     "improving_rounds": 7,
+     "start_work": 1927385,
+     "first_round_s": 0.0015019000002212124,
+     "stopped": "converged"
+    },
+    "total_seconds": 5.297309800000221,
+    "overshoot": 0.0
+   }
+  },
+  "3": {
+   "work": 1925519,
+   "info": {
+    "budget": 5.325169599999754,
+    "seed": 3,
+    "start_work": 2158516,
+    "T_phase": {
+     "rounds": 24,
+     "improving_rounds": 23,
+     "start_work": 2158516,
+     "first_round_s": 0.0014128000002529006,
+     "stopped": "converged",
+     "seconds": 0.04554520000010598,
+     "seconds_since_start": 0.06511820000014268,
+     "work": 1934290
+    },
+    "reserve": 0.04554520000010598,
+    "status": "finished",
+    "ils": {
+     "proposals": 178176,
+     "accepted": 24894,
+     "improving": 1986,
+     "kicks": 0,
+     "chunks": 696,
+     "undone_moves": 0,
+     "incumbent_updates": 643,
+     "relabels": 17,
+     "relabel_work": 81,
+     "calls": 108,
+     "final_undo": 0
+    },
+    "ils_end": 5.279876300000069,
+    "ils_incumbent_work": 1927320,
+    "final_T": {
+     "rounds": 9,
+     "improving_rounds": 8,
+     "start_work": 1927320,
+     "first_round_s": 0.001755799999955343,
+     "stopped": "converged"
+    },
+    "total_seconds": 5.295794500000284,
+    "overshoot": 0.0
+   }
+  }
+ },
+ "verification": {
+  "orders": {
+   "Rstar": {
+    "file": "D:\\Work\\Triangle Ordering\\pc_eval_results\\partA\\Email-Enron\\orders\\Rstar.npy",
+    "permutation": true,
+    "claimed": 2158516,
+    "dove_work": 2158516,
+    "lister_probes": 2158516,
+    "triangles": 727044,
+    "ok": true
+   },
+   "T": {
+    "file": "D:\\Work\\Triangle Ordering\\pc_eval_results\\partA\\Email-Enron\\orders\\T.npy",
+    "permutation": true,
+    "claimed": 1934290,
+    "dove_work": 1934290,
+    "lister_probes": 1934290,
+    "triangles": 727044,
+    "ok": true
+   },
+   "DOVE": {
+    "file": "D:\\Work\\Triangle Ordering\\pc_eval_results\\partA\\Email-Enron\\orders\\DOVE.npy",
+    "permutation": true,
+    "claimed": 1934410,
+    "dove_work": 1934410,
+    "lister_probes": 1934410,
+    "triangles": 727044,
+    "ok": true
+   },
+   "TILS_seed1": {
+    "file": "D:\\Work\\Triangle Ordering\\pc_eval_results\\partA\\Email-Enron\\orders\\TILS_seed1.npy",
+    "permutation": true,
+    "claimed": 1925468,
+    "dove_work": 1925468,
+    "lister_probes": 1925468,
+    "triangles": 727044,
+    "ok": true
+   },
+   "TILS_seed2": {
+    "file": "D:\\Work\\Triangle Ordering\\pc_eval_results\\partA\\Email-Enron\\orders\\TILS_seed2.npy",
+    "permutation": true,
+    "claimed": 1925562,
+    "dove_work": 1925562,
+    "lister_probes": 1925562,
+    "triangles": 727044,
+    "ok": true
+   },
+   "TILS_seed3": {
+    "file": "D:\\Work\\Triangle Ordering\\pc_eval_results\\partA\\Email-Enron\\orders\\TILS_seed3.npy",
+    "permutation": true,
+    "claimed": 1925519,
+    "dove_work": 1925519,
+    "lister_probes": 1925519,
+    "triangles": 727044,
+    "ok": true
+   }
+  },
+  "triangles": [
+   727044
+  ],
+  "all_ok": true,
+  "n_orders": 6
+ }
+}

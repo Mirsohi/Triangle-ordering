@@ -1,0 +1,118 @@
+diff -ruN -x '*.o' -x volt -x volt.exe -x volt_shim_native -x .git voltbuild/makefile voltwin/makefile
+--- voltbuild/makefile	2026-09-28 16:24:33.779578100 -0700
++++ voltwin/makefile	2026-09-28 16:29:59.128269057 -0700
+@@ -10,7 +10,7 @@
+ # or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License
+ # for more details: https://www.gnu.org/licenses/
+ 
+-CC=g++ -std=c++14 #-fconcepts
++CC=g++ -std=c++17 #-fconcepts
+ 
+ DEBUG?=0 # debug option
+ 
+diff -ruN -x '*.o' -x volt -x volt.exe -x volt_shim_native -x .git voltbuild/order/order_triangles.cpp voltwin/order/order_triangles.cpp
+--- voltbuild/order/order_triangles.cpp	2026-09-28 16:24:33.787978243 -0700
++++ voltwin/order/order_triangles.cpp	2026-09-28 16:29:59.123543021 -0700
+@@ -1,3 +1,4 @@
++#include "../utils/glibc_rand.h"
+ // See header for general documentation
+ 
+ #include <functional>
+@@ -108,7 +109,7 @@
+       }
+ 
+     // ----- consider each node in random order -----
+-    random_shuffle(nodes.begin(), nodes.end());
++    glibcrand::random_shuffle_(nodes.begin(), nodes.end());
+     for(auto &u : nodes) {
+       // if(g.get_degree(u) == 0) continue;
+       vector<ul> neighbours; neighbours.reserve(g.get_degree(u));
+diff -ruN -x '*.o' -x volt -x volt.exe -x volt_shim_native -x .git voltbuild/utils/glibc_rand.h voltwin/utils/glibc_rand.h
+--- voltbuild/utils/glibc_rand.h	1969-12-31 16:00:00.000000000 -0800
++++ voltwin/utils/glibc_rand.h	2026-09-28 16:31:44.865166067 -0700
+@@ -0,0 +1,39 @@
++// Windows-build portability shim (not part of upstream VOLT).
++// msvcrt's rand() has RAND_MAX = 32767 and a different generator, so std::rand-based shuffles differ from the
++// Linux build (and are strongly biased for n > 32768). This header reproduces glibc's default rand()/srand()
++// (TYPE_3 additive feedback generator) and libstdc++'s std::random_shuffle loop, so that the Windows executable
++// makes exactly the same random choices as the pinned Linux build.
++#pragma once
++#include <cstdint>
++#include <algorithm>
++namespace glibcrand {
++inline int32_t buf[31]; inline int fptr = 3, rptr = 0; inline bool seeded = false;
++inline void srand_(unsigned int seed) {
++  int32_t *r = buf;
++  int32_t word = (int32_t)seed; if (seed == 0) word = 1;
++  r[0] = word;
++  for (int i = 1; i < 31; ++i) {
++    long hi = word / 127773, lo = word % 127773;
++    word = 16807 * lo - 2836 * hi;
++    if (word < 0) word += 2147483647;
++    r[i] = word;
++  }
++  fptr = 3; rptr = 0; seeded = true;
++  for (int i = 0; i < 310; ++i) { // discard 310 outputs as glibc does
++    uint32_t v = (uint32_t)r[fptr] + (uint32_t)r[rptr]; r[fptr] = (int32_t)v;
++    if (++fptr >= 31) { fptr = 0; ++rptr; } else if (++rptr >= 31) rptr = 0;
++  }
++}
++inline int rand_() {
++  if (!seeded) srand_(1);
++  int32_t *r = buf;
++  uint32_t v = (uint32_t)r[fptr] + (uint32_t)r[rptr]; r[fptr] = (int32_t)v;
++  int result = (int)(v >> 1);
++  if (++fptr >= 31) { fptr = 0; ++rptr; } else if (++rptr >= 31) rptr = 0;
++  return result;
++}
++template <typename It> inline void random_shuffle_(It first, It last) {
++  if (first != last)
++    for (It i = first + 1; i != last; ++i) { It j = first + rand_() % ((i - first) + 1); if (i != j) std::iter_swap(i, j); }
++}
++}
+diff -ruN -x '*.o' -x volt -x volt.exe -x volt_shim_native -x .git voltbuild/utils/tools.cpp voltwin/utils/tools.cpp
+--- voltbuild/utils/tools.cpp	2026-09-28 16:24:33.788047768 -0700
++++ voltwin/utils/tools.cpp	2026-09-28 16:29:59.123612966 -0700
+@@ -1,3 +1,4 @@
++#include "glibc_rand.h"
+ #include "tools.h"
+ 
+ using namespace std;
+@@ -37,7 +38,7 @@
+ }
+ 
+ pair<ul,ul> random_pair(const ul &n) {
+-  ul u = rand() % n, v = rand() % (n - 1);
++  ul u = glibcrand::rand_() % n, v = glibcrand::rand_() % (n - 1);
+   return make_pair(u, v + (v >= u));
+ }
+ 
+diff -ruN -x '*.o' -x volt -x volt.exe -x volt_shim_native -x .git voltbuild/volt.cpp voltwin/volt.cpp
+--- voltbuild/volt.cpp	2026-09-28 16:24:33.788047768 -0700
++++ voltwin/volt.cpp	2026-09-28 16:29:59.123448321 -0700
+@@ -30,6 +30,7 @@
+ #include "utils/edgelist.h"
+ #include "utils/continuousrank.h"
+ #include "order/order_rand.h"
++#include "utils/glibc_rand.h"
+ #include "order/order_deg.h"
+ #include "order/order_triangles.h"
+ #include "order/order_kcore.h"
+@@ -68,7 +69,7 @@
+   vector<ul> rank;
+   Edgelist* h = NULL;
+   Adjlist* g = NULL;
+-  srand(random_seed); // initialise randomness reproducibly
++  glibcrand::srand_(random_seed); // initialise randomness reproducibly
+   omp_set_num_threads(parallel_threads);
+   if(parallel_threads > 1) { Info("Running "<< parallel_threads <<" parallel threads") }
+ 
+@@ -89,7 +90,7 @@
+     rank = order_identity(n);
+ 
+ 		if(ordering == "rand")
+-    	random_shuffle( rank.begin(), rank.end() );
++    	glibcrand::random_shuffle_( rank.begin(), rank.end() );
+ 	}
+   else if(ordering == "degDesc") rank = order_deg(*h, /*desc=*/true);
+   else if(ordering == "deg" or ordering == "degAsc") rank = order_deg(*h, /*desc=*/false);

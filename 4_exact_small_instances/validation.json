@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "counts": {
+    "labelled_graphs": 76,
+    "orders": 1590,
+    "fractional_certificates": 1212,
+    "concave_quadratic": 300,
+    "insertion_proposals": 30000,
+    "sparse_dense": 24,
+    "finite_difference_coordinates": 99
+  },
+  "max_dense_sparse_gradient_error": 5.3290705182007514e-14,
+  "max_finite_difference_error": 2.641690244331585e-08,
+  "seconds": 11.070179200003622
+}

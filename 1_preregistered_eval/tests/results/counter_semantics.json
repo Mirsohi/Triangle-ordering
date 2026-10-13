@@ -1,0 +1,888 @@
+{
+ "summary": {
+  "synthetic dev (12)": {
+   "mean_gain": {
+    "paper": 16.85211070157754,
+    "historical": 16.818829854756824
+   },
+   "paper_better_graphs": 4,
+   "ties": 4,
+   "graphs": 12
+  },
+  "public (4)": {
+   "mean_gain": {
+    "paper": 6.461112206606134,
+    "historical": 6.54381992552458
+   },
+   "paper_better_graphs": 2,
+   "ties": 0,
+   "graphs": 4
+  }
+ },
+ "rows": [
+  {
+   "graph": "ba-0",
+   "seed": 1,
+   "semantics": "paper",
+   "seconds": 1.0,
+   "R": 586,
+   "work": 490,
+   "gain": 16.38225255972696
+  },
+  {
+   "graph": "ba-0",
+   "seed": 1,
+   "semantics": "historical",
+   "seconds": 1.0,
+   "R": 586,
+   "work": 493,
+   "gain": 15.870307167235495
+  },
+  {
+   "graph": "ba-0",
+   "seed": 2,
+   "semantics": "paper",
+   "seconds": 1.0,
+   "R": 586,
+   "work": 490,
+   "gain": 16.38225255972696
+  },
+  {
+   "graph": "ba-0",
+   "seed": 2,
+   "semantics": "historical",
+   "seconds": 1.0,
+   "R": 586,
+   "work": 493,
+   "gain": 15.870307167235495
+  },
+  {
+   "graph": "ba-0",
+   "seed": 3,
+   "semantics": "paper",
+   "seconds": 1.0,
+   "R": 586,
+   "work": 490,
+   "gain": 16.38225255972696
+  },
+  {
+   "graph": "ba-0",
+   "seed": 3,
+   "semantics": "historical",
+   "seconds": 1.0,
+   "R": 586,
+   "work": 490,
+   "gain": 16.38225255972696
+  },
+  {
+   "graph": "core_periphery-0",
+   "seed": 1,
+   "semantics": "paper",
+   "seconds": 1.0,
+   "R": 245,
+   "work": 209,
+   "gain": 14.693877551020408
+  },
+  {
+   "graph": "core_periphery-0",
+   "seed": 1,
+   "semantics": "historical",
+   "seconds": 1.0,
+   "R": 245,
+   "work": 209,
+   "gain": 14.693877551020408
+  },
+  {
+   "graph": "core_periphery-0",
+   "seed": 2,
+   "semantics": "paper",
+   "seconds": 1.0,
+   "R": 245,
+   "work": 209,
+   "gain": 14.693877551020408
+  },
+  {
+   "graph": "core_periphery-0",
+   "seed": 2,
+   "semantics": "historical",
+   "seconds": 1.0,
+   "R": 245,
+   "work": 209,
+   "gain": 14.693877551020408
+  },
+  {
+   "graph": "core_periphery-0",
+   "seed": 3,
+   "semantics": "paper",
+   "seconds": 1.0,
+   "R": 245,
+   "work": 209,
+   "gain": 14.693877551020408
+  },
+  {
+   "graph": "core_periphery-0",
+   "seed": 3,
+   "semantics": "historical",
+   "seconds": 1.0,
+   "R": 245,
+   "work": 209,
+   "gain": 14.693877551020408
+  },
+  {
+   "graph": "er-0",
+   "seed": 1,
+   "semantics": "paper",
+   "seconds": 1.0,
+   "R": 1625,
+   "work": 1377,
+   "gain": 15.261538461538462
+  },
+  {
+   "graph": "er-0",
+   "seed": 1,
+   "semantics": "historical",
+   "seconds": 1.0,
+   "R": 1625,
+   "work": 1377,
+   "gain": 15.261538461538462
+  },
+  {
+   "graph": "er-0",
+   "seed": 2,
+   "semantics": "paper",
+   "seconds": 1.0,
+   "R": 1625,
+   "work": 1377,
+   "gain": 15.261538461538462
+  },
+  {
+   "graph": "er-0",
+   "seed": 2,
+   "semantics": "historical",
+   "seconds": 1.0,
+   "R": 1625,
+   "work": 1377,
+   "gain": 15.261538461538462
+  },
+  {
+   "graph": "er-0",
+   "seed": 3,
+   "semantics": "paper",
+   "seconds": 1.0,
+   "R": 1625,
+   "work": 1377,
+   "gain": 15.261538461538462
+  },
+  {
+   "graph": "er-0",
+   "seed": 3,
+   "semantics": "historical",
+   "seconds": 1.0,
+   "R": 1625,
+   "work": 1377,
+   "gain": 15.261538461538462
+  },
+  {
+   "graph": "powerlaw_cluster-0",
+   "seed": 1,
+   "semantics": "paper",
+   "seconds": 1.0,
+   "R": 544,
+   "work": 497,
+   "gain": 8.639705882352942
+  },
+  {
+   "graph": "powerlaw_cluster-0",
+   "seed": 1,
+   "semantics": "historical",
+   "seconds": 1.0,
+   "R": 544,
+   "work": 497,
+   "gain": 8.639705882352942
+  },
+  {
+   "graph": "powerlaw_cluster-0",
+   "seed": 2,
+   "semantics": "paper",
+   "seconds": 1.0,
+   "R": 544,
+   "work": 497,
+   "gain": 8.639705882352942
+  },
+  {
+   "graph": "powerlaw_cluster-0",
+   "seed": 2,
+   "semantics": "historical",
+   "seconds": 1.0,
+   "R": 544,
+   "work": 497,
+   "gain": 8.639705882352942
+  },
+  {
+   "graph": "powerlaw_cluster-0",
+   "seed": 3,
+   "semantics": "paper",
+   "seconds": 1.0,
+   "R": 544,
+   "work": 497,
+   "gain": 8.639705882352942
+  },
+  {
+   "graph": "powerlaw_cluster-0",
+   "seed": 3,
+   "semantics": "historical",
+   "seconds": 1.0,
+   "R": 544,
+   "work": 497,
+   "gain": 8.639705882352942
+  },
+  {
+   "graph": "sbm-0",
+   "seed": 1,
+   "semantics": "paper",
+   "seconds": 1.0,
+   "R": 43,
+   "work": 29,
+   "gain": 32.55813953488372
+  },
+  {
+   "graph": "sbm-0",
+   "seed": 1,
+   "semantics": "historical",
+   "seconds": 1.0,
+   "R": 43,
+   "work": 29,
+   "gain": 32.55813953488372
+  },
+  {
+   "graph": "sbm-0",
+   "seed": 2,
+   "semantics": "paper",
+   "seconds": 1.0,
+   "R": 43,
+   "work": 30,
+   "gain": 30.232558139534884
+  },
+  {
+   "graph": "sbm-0",
+   "seed": 2,
+   "semantics": "historical",
+   "seconds": 1.0,
+   "R": 43,
+   "work": 30,
+   "gain": 30.232558139534884
+  },
+  {
+   "graph": "sbm-0",
+   "seed": 3,
+   "semantics": "paper",
+   "seconds": 1.0,
+   "R": 43,
+   "work": 29,
+   "gain": 32.55813953488372
+  },
+  {
+   "graph": "sbm-0",
+   "seed": 3,
+   "semantics": "historical",
+   "seconds": 1.0,
+   "R": 43,
+   "work": 30,
+   "gain": 30.232558139534884
+  },
+  {
+   "graph": "ws-0",
+   "seed": 1,
+   "semantics": "paper",
+   "seconds": 1.0,
+   "R": 2221,
+   "work": 1860,
+   "gain": 16.25393966681675
+  },
+  {
+   "graph": "ws-0",
+   "seed": 1,
+   "semantics": "historical",
+   "seconds": 1.0,
+   "R": 2221,
+   "work": 1850,
+   "gain": 16.70418730301666
+  },
+  {
+   "graph": "ws-0",
+   "seed": 2,
+   "semantics": "paper",
+   "seconds": 1.0,
+   "R": 2221,
+   "work": 1861,
+   "gain": 16.208914903196757
+  },
+  {
+   "graph": "ws-0",
+   "seed": 2,
+   "semantics": "historical",
+   "seconds": 1.0,
+   "R": 2221,
+   "work": 1864,
+   "gain": 16.073840612336785
+  },
+  {
+   "graph": "ws-0",
+   "seed": 3,
+   "semantics": "paper",
+   "seconds": 1.0,
+   "R": 2221,
+   "work": 1858,
+   "gain": 16.343989194056732
+  },
+  {
+   "graph": "ws-0",
+   "seed": 3,
+   "semantics": "historical",
+   "seconds": 1.0,
+   "R": 2221,
+   "work": 1860,
+   "gain": 16.25393966681675
+  },
+  {
+   "graph": "ba-1",
+   "seed": 1,
+   "semantics": "paper",
+   "seconds": 1.0,
+   "R": 1577,
+   "work": 1304,
+   "gain": 17.31135066582118
+  },
+  {
+   "graph": "ba-1",
+   "seed": 1,
+   "semantics": "historical",
+   "seconds": 1.0,
+   "R": 1577,
+   "work": 1296,
+   "gain": 17.81864299302473
+  },
+  {
+   "graph": "ba-1",
+   "seed": 2,
+   "semantics": "paper",
+   "seconds": 1.0,
+   "R": 1577,
+   "work": 1284,
+   "gain": 18.579581483830058
+  },
+  {
+   "graph": "ba-1",
+   "seed": 2,
+   "semantics": "historical",
+   "seconds": 1.0,
+   "R": 1577,
+   "work": 1284,
+   "gain": 18.579581483830058
+  },
+  {
+   "graph": "ba-1",
+   "seed": 3,
+   "semantics": "paper",
+   "seconds": 1.0,
+   "R": 1577,
+   "work": 1303,
+   "gain": 17.374762206721623
+  },
+  {
+   "graph": "ba-1",
+   "seed": 3,
+   "semantics": "historical",
+   "seconds": 1.0,
+   "R": 1577,
+   "work": 1284,
+   "gain": 18.579581483830058
+  },
+  {
+   "graph": "core_periphery-1",
+   "seed": 1,
+   "semantics": "paper",
+   "seconds": 1.0,
+   "R": 1025,
+   "work": 794,
+   "gain": 22.536585365853657
+  },
+  {
+   "graph": "core_periphery-1",
+   "seed": 1,
+   "semantics": "historical",
+   "seconds": 1.0,
+   "R": 1025,
+   "work": 794,
+   "gain": 22.536585365853657
+  },
+  {
+   "graph": "core_periphery-1",
+   "seed": 2,
+   "semantics": "paper",
+   "seconds": 1.0,
+   "R": 1025,
+   "work": 793,
+   "gain": 22.634146341463413
+  },
+  {
+   "graph": "core_periphery-1",
+   "seed": 2,
+   "semantics": "historical",
+   "seconds": 1.0,
+   "R": 1025,
+   "work": 794,
+   "gain": 22.536585365853657
+  },
+  {
+   "graph": "core_periphery-1",
+   "seed": 3,
+   "semantics": "paper",
+   "seconds": 1.0,
+   "R": 1025,
+   "work": 793,
+   "gain": 22.634146341463413
+  },
+  {
+   "graph": "core_periphery-1",
+   "seed": 3,
+   "semantics": "historical",
+   "seconds": 1.0,
+   "R": 1025,
+   "work": 794,
+   "gain": 22.536585365853657
+  },
+  {
+   "graph": "er-1",
+   "seed": 1,
+   "semantics": "paper",
+   "seconds": 1.0,
+   "R": 3279,
+   "work": 2882,
+   "gain": 12.107349801768832
+  },
+  {
+   "graph": "er-1",
+   "seed": 1,
+   "semantics": "historical",
+   "seconds": 1.0,
+   "R": 3279,
+   "work": 2893,
+   "gain": 11.771881671241232
+  },
+  {
+   "graph": "er-1",
+   "seed": 2,
+   "semantics": "paper",
+   "seconds": 1.0,
+   "R": 3279,
+   "work": 2844,
+   "gain": 13.266239707227813
+  },
+  {
+   "graph": "er-1",
+   "seed": 2,
+   "semantics": "historical",
+   "seconds": 1.0,
+   "R": 3279,
+   "work": 2844,
+   "gain": 13.266239707227813
+  },
+  {
+   "graph": "er-1",
+   "seed": 3,
+   "semantics": "paper",
+   "seconds": 1.0,
+   "R": 3279,
+   "work": 2844,
+   "gain": 13.266239707227813
+  },
+  {
+   "graph": "er-1",
+   "seed": 3,
+   "semantics": "historical",
+   "seconds": 1.0,
+   "R": 3279,
+   "work": 2844,
+   "gain": 13.266239707227813
+  },
+  {
+   "graph": "powerlaw_cluster-1",
+   "seed": 1,
+   "semantics": "paper",
+   "seconds": 1.0,
+   "R": 1444,
+   "work": 1346,
+   "gain": 6.786703601108033
+  },
+  {
+   "graph": "powerlaw_cluster-1",
+   "seed": 1,
+   "semantics": "historical",
+   "seconds": 1.0,
+   "R": 1444,
+   "work": 1342,
+   "gain": 7.06371191135734
+  },
+  {
+   "graph": "powerlaw_cluster-1",
+   "seed": 2,
+   "semantics": "paper",
+   "seconds": 1.0,
+   "R": 1444,
+   "work": 1346,
+   "gain": 6.786703601108033
+  },
+  {
+   "graph": "powerlaw_cluster-1",
+   "seed": 2,
+   "semantics": "historical",
+   "seconds": 1.0,
+   "R": 1444,
+   "work": 1341,
+   "gain": 7.132963988919667
+  },
+  {
+   "graph": "powerlaw_cluster-1",
+   "seed": 3,
+   "semantics": "paper",
+   "seconds": 1.0,
+   "R": 1444,
+   "work": 1342,
+   "gain": 7.06371191135734
+  },
+  {
+   "graph": "powerlaw_cluster-1",
+   "seed": 3,
+   "semantics": "historical",
+   "seconds": 1.0,
+   "R": 1444,
+   "work": 1342,
+   "gain": 7.06371191135734
+  },
+  {
+   "graph": "sbm-1",
+   "seed": 1,
+   "semantics": "paper",
+   "seconds": 1.0,
+   "R": 297,
+   "work": 212,
+   "gain": 28.61952861952862
+  },
+  {
+   "graph": "sbm-1",
+   "seed": 1,
+   "semantics": "historical",
+   "seconds": 1.0,
+   "R": 297,
+   "work": 212,
+   "gain": 28.61952861952862
+  },
+  {
+   "graph": "sbm-1",
+   "seed": 2,
+   "semantics": "paper",
+   "seconds": 1.0,
+   "R": 297,
+   "work": 212,
+   "gain": 28.61952861952862
+  },
+  {
+   "graph": "sbm-1",
+   "seed": 2,
+   "semantics": "historical",
+   "seconds": 1.0,
+   "R": 297,
+   "work": 212,
+   "gain": 28.61952861952862
+  },
+  {
+   "graph": "sbm-1",
+   "seed": 3,
+   "semantics": "paper",
+   "seconds": 1.0,
+   "R": 297,
+   "work": 212,
+   "gain": 28.61952861952862
+  },
+  {
+   "graph": "sbm-1",
+   "seed": 3,
+   "semantics": "historical",
+   "seconds": 1.0,
+   "R": 297,
+   "work": 212,
+   "gain": 28.61952861952862
+  },
+  {
+   "graph": "ws-1",
+   "seed": 1,
+   "semantics": "paper",
+   "seconds": 1.0,
+   "R": 4117,
+   "work": 3688,
+   "gain": 10.420208889968423
+  },
+  {
+   "graph": "ws-1",
+   "seed": 1,
+   "semantics": "historical",
+   "seconds": 1.0,
+   "R": 4117,
+   "work": 3683,
+   "gain": 10.541656546028662
+  },
+  {
+   "graph": "ws-1",
+   "seed": 2,
+   "semantics": "paper",
+   "seconds": 1.0,
+   "R": 4117,
+   "work": 3688,
+   "gain": 10.420208889968423
+  },
+  {
+   "graph": "ws-1",
+   "seed": 2,
+   "semantics": "historical",
+   "seconds": 1.0,
+   "R": 4117,
+   "work": 3683,
+   "gain": 10.541656546028662
+  },
+  {
+   "graph": "ws-1",
+   "seed": 3,
+   "semantics": "paper",
+   "seconds": 1.0,
+   "R": 4117,
+   "work": 3683,
+   "gain": 10.541656546028662
+  },
+  {
+   "graph": "ws-1",
+   "seed": 3,
+   "semantics": "historical",
+   "seconds": 1.0,
+   "R": 4117,
+   "work": 3688,
+   "gain": 10.420208889968423
+  },
+  {
+   "graph": "Bitcoin-Alpha",
+   "seed": 1,
+   "semantics": "paper",
+   "seconds": 3.0,
+   "R": 74394,
+   "work": 67353,
+   "gain": 9.464472941366239
+  },
+  {
+   "graph": "Bitcoin-Alpha",
+   "seed": 1,
+   "semantics": "historical",
+   "seconds": 3.0,
+   "R": 74394,
+   "work": 67283,
+   "gain": 9.558566551065946
+  },
+  {
+   "graph": "Bitcoin-Alpha",
+   "seed": 2,
+   "semantics": "paper",
+   "seconds": 3.0,
+   "R": 74394,
+   "work": 67277,
+   "gain": 9.566631717611635
+  },
+  {
+   "graph": "Bitcoin-Alpha",
+   "seed": 2,
+   "semantics": "historical",
+   "seconds": 3.0,
+   "R": 74394,
+   "work": 67257,
+   "gain": 9.593515606097267
+  },
+  {
+   "graph": "Bitcoin-Alpha",
+   "seed": 3,
+   "semantics": "paper",
+   "seconds": 3.0,
+   "R": 74394,
+   "work": 67334,
+   "gain": 9.490012635427588
+  },
+  {
+   "graph": "Bitcoin-Alpha",
+   "seed": 3,
+   "semantics": "historical",
+   "seconds": 3.0,
+   "R": 74394,
+   "work": 67319,
+   "gain": 9.51017555179181
+  },
+  {
+   "graph": "P2P-Gnutella05",
+   "seed": 1,
+   "semantics": "paper",
+   "seconds": 3.0,
+   "R": 54862,
+   "work": 52304,
+   "gain": 4.662607998250155
+  },
+  {
+   "graph": "P2P-Gnutella05",
+   "seed": 1,
+   "semantics": "historical",
+   "seconds": 3.0,
+   "R": 54862,
+   "work": 52166,
+   "gain": 4.914148226459115
+  },
+  {
+   "graph": "P2P-Gnutella05",
+   "seed": 2,
+   "semantics": "paper",
+   "seconds": 3.0,
+   "R": 54862,
+   "work": 52161,
+   "gain": 4.923262002843498
+  },
+  {
+   "graph": "P2P-Gnutella05",
+   "seed": 2,
+   "semantics": "historical",
+   "seconds": 3.0,
+   "R": 54862,
+   "work": 52020,
+   "gain": 5.180270496883089
+  },
+  {
+   "graph": "P2P-Gnutella05",
+   "seed": 3,
+   "semantics": "paper",
+   "seconds": 3.0,
+   "R": 54862,
+   "work": 52353,
+   "gain": 4.573292989683205
+  },
+  {
+   "graph": "P2P-Gnutella05",
+   "seed": 3,
+   "semantics": "historical",
+   "seconds": 3.0,
+   "R": 54862,
+   "work": 52120,
+   "gain": 4.997994969195436
+  },
+  {
+   "graph": "Loc-Brightkite",
+   "seed": 1,
+   "semantics": "paper",
+   "seconds": 3.0,
+   "R": 1428426,
+   "work": 1311727,
+   "gain": 8.169761681739201
+  },
+  {
+   "graph": "Loc-Brightkite",
+   "seed": 1,
+   "semantics": "historical",
+   "seconds": 3.0,
+   "R": 1428426,
+   "work": 1311437,
+   "gain": 8.190063748489596
+  },
+  {
+   "graph": "Loc-Brightkite",
+   "seed": 2,
+   "semantics": "paper",
+   "seconds": 3.0,
+   "R": 1428426,
+   "work": 1309909,
+   "gain": 8.297034638126162
+  },
+  {
+   "graph": "Loc-Brightkite",
+   "seed": 2,
+   "semantics": "historical",
+   "seconds": 3.0,
+   "R": 1428426,
+   "work": 1310126,
+   "gain": 8.281843091626728
+  },
+  {
+   "graph": "Loc-Brightkite",
+   "seed": 3,
+   "semantics": "paper",
+   "seconds": 3.0,
+   "R": 1428426,
+   "work": 1310155,
+   "gain": 8.279812884951689
+  },
+  {
+   "graph": "Loc-Brightkite",
+   "seed": 3,
+   "semantics": "historical",
+   "seconds": 3.0,
+   "R": 1428426,
+   "work": 1310921,
+   "gain": 8.226187425879955
+  },
+  {
+   "graph": "GitHub",
+   "seed": 1,
+   "semantics": "paper",
+   "seconds": 3.0,
+   "R": 1997990,
+   "work": 1930733,
+   "gain": 3.366233064229551
+  },
+  {
+   "graph": "GitHub",
+   "seed": 1,
+   "semantics": "historical",
+   "seconds": 3.0,
+   "R": 1997990,
+   "work": 1930876,
+   "gain": 3.359075871250607
+  },
+  {
+   "graph": "GitHub",
+   "seed": 2,
+   "semantics": "paper",
+   "seconds": 3.0,
+   "R": 1997990,
+   "work": 1930632,
+   "gain": 3.3712881445853085
+  },
+  {
+   "graph": "GitHub",
+   "seed": 2,
+   "semantics": "historical",
+   "seconds": 3.0,
+   "R": 1997990,
+   "work": 1930686,
+   "gain": 3.3685854283554972
+  },
+  {
+   "graph": "GitHub",
+   "seed": 3,
+   "semantics": "paper",
+   "seconds": 3.0,
+   "R": 1997990,
+   "work": 1930679,
+   "gain": 3.3689357804593616
+  },
+  {
+   "graph": "GitHub",
+   "seed": 3,
+   "semantics": "historical",
+   "seconds": 3.0,
+   "R": 1997990,
+   "work": 1931149,
+   "gain": 3.345412139199896
+  }
+ ]
+}

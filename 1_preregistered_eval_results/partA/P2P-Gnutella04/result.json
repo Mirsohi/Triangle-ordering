@@ -1,0 +1,291 @@
+{
+ "name": "P2P-Gnutella04",
+ "label": "P2P-Gnutella04",
+ "split": "Audit",
+ "part": "A",
+ "quick": false,
+ "local": false,
+ "started": "2026-09-28T07:58:18Z",
+ "n": 10876,
+ "m": 39994,
+ "provenance": {
+  "url": "https://snap.stanford.edu/data/p2p-Gnutella04.txt.gz",
+  "test_url_override": false,
+  "download": [
+   {
+    "attempt": 1,
+    "ok": true,
+    "time": 1790582298.5707178
+   }
+  ],
+  "compressed_sha256": "44b7bf7b2238dc1fae8f50146b769b803ed7455e1fd7a598daebce319803397e",
+  "edge_file_bytes": 431145,
+  "sha256_matches_manifest": true,
+  "bytes_match_manifest": true,
+  "parse_seconds": 0.04721900000004098,
+  "dense_edges_sha256": "c897866f88ed01226199a93cbde5bedf94ae2c1eb10dd4fc4a4b2d17661bec0a"
+ },
+ "checks": {
+  "n_matches_artifact": true,
+  "m_matches_artifact": true,
+  "stored_neigh_labels": [
+   "NeighStored2"
+  ],
+  "stored_neigh_work": 73280,
+  "stored_neigh_work_matches": true,
+  "artifact_reference_work": 73280
+ },
+ "status": "done",
+ "finished": "2026-09-28T07:58:21Z",
+ "graph_seconds": 3.4161402999998245,
+ "reference": {
+  "label": "NeighStored2",
+  "work": 73280,
+  "forward_min": 73280,
+  "forward_min_label": "NeighStored2",
+  "candidate_works": {
+   "Natural": 153534,
+   "Natural-rev": 139451,
+   "Random": 130670,
+   "Random-rev": 133925,
+   "Degree": 111929,
+   "Degree-rev": 138957,
+   "Core": 174613,
+   "Core-rev": 175532,
+   "SmallestLast": 175984,
+   "SmallestLast-rev": 175875,
+   "Split": 109919,
+   "Split-rev": 109530,
+   "Check": 83856,
+   "Check-rev": 83008,
+   "NeighStored2": 73280,
+   "NeighStored2-rev": 73511
+  },
+  "builtin_seconds": {
+   "Natural": 1.0700000075303251e-05,
+   "Random": 0.0002675999999155465,
+   "Degree": 0.0018448999999236548,
+   "Core": 0.0835108000001128,
+   "SmallestLast": 0.002421600000161561,
+   "Split": 0.0013954000000921951,
+   "Check": 0.0553436000000147
+  },
+  "seconds": 0.16756220000024769,
+  "neigh_candidates": [
+   "NeighStored2"
+  ]
+ },
+ "T": {
+  "work": 71099,
+  "rounds": 7,
+  "improving_rounds": 6,
+  "start_work": 73280,
+  "first_round_s": 0.00033540000003995374,
+  "stopped": "converged",
+  "seconds": 0.0024803999999676307
+ },
+ "DOVE": {
+  "work": 70802,
+  "seconds": 0.7313464000003478,
+  "inner_seconds": 0.7305479999999989,
+  "initial_work": 73280
+ },
+ "budget": 0.7313464000003478,
+ "TILS": {
+  "1": {
+   "work": 69519,
+   "info": {
+    "budget": 0.7313464000003478,
+    "seed": 1,
+    "start_work": 73280,
+    "T_phase": {
+     "rounds": 7,
+     "improving_rounds": 6,
+     "start_work": 73280,
+     "first_round_s": 0.00033759999996618717,
+     "stopped": "converged",
+     "seconds": 0.0024967999997898005,
+     "seconds_since_start": 0.006774999999834108,
+     "work": 71099
+    },
+    "reserve": 0.0024967999997898005,
+    "status": "finished",
+    "ils": {
+     "proposals": 756992,
+     "accepted": 91497,
+     "improving": 1226,
+     "kicks": 21,
+     "chunks": 2957,
+     "undone_moves": 32322,
+     "incumbent_updates": 600,
+     "relabels": 0,
+     "relabel_work": 0,
+     "calls": 106,
+     "final_undo": 443
+    },
+    "ils_end": 0.7288641999998617,
+    "ils_incumbent_work": 69546,
+    "final_T": {
+     "rounds": 3,
+     "improving_rounds": 2,
+     "start_work": 69546,
+     "first_round_s": 0.000320099999953527,
+     "stopped": "converged"
+    },
+    "total_seconds": 0.7301624000001539,
+    "overshoot": 0.0
+   }
+  },
+  "2": {
+   "work": 69597,
+   "info": {
+    "budget": 0.7313464000003478,
+    "seed": 2,
+    "start_work": 73280,
+    "T_phase": {
+     "rounds": 7,
+     "improving_rounds": 6,
+     "start_work": 73280,
+     "first_round_s": 0.0003495999999358901,
+     "stopped": "converged",
+     "seconds": 0.0024730000000090513,
+     "seconds_since_start": 0.006440999999995256,
+     "work": 71099
+    },
+    "reserve": 0.0024730000000090513,
+    "status": "finished",
+    "ils": {
+     "proposals": 748032,
+     "accepted": 90198,
+     "improving": 1162,
+     "kicks": 20,
+     "chunks": 2922,
+     "undone_moves": 30813,
+     "incumbent_updates": 579,
+     "relabels": 0,
+     "relabel_work": 0,
+     "calls": 106,
+     "final_undo": 1492
+    },
+    "ils_end": 0.7290702000000238,
+    "ils_incumbent_work": 69624,
+    "final_T": {
+     "rounds": 3,
+     "improving_rounds": 2,
+     "start_work": 69624,
+     "first_round_s": 0.0003666000002340297,
+     "stopped": "converged"
+    },
+    "total_seconds": 0.7306527000000642,
+    "overshoot": 0.0
+   }
+  },
+  "3": {
+   "work": 69543,
+   "info": {
+    "budget": 0.7313464000003478,
+    "seed": 3,
+    "start_work": 73280,
+    "T_phase": {
+     "rounds": 7,
+     "improving_rounds": 6,
+     "start_work": 73280,
+     "first_round_s": 0.0003480999998828338,
+     "stopped": "converged",
+     "seconds": 0.0032825999996930477,
+     "seconds_since_start": 0.007193600000391598,
+     "work": 71099
+    },
+    "reserve": 0.0032825999996930477,
+    "status": "finished",
+    "ils": {
+     "proposals": 748800,
+     "accepted": 89940,
+     "improving": 1103,
+     "kicks": 18,
+     "chunks": 2925,
+     "undone_moves": 27274,
+     "incumbent_updates": 586,
+     "relabels": 0,
+     "relabel_work": 0,
+     "calls": 106,
+     "final_undo": 544
+    },
+    "ils_end": 0.7282201000002715,
+    "ils_incumbent_work": 69566,
+    "final_T": {
+     "rounds": 3,
+     "improving_rounds": 2,
+     "start_work": 69566,
+     "first_round_s": 0.0003268999998908839,
+     "stopped": "converged"
+    },
+    "total_seconds": 0.7295271000002685,
+    "overshoot": 0.0
+   }
+  }
+ },
+ "verification": {
+  "orders": {
+   "Rstar": {
+    "file": "D:\\Work\\Triangle Ordering\\pc_eval_results\\partA\\P2P-Gnutella04\\orders\\Rstar.npy",
+    "permutation": true,
+    "claimed": 73280,
+    "dove_work": 73280,
+    "lister_probes": 73280,
+    "triangles": 934,
+    "ok": true
+   },
+   "T": {
+    "file": "D:\\Work\\Triangle Ordering\\pc_eval_results\\partA\\P2P-Gnutella04\\orders\\T.npy",
+    "permutation": true,
+    "claimed": 71099,
+    "dove_work": 71099,
+    "lister_probes": 71099,
+    "triangles": 934,
+    "ok": true
+   },
+   "DOVE": {
+    "file": "D:\\Work\\Triangle Ordering\\pc_eval_results\\partA\\P2P-Gnutella04\\orders\\DOVE.npy",
+    "permutation": true,
+    "claimed": 70802,
+    "dove_work": 70802,
+    "lister_probes": 70802,
+    "triangles": 934,
+    "ok": true
+   },
+   "TILS_seed1": {
+    "file": "D:\\Work\\Triangle Ordering\\pc_eval_results\\partA\\P2P-Gnutella04\\orders\\TILS_seed1.npy",
+    "permutation": true,
+    "claimed": 69519,
+    "dove_work": 69519,
+    "lister_probes": 69519,
+    "triangles": 934,
+    "ok": true
+   },
+   "TILS_seed2": {
+    "file": "D:\\Work\\Triangle Ordering\\pc_eval_results\\partA\\P2P-Gnutella04\\orders\\TILS_seed2.npy",
+    "permutation": true,
+    "claimed": 69597,
+    "dove_work": 69597,
+    "lister_probes": 69597,
+    "triangles": 934,
+    "ok": true
+   },
+   "TILS_seed3": {
+    "file": "D:\\Work\\Triangle Ordering\\pc_eval_results\\partA\\P2P-Gnutella04\\orders\\TILS_seed3.npy",
+    "permutation": true,
+    "claimed": 69543,
+    "dove_work": 69543,
+    "lister_probes": 69543,
+    "triangles": 934,
+    "ok": true
+   }
+  },
+  "triangles": [
+   934
+  ],
+  "all_ok": true,
+  "n_orders": 6
+ }
+}

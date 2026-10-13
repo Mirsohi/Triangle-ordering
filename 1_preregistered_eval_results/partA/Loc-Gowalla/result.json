@@ -1,0 +1,291 @@
+{
+ "name": "Loc-Gowalla",
+ "label": "Loc-Gowalla",
+ "split": "Audit",
+ "part": "A",
+ "quick": false,
+ "local": false,
+ "started": "2026-09-28T08:10:06Z",
+ "n": 196591,
+ "m": 950327,
+ "provenance": {
+  "url": "https://snap.stanford.edu/data/loc-gowalla_edges.txt.gz",
+  "test_url_override": false,
+  "download": [
+   {
+    "attempt": 1,
+    "ok": true,
+    "time": 1790583006.788677
+   }
+  ],
+  "compressed_sha256": "ac54352b60aca48eb1c63e94e7002808a29fa232b090539a0088b4907c847421",
+  "edge_file_bytes": 22119160,
+  "sha256_matches_manifest": true,
+  "bytes_match_manifest": true,
+  "parse_seconds": 2.051934400000391,
+  "dense_edges_sha256": "895446491bc95bb18aa7f3c49c70b8d15eed5aca018c39400cd20203cdec9a81"
+ },
+ "checks": {
+  "n_matches_artifact": true,
+  "m_matches_artifact": true,
+  "stored_neigh_labels": [
+   "NeighStored5"
+  ],
+  "stored_neigh_work": 8631304,
+  "stored_neigh_work_matches": true,
+  "artifact_reference_work": 8631304
+ },
+ "status": "done",
+ "finished": "2026-09-28T08:12:37Z",
+ "graph_seconds": 151.50969619999978,
+ "reference": {
+  "label": "NeighStored5",
+  "work": 8631304,
+  "forward_min": 8631304,
+  "forward_min_label": "NeighStored5",
+  "candidate_works": {
+   "Natural": 15819781,
+   "Natural-rev": 11036158,
+   "Random": 12348439,
+   "Random-rev": 12151072,
+   "Degree": 9953166,
+   "Degree-rev": 16218691,
+   "Core": 11507989,
+   "Core-rev": 16942307,
+   "SmallestLast": 11348368,
+   "SmallestLast-rev": 16911709,
+   "Split": 9973500,
+   "Split-rev": 9900664,
+   "Check": 9029279,
+   "Check-rev": 9053200,
+   "NeighStored5": 8631304,
+   "NeighStored5-rev": 8634761
+  },
+  "builtin_seconds": {
+   "Natural": 0.0002190000004702597,
+   "Random": 0.004181599999355967,
+   "Degree": 0.028752399999575573,
+   "Core": 2.995452199999818,
+   "SmallestLast": 0.06932149999920512,
+   "Split": 0.02971209999941493,
+   "Check": 1.0610153999996328
+  },
+  "seconds": 5.219729299999926,
+  "neigh_candidates": [
+   "NeighStored5"
+  ]
+ },
+ "T": {
+  "work": 7759174,
+  "rounds": 41,
+  "improving_rounds": 40,
+  "start_work": 8631304,
+  "first_round_s": 0.013007900000047812,
+  "stopped": "converged",
+  "seconds": 0.6111135999999533
+ },
+ "DOVE": {
+  "work": 7807255,
+  "seconds": 35.329006500000105,
+  "inner_seconds": 35.291165399999954,
+  "initial_work": 8631304
+ },
+ "budget": 35.329006500000105,
+ "TILS": {
+  "1": {
+   "work": 7714544,
+   "info": {
+    "budget": 35.329006500000105,
+    "seed": 1,
+    "start_work": 8631304,
+    "T_phase": {
+     "rounds": 41,
+     "improving_rounds": 40,
+     "start_work": 8631304,
+     "first_round_s": 0.015172099999290367,
+     "stopped": "converged",
+     "seconds": 0.6203632999995534,
+     "seconds_since_start": 0.7615992000000915,
+     "work": 7759174
+    },
+    "reserve": 0.6203632999995534,
+    "status": "finished",
+    "ils": {
+     "proposals": 345600,
+     "accepted": 45449,
+     "improving": 5785,
+     "kicks": 0,
+     "chunks": 1350,
+     "undone_moves": 0,
+     "incumbent_updates": 1334,
+     "relabels": 10,
+     "relabel_work": 30,
+     "calls": 105,
+     "final_undo": 0
+    },
+    "ils_end": 34.72358499999973,
+    "ils_incumbent_work": 7730426,
+    "final_T": {
+     "rounds": 20,
+     "improving_rounds": 19,
+     "start_work": 7730426,
+     "first_round_s": 0.015821900000446476,
+     "stopped": "converged"
+    },
+    "total_seconds": 35.032678399999895,
+    "overshoot": 0.0
+   }
+  },
+  "2": {
+   "work": 7714961,
+   "info": {
+    "budget": 35.329006500000105,
+    "seed": 2,
+    "start_work": 8631304,
+    "T_phase": {
+     "rounds": 41,
+     "improving_rounds": 40,
+     "start_work": 8631304,
+     "first_round_s": 0.014208700000381214,
+     "stopped": "converged",
+     "seconds": 0.618762300000526,
+     "seconds_since_start": 0.7543408000001364,
+     "work": 7759174
+    },
+    "reserve": 0.618762300000526,
+    "status": "finished",
+    "ils": {
+     "proposals": 352512,
+     "accepted": 46238,
+     "improving": 5839,
+     "kicks": 0,
+     "chunks": 1377,
+     "undone_moves": 0,
+     "incumbent_updates": 1354,
+     "relabels": 10,
+     "relabel_work": 30,
+     "calls": 103,
+     "final_undo": 0
+    },
+    "ils_end": 34.71725940000033,
+    "ils_incumbent_work": 7730257,
+    "final_T": {
+     "rounds": 10,
+     "improving_rounds": 9,
+     "start_work": 7730257,
+     "first_round_s": 0.015207999999802269,
+     "stopped": "converged"
+    },
+    "total_seconds": 34.87465020000036,
+    "overshoot": 0.0
+   }
+  },
+  "3": {
+   "work": 7714589,
+   "info": {
+    "budget": 35.329006500000105,
+    "seed": 3,
+    "start_work": 8631304,
+    "T_phase": {
+     "rounds": 41,
+     "improving_rounds": 40,
+     "start_work": 8631304,
+     "first_round_s": 0.015596000000186905,
+     "stopped": "converged",
+     "seconds": 0.6276688999996622,
+     "seconds_since_start": 0.7658879999999044,
+     "work": 7759174
+    },
+    "reserve": 0.6276688999996622,
+    "status": "finished",
+    "ils": {
+     "proposals": 354560,
+     "accepted": 46489,
+     "improving": 5877,
+     "kicks": 0,
+     "chunks": 1385,
+     "undone_moves": 0,
+     "incumbent_updates": 1362,
+     "relabels": 11,
+     "relabel_work": 33,
+     "calls": 102,
+     "final_undo": 0
+    },
+    "ils_end": 34.70254609999938,
+    "ils_incumbent_work": 7730241,
+    "final_T": {
+     "rounds": 14,
+     "improving_rounds": 13,
+     "start_work": 7730241,
+     "first_round_s": 0.01548689999981434,
+     "stopped": "converged"
+    },
+    "total_seconds": 34.92272629999934,
+    "overshoot": 0.0
+   }
+  }
+ },
+ "verification": {
+  "orders": {
+   "Rstar": {
+    "file": "D:\\Work\\Triangle Ordering\\pc_eval_results\\partA\\Loc-Gowalla\\orders\\Rstar.npy",
+    "permutation": true,
+    "claimed": 8631304,
+    "dove_work": 8631304,
+    "lister_probes": 8631304,
+    "triangles": 2273138,
+    "ok": true
+   },
+   "T": {
+    "file": "D:\\Work\\Triangle Ordering\\pc_eval_results\\partA\\Loc-Gowalla\\orders\\T.npy",
+    "permutation": true,
+    "claimed": 7759174,
+    "dove_work": 7759174,
+    "lister_probes": 7759174,
+    "triangles": 2273138,
+    "ok": true
+   },
+   "DOVE": {
+    "file": "D:\\Work\\Triangle Ordering\\pc_eval_results\\partA\\Loc-Gowalla\\orders\\DOVE.npy",
+    "permutation": true,
+    "claimed": 7807255,
+    "dove_work": 7807255,
+    "lister_probes": 7807255,
+    "triangles": 2273138,
+    "ok": true
+   },
+   "TILS_seed1": {
+    "file": "D:\\Work\\Triangle Ordering\\pc_eval_results\\partA\\Loc-Gowalla\\orders\\TILS_seed1.npy",
+    "permutation": true,
+    "claimed": 7714544,
+    "dove_work": 7714544,
+    "lister_probes": 7714544,
+    "triangles": 2273138,
+    "ok": true
+   },
+   "TILS_seed2": {
+    "file": "D:\\Work\\Triangle Ordering\\pc_eval_results\\partA\\Loc-Gowalla\\orders\\TILS_seed2.npy",
+    "permutation": true,
+    "claimed": 7714961,
+    "dove_work": 7714961,
+    "lister_probes": 7714961,
+    "triangles": 2273138,
+    "ok": true
+   },
+   "TILS_seed3": {
+    "file": "D:\\Work\\Triangle Ordering\\pc_eval_results\\partA\\Loc-Gowalla\\orders\\TILS_seed3.npy",
+    "permutation": true,
+    "claimed": 7714589,
+    "dove_work": 7714589,
+    "lister_probes": 7714589,
+    "triangles": 2273138,
+    "ok": true
+   }
+  },
+  "triangles": [
+   2273138
+  ],
+  "all_ok": true,
+  "n_orders": 6
+ }
+}

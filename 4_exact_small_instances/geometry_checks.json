@@ -1,0 +1,7 @@
+{
+  "inversion_cases": 80,
+  "max_inversion_residual": 2.119303865733002e-08,
+  "laplacian_gradient_checks": 80,
+  "max_gradient_error": 1.3322676295501878e-15,
+  "spectral_bound_checks": 76
+}

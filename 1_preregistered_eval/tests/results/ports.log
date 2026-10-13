@@ -1,0 +1,123 @@
+Bitcoin-Alpha 3783 14124 {'smallest_last': [1, 0], 'tangent_refine': [7, 0], 'tangent_round': [7, 0], 'work': [7, 0], 'lister': [7, 0], 'loader_arrays': [1, 0], 'loader_files': [4, 0], 'graphdata': [1, 0]} 1s
+GitHub 37700 289003 {'smallest_last': [2, 0], 'tangent_refine': [14, 0], 'tangent_round': [14, 0], 'work': [14, 0], 'lister': [14, 0], 'loader_arrays': [2, 0], 'loader_files': [8, 0], 'graphdata': [2, 0]} 27s
+Loc-Brightkite 58228 214078 {'smallest_last': [3, 0], 'tangent_refine': [21, 0], 'tangent_round': [21, 0], 'work': [21, 0], 'lister': [21, 0], 'loader_arrays': [3, 0], 'loader_files': [12, 0], 'graphdata': [3, 0]} 49s
+P2P-Gnutella05 8846 31839 {'smallest_last': [4, 0], 'tangent_refine': [28, 0], 'tangent_round': [28, 0], 'work': [28, 0], 'lister': [28, 0], 'loader_arrays': [4, 0], 'loader_files': [16, 0], 'graphdata': [4, 0]} 51s
+ba-0 160 471 {'smallest_last': [5, 0], 'tangent_refine': [35, 0], 'tangent_round': [35, 0], 'work': [35, 0], 'lister': [35, 0], 'loader_arrays': [5, 0], 'loader_files': [20, 0], 'graphdata': [5, 0]} 51s
+ba-1 215 844 {'smallest_last': [6, 0], 'tangent_refine': [42, 0], 'tangent_round': [42, 0], 'work': [42, 0], 'lister': [42, 0], 'loader_arrays': [6, 0], 'loader_files': [24, 0], 'graphdata': [6, 0]} 51s
+core_periphery-0 145 294 {'smallest_last': [7, 0], 'tangent_refine': [49, 0], 'tangent_round': [49, 0], 'work': [49, 0], 'lister': [49, 0], 'loader_arrays': [7, 0], 'loader_files': [28, 0], 'graphdata': [7, 0]} 51s
+core_periphery-1 206 596 {'smallest_last': [8, 0], 'tangent_refine': [56, 0], 'tangent_round': [56, 0], 'work': [56, 0], 'lister': [56, 0], 'loader_arrays': [8, 0], 'loader_files': [32, 0], 'graphdata': [8, 0]} 51s
+er-0 160 760 {'smallest_last': [9, 0], 'tangent_refine': [63, 0], 'tangent_round': [63, 0], 'work': [63, 0], 'lister': [63, 0], 'loader_arrays': [9, 0], 'loader_files': [36, 0], 'graphdata': [9, 0]} 51s
+er-1 215 1242 {'smallest_last': [10, 0], 'tangent_refine': [70, 0], 'tangent_round': [70, 0], 'work': [70, 0], 'lister': [70, 0], 'loader_arrays': [10, 0], 'loader_files': [40, 0], 'graphdata': [10, 0]} 51s
+powerlaw_cluster-0 160 471 {'smallest_last': [11, 0], 'tangent_refine': [77, 0], 'tangent_round': [77, 0], 'work': [77, 0], 'lister': [77, 0], 'loader_arrays': [11, 0], 'loader_files': [44, 0], 'graphdata': [11, 0]} 51s
+powerlaw_cluster-1 215 840 {'smallest_last': [12, 0], 'tangent_refine': [84, 0], 'tangent_round': [84, 0], 'work': [84, 0], 'lister': [84, 0], 'loader_arrays': [12, 0], 'loader_files': [48, 0], 'graphdata': [12, 0]} 51s
+prospective_bipartite_0 160 835 {'smallest_last': [13, 0], 'tangent_refine': [91, 0], 'tangent_round': [91, 0], 'work': [91, 0], 'lister': [91, 0], 'loader_arrays': [13, 0], 'loader_files': [52, 0], 'graphdata': [13, 0]} 51s
+prospective_bipartite_1 214 1105 {'smallest_last': [14, 0], 'tangent_refine': [98, 0], 'tangent_round': [98, 0], 'work': [98, 0], 'lister': [98, 0], 'loader_arrays': [14, 0], 'loader_files': [56, 0], 'graphdata': [14, 0]} 51s
+prospective_bipartite_2 270 1389 {'smallest_last': [15, 0], 'tangent_refine': [105, 0], 'tangent_round': [105, 0], 'work': [105, 0], 'lister': [105, 0], 'loader_arrays': [15, 0], 'loader_files': [60, 0], 'graphdata': [15, 0]} 51s
+prospective_geometric_0 160 696 {'smallest_last': [16, 0], 'tangent_refine': [112, 0], 'tangent_round': [112, 0], 'work': [112, 0], 'lister': [112, 0], 'loader_arrays': [16, 0], 'loader_files': [64, 0], 'graphdata': [16, 0]} 51s
+prospective_geometric_1 215 952 {'smallest_last': [17, 0], 'tangent_refine': [119, 0], 'tangent_round': [119, 0], 'work': [119, 0], 'lister': [119, 0], 'loader_arrays': [17, 0], 'loader_files': [68, 0], 'graphdata': [17, 0]} 51s
+prospective_geometric_2 270 1224 {'smallest_last': [18, 0], 'tangent_refine': [126, 0], 'tangent_round': [126, 0], 'work': [126, 0], 'lister': [126, 0], 'loader_arrays': [18, 0], 'loader_files': [72, 0], 'graphdata': [18, 0]} 51s
+prospective_regular_0 160 640 {'smallest_last': [19, 0], 'tangent_refine': [133, 0], 'tangent_round': [133, 0], 'work': [133, 0], 'lister': [133, 0], 'loader_arrays': [19, 0], 'loader_files': [76, 0], 'graphdata': [19, 0]} 51s
+prospective_regular_1 216 864 {'smallest_last': [20, 0], 'tangent_refine': [140, 0], 'tangent_round': [140, 0], 'work': [140, 0], 'lister': [140, 0], 'loader_arrays': [20, 0], 'loader_files': [80, 0], 'graphdata': [20, 0]} 51s
+prospective_regular_2 270 1080 {'smallest_last': [21, 0], 'tangent_refine': [147, 0], 'tangent_round': [147, 0], 'work': [147, 0], 'lister': [147, 0], 'loader_arrays': [21, 0], 'loader_files': [84, 0], 'graphdata': [21, 0]} 51s
+sbm-0 150 194 {'smallest_last': [22, 0], 'tangent_refine': [154, 0], 'tangent_round': [154, 0], 'work': [154, 0], 'lister': [154, 0], 'loader_arrays': [22, 0], 'loader_files': [88, 0], 'graphdata': [22, 0]} 51s
+sbm-1 213 432 {'smallest_last': [23, 0], 'tangent_refine': [161, 0], 'tangent_round': [161, 0], 'work': [161, 0], 'lister': [161, 0], 'loader_arrays': [23, 0], 'loader_files': [92, 0], 'graphdata': [23, 0]} 51s
+ws-0 160 800 {'smallest_last': [24, 0], 'tangent_refine': [168, 0], 'tangent_round': [168, 0], 'work': [168, 0], 'lister': [168, 0], 'loader_arrays': [24, 0], 'loader_files': [96, 0], 'graphdata': [24, 0]} 51s
+ws-1 215 1290 {'smallest_last': [25, 0], 'tangent_refine': [175, 0], 'tangent_round': [175, 0], 'work': [175, 0], 'lister': [175, 0], 'loader_arrays': [25, 0], 'loader_files': [100, 0], 'graphdata': [25, 0]} 51s
+rand0 269 8828 {'smallest_last': [26, 0], 'tangent_refine': [180, 0], 'tangent_round': [180, 0], 'work': [180, 0], 'lister': [180, 0], 'loader_arrays': [26, 0], 'loader_files': [104, 0], 'graphdata': [26, 0]} 52s
+rand1 322 640 {'smallest_last': [27, 0], 'tangent_refine': [185, 0], 'tangent_round': [185, 0], 'work': [185, 0], 'lister': [185, 0], 'loader_arrays': [27, 0], 'loader_files': [108, 0], 'graphdata': [27, 0]} 52s
+rand2 208 614 {'smallest_last': [28, 0], 'tangent_refine': [190, 0], 'tangent_round': [190, 0], 'work': [190, 0], 'lister': [190, 0], 'loader_arrays': [28, 0], 'loader_files': [112, 0], 'graphdata': [28, 0]} 52s
+rand3 118 236 {'smallest_last': [29, 0], 'tangent_refine': [195, 0], 'tangent_round': [195, 0], 'work': [195, 0], 'lister': [195, 0], 'loader_arrays': [29, 0], 'loader_files': [116, 0], 'graphdata': [29, 0]} 52s
+rand4 391 9196 {'smallest_last': [30, 0], 'tangent_refine': [200, 0], 'tangent_round': [200, 0], 'work': [200, 0], 'lister': [200, 0], 'loader_arrays': [30, 0], 'loader_files': [120, 0], 'graphdata': [30, 0]} 52s
+rand5 26 69 {'smallest_last': [31, 0], 'tangent_refine': [205, 0], 'tangent_round': [205, 0], 'work': [205, 0], 'lister': [205, 0], 'loader_arrays': [31, 0], 'loader_files': [124, 0], 'graphdata': [31, 0]} 52s
+rand6 166 165 {'smallest_last': [32, 0], 'tangent_refine': [210, 0], 'tangent_round': [210, 0], 'work': [210, 0], 'lister': [210, 0], 'loader_arrays': [32, 0], 'loader_files': [128, 0], 'graphdata': [32, 0]} 52s
+rand7 22 44 {'smallest_last': [33, 0], 'tangent_refine': [215, 0], 'tangent_round': [215, 0], 'work': [215, 0], 'lister': [215, 0], 'loader_arrays': [33, 0], 'loader_files': [132, 0], 'graphdata': [33, 0]} 52s
+rand8 4 5 {'smallest_last': [34, 0], 'tangent_refine': [220, 0], 'tangent_round': [220, 0], 'work': [220, 0], 'lister': [220, 0], 'loader_arrays': [34, 0], 'loader_files': [136, 0], 'graphdata': [34, 0]} 52s
+rand9 24 23 {'smallest_last': [35, 0], 'tangent_refine': [225, 0], 'tangent_round': [225, 0], 'work': [225, 0], 'lister': [225, 0], 'loader_arrays': [35, 0], 'loader_files': [140, 0], 'graphdata': [35, 0]} 52s
+rand10 262 1029 {'smallest_last': [36, 0], 'tangent_refine': [230, 0], 'tangent_round': [230, 0], 'work': [230, 0], 'lister': [230, 0], 'loader_arrays': [36, 0], 'loader_files': [144, 0], 'graphdata': [36, 0]} 52s
+rand11 98 196 {'smallest_last': [37, 0], 'tangent_refine': [235, 0], 'tangent_round': [235, 0], 'work': [235, 0], 'lister': [235, 0], 'loader_arrays': [37, 0], 'loader_files': [148, 0], 'graphdata': [37, 0]} 52s
+rand12 116 1937 {'smallest_last': [38, 0], 'tangent_refine': [240, 0], 'tangent_round': [240, 0], 'work': [240, 0], 'lister': [240, 0], 'loader_arrays': [38, 0], 'loader_files': [152, 0], 'graphdata': [38, 0]} 53s
+rand13 176 175 {'smallest_last': [39, 0], 'tangent_refine': [245, 0], 'tangent_round': [245, 0], 'work': [245, 0], 'lister': [245, 0], 'loader_arrays': [39, 0], 'loader_files': [156, 0], 'graphdata': [39, 0]} 53s
+rand14 359 1417 {'smallest_last': [40, 0], 'tangent_refine': [250, 0], 'tangent_round': [250, 0], 'work': [250, 0], 'lister': [250, 0], 'loader_arrays': [40, 0], 'loader_files': [160, 0], 'graphdata': [40, 0]} 53s
+rand15 338 676 {'smallest_last': [41, 0], 'tangent_refine': [255, 0], 'tangent_round': [255, 0], 'work': [255, 0], 'lister': [255, 0], 'loader_arrays': [41, 0], 'loader_files': [164, 0], 'graphdata': [41, 0]} 53s
+rand16 50 197 {'smallest_last': [42, 0], 'tangent_refine': [260, 0], 'tangent_round': [260, 0], 'work': [260, 0], 'lister': [260, 0], 'loader_arrays': [42, 0], 'loader_files': [168, 0], 'graphdata': [42, 0]} 53s
+rand17 159 468 {'smallest_last': [43, 0], 'tangent_refine': [265, 0], 'tangent_round': [265, 0], 'work': [265, 0], 'lister': [265, 0], 'loader_arrays': [43, 0], 'loader_files': [172, 0], 'graphdata': [43, 0]} 53s
+rand18 272 806 {'smallest_last': [44, 0], 'tangent_refine': [270, 0], 'tangent_round': [270, 0], 'work': [270, 0], 'lister': [270, 0], 'loader_arrays': [44, 0], 'loader_files': [176, 0], 'graphdata': [44, 0]} 53s
+rand19 30 60 {'smallest_last': [45, 0], 'tangent_refine': [275, 0], 'tangent_round': [275, 0], 'work': [275, 0], 'lister': [275, 0], 'loader_arrays': [45, 0], 'loader_files': [180, 0], 'graphdata': [45, 0]} 53s
+rand20 383 6551 {'smallest_last': [46, 0], 'tangent_refine': [280, 0], 'tangent_round': [280, 0], 'work': [280, 0], 'lister': [280, 0], 'loader_arrays': [46, 0], 'loader_files': [184, 0], 'graphdata': [46, 0]} 53s
+rand21 224 444 {'smallest_last': [47, 0], 'tangent_refine': [285, 0], 'tangent_round': [285, 0], 'work': [285, 0], 'lister': [285, 0], 'loader_arrays': [47, 0], 'loader_files': [188, 0], 'graphdata': [47, 0]} 53s
+rand22 352 351 {'smallest_last': [48, 0], 'tangent_refine': [290, 0], 'tangent_round': [290, 0], 'work': [290, 0], 'lister': [290, 0], 'loader_arrays': [48, 0], 'loader_files': [192, 0], 'graphdata': [48, 0]} 53s
+rand23 30 60 {'smallest_last': [49, 0], 'tangent_refine': [295, 0], 'tangent_round': [295, 0], 'work': [295, 0], 'lister': [295, 0], 'loader_arrays': [49, 0], 'loader_files': [196, 0], 'graphdata': [49, 0]} 53s
+rand24 152 3075 {'smallest_last': [50, 0], 'tangent_refine': [300, 0], 'tangent_round': [300, 0], 'work': [300, 0], 'lister': [300, 0], 'loader_arrays': [50, 0], 'loader_files': [200, 0], 'graphdata': [50, 0]} 53s
+rand25 273 542 {'smallest_last': [51, 0], 'tangent_refine': [305, 0], 'tangent_round': [305, 0], 'work': [305, 0], 'lister': [305, 0], 'loader_arrays': [51, 0], 'loader_files': [204, 0], 'graphdata': [51, 0]} 53s
+rand26 94 271 {'smallest_last': [52, 0], 'tangent_refine': [310, 0], 'tangent_round': [310, 0], 'work': [310, 0], 'lister': [310, 0], 'loader_arrays': [52, 0], 'loader_files': [208, 0], 'graphdata': [52, 0]} 53s
+rand27 358 716 {'smallest_last': [53, 0], 'tangent_refine': [315, 0], 'tangent_round': [315, 0], 'work': [315, 0], 'lister': [315, 0], 'loader_arrays': [53, 0], 'loader_files': [212, 0], 'graphdata': [53, 0]} 53s
+rand28 354 972 {'smallest_last': [54, 0], 'tangent_refine': [320, 0], 'tangent_round': [320, 0], 'work': [320, 0], 'lister': [320, 0], 'loader_arrays': [54, 0], 'loader_files': [216, 0], 'graphdata': [54, 0]} 53s
+rand29 349 1380 {'smallest_last': [55, 0], 'tangent_refine': [325, 0], 'tangent_round': [325, 0], 'work': [325, 0], 'lister': [325, 0], 'loader_arrays': [55, 0], 'loader_files': [220, 0], 'graphdata': [55, 0]} 53s
+rand30 284 1112 {'smallest_last': [56, 0], 'tangent_refine': [330, 0], 'tangent_round': [330, 0], 'work': [330, 0], 'lister': [330, 0], 'loader_arrays': [56, 0], 'loader_files': [224, 0], 'graphdata': [56, 0]} 53s
+rand31 6 12 {'smallest_last': [57, 0], 'tangent_refine': [335, 0], 'tangent_round': [335, 0], 'work': [335, 0], 'lister': [335, 0], 'loader_arrays': [57, 0], 'loader_files': [228, 0], 'graphdata': [57, 0]} 53s
+rand32 18 33 {'smallest_last': [58, 0], 'tangent_refine': [340, 0], 'tangent_round': [340, 0], 'work': [340, 0], 'lister': [340, 0], 'loader_arrays': [58, 0], 'loader_files': [232, 0], 'graphdata': [58, 0]} 53s
+rand33 203 796 {'smallest_last': [59, 0], 'tangent_refine': [345, 0], 'tangent_round': [345, 0], 'work': [345, 0], 'lister': [345, 0], 'loader_arrays': [59, 0], 'loader_files': [236, 0], 'graphdata': [59, 0]} 53s
+rand34 85 245 {'smallest_last': [60, 0], 'tangent_refine': [350, 0], 'tangent_round': [350, 0], 'work': [350, 0], 'lister': [350, 0], 'loader_arrays': [60, 0], 'loader_files': [240, 0], 'graphdata': [60, 0]} 53s
+rand35 134 268 {'smallest_last': [61, 0], 'tangent_refine': [355, 0], 'tangent_round': [355, 0], 'work': [355, 0], 'lister': [355, 0], 'loader_arrays': [61, 0], 'loader_files': [244, 0], 'graphdata': [61, 0]} 54s
+rand36 121 764 {'smallest_last': [62, 0], 'tangent_refine': [360, 0], 'tangent_round': [360, 0], 'work': [360, 0], 'lister': [360, 0], 'loader_arrays': [62, 0], 'loader_files': [248, 0], 'graphdata': [62, 0]} 54s
+rand37 323 322 {'smallest_last': [63, 0], 'tangent_refine': [365, 0], 'tangent_round': [365, 0], 'work': [365, 0], 'lister': [365, 0], 'loader_arrays': [63, 0], 'loader_files': [252, 0], 'graphdata': [63, 0]} 54s
+rand38 63 122 {'smallest_last': [64, 0], 'tangent_refine': [370, 0], 'tangent_round': [370, 0], 'work': [370, 0], 'lister': [370, 0], 'loader_arrays': [64, 0], 'loader_files': [256, 0], 'graphdata': [64, 0]} 54s
+rand39 280 560 {'smallest_last': [65, 0], 'tangent_refine': [375, 0], 'tangent_round': [375, 0], 'work': [375, 0], 'lister': [375, 0], 'loader_arrays': [65, 0], 'loader_files': [260, 0], 'graphdata': [65, 0]} 54s
+rand40 233 6563 {'smallest_last': [66, 0], 'tangent_refine': [380, 0], 'tangent_round': [380, 0], 'work': [380, 0], 'lister': [380, 0], 'loader_arrays': [66, 0], 'loader_files': [264, 0], 'graphdata': [66, 0]} 54s
+rand41 182 712 {'smallest_last': [67, 0], 'tangent_refine': [385, 0], 'tangent_round': [385, 0], 'work': [385, 0], 'lister': [385, 0], 'loader_arrays': [67, 0], 'loader_files': [268, 0], 'graphdata': [67, 0]} 54s
+rand42 98 97 {'smallest_last': [68, 0], 'tangent_refine': [390, 0], 'tangent_round': [390, 0], 'work': [390, 0], 'lister': [390, 0], 'loader_arrays': [68, 0], 'loader_files': [272, 0], 'graphdata': [68, 0]} 54s
+rand43 132 264 {'smallest_last': [69, 0], 'tangent_refine': [395, 0], 'tangent_round': [395, 0], 'work': [395, 0], 'lister': [395, 0], 'loader_arrays': [69, 0], 'loader_files': [276, 0], 'graphdata': [69, 0]} 54s
+rand44 62 314 {'smallest_last': [70, 0], 'tangent_refine': [400, 0], 'tangent_round': [400, 0], 'work': [400, 0], 'lister': [400, 0], 'loader_arrays': [70, 0], 'loader_files': [280, 0], 'graphdata': [70, 0]} 54s
+rand45 320 636 {'smallest_last': [71, 0], 'tangent_refine': [405, 0], 'tangent_round': [405, 0], 'work': [405, 0], 'lister': [405, 0], 'loader_arrays': [71, 0], 'loader_files': [284, 0], 'graphdata': [71, 0]} 54s
+rand46 205 800 {'smallest_last': [72, 0], 'tangent_refine': [410, 0], 'tangent_round': [410, 0], 'work': [410, 0], 'lister': [410, 0], 'loader_arrays': [72, 0], 'loader_files': [288, 0], 'graphdata': [72, 0]} 54s
+rand47 98 196 {'smallest_last': [73, 0], 'tangent_refine': [415, 0], 'tangent_round': [415, 0], 'work': [415, 0], 'lister': [415, 0], 'loader_arrays': [73, 0], 'loader_files': [292, 0], 'graphdata': [73, 0]} 54s
+rand48 308 13139 {'smallest_last': [74, 0], 'tangent_refine': [420, 0], 'tangent_round': [420, 0], 'work': [420, 0], 'lister': [420, 0], 'loader_arrays': [74, 0], 'loader_files': [296, 0], 'graphdata': [74, 0]} 55s
+rand49 10 24 {'smallest_last': [75, 0], 'tangent_refine': [425, 0], 'tangent_round': [425, 0], 'work': [425, 0], 'lister': [425, 0], 'loader_arrays': [75, 0], 'loader_files': [300, 0], 'graphdata': [75, 0]} 55s
+rand50 38 134 {'smallest_last': [76, 0], 'tangent_refine': [430, 0], 'tangent_round': [430, 0], 'work': [430, 0], 'lister': [430, 0], 'loader_arrays': [76, 0], 'loader_files': [304, 0], 'graphdata': [76, 0]} 55s
+rand51 338 676 {'smallest_last': [77, 0], 'tangent_refine': [435, 0], 'tangent_round': [435, 0], 'work': [435, 0], 'lister': [435, 0], 'loader_arrays': [77, 0], 'loader_files': [308, 0], 'graphdata': [77, 0]} 55s
+rand52 184 4839 {'smallest_last': [78, 0], 'tangent_refine': [440, 0], 'tangent_round': [440, 0], 'work': [440, 0], 'lister': [440, 0], 'loader_arrays': [78, 0], 'loader_files': [312, 0], 'graphdata': [78, 0]} 56s
+rand53 150 441 {'smallest_last': [79, 0], 'tangent_refine': [445, 0], 'tangent_round': [445, 0], 'work': [445, 0], 'lister': [445, 0], 'loader_arrays': [79, 0], 'loader_files': [316, 0], 'graphdata': [79, 0]} 56s
+rand54 162 161 {'smallest_last': [80, 0], 'tangent_refine': [450, 0], 'tangent_round': [450, 0], 'work': [450, 0], 'lister': [450, 0], 'loader_arrays': [80, 0], 'loader_files': [320, 0], 'graphdata': [80, 0]} 56s
+rand55 374 748 {'smallest_last': [81, 0], 'tangent_refine': [455, 0], 'tangent_round': [455, 0], 'work': [455, 0], 'lister': [455, 0], 'loader_arrays': [81, 0], 'loader_files': [324, 0], 'graphdata': [81, 0]} 56s
+rand56 111 488 {'smallest_last': [82, 0], 'tangent_refine': [460, 0], 'tangent_round': [460, 0], 'work': [460, 0], 'lister': [460, 0], 'loader_arrays': [82, 0], 'loader_files': [328, 0], 'graphdata': [82, 0]} 56s
+rand57 224 444 {'smallest_last': [83, 0], 'tangent_refine': [465, 0], 'tangent_round': [465, 0], 'work': [465, 0], 'lister': [465, 0], 'loader_arrays': [83, 0], 'loader_files': [332, 0], 'graphdata': [83, 0]} 56s
+rand58 297 296 {'smallest_last': [84, 0], 'tangent_refine': [470, 0], 'tangent_round': [470, 0], 'work': [470, 0], 'lister': [470, 0], 'loader_arrays': [84, 0], 'loader_files': [336, 0], 'graphdata': [84, 0]} 56s
+rand59 272 544 {'smallest_last': [85, 0], 'tangent_refine': [475, 0], 'tangent_round': [475, 0], 'work': [475, 0], 'lister': [475, 0], 'loader_arrays': [85, 0], 'loader_files': [340, 0], 'graphdata': [85, 0]} 56s
+{
+ "graphs": 85,
+ "case_graphs": 25,
+ "checks": {
+  "smallest_last": {
+   "checks": 85,
+   "mismatches": 0
+  },
+  "tangent_refine": {
+   "checks": 475,
+   "mismatches": 0
+  },
+  "tangent_round": {
+   "checks": 475,
+   "mismatches": 0
+  },
+  "work": {
+   "checks": 475,
+   "mismatches": 0
+  },
+  "lister": {
+   "checks": 475,
+   "mismatches": 0
+  },
+  "loader_arrays": {
+   "checks": 85,
+   "mismatches": 0
+  },
+  "loader_files": {
+   "checks": 340,
+   "mismatches": 0
+  },
+  "graphdata": {
+   "checks": 85,
+   "mismatches": 0
+  }
+ }
+}

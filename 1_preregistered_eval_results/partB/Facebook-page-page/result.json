@@ -1,0 +1,13 @@
+{
+ "name": "Facebook-page-page",
+ "label": "Facebook page--page",
+ "split": null,
+ "part": "B",
+ "quick": false,
+ "local": false,
+ "started": "2026-09-28T08:12:51Z",
+ "status": "missing",
+ "reason": "GraphMissing: download failed after 5 attempts: https://snap.stanford.edu/data/facebook_large.zip",
+ "retry_allowed": true,
+ "traceback": "Traceback (most recent call last):\n  File \"D:\\Work\\Triangle Ordering\\pc_eval\\run_eval.py\", line 170, in process_graph\n    g, prov, extra, checks = loader()\n                             ^^^^^^^^\n  File \"D:\\Work\\Triangle Ordering\\pc_eval\\run_eval.py\", line 269, in loader\n    path, prov = graphs.fetch_heldout_graph(item, args.data, log)\n                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\Work\\Triangle Ordering\\pc_eval\\graphs.py\", line 276, in fetch_heldout_graph\n    prov['download'] = download(item['url'], comp, log)\n                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\Work\\Triangle Ordering\\pc_eval\\graphs.py\", line 105, in download\n    raise GraphMissing(f'download failed after {attempts} attempts: {url}')\ngraphs.GraphMissing: download failed after 5 attempts: https://snap.stanford.edu/data/facebook_large.zip\n"
+}

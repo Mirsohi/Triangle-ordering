@@ -1,0 +1,291 @@
+{
+ "name": "Bitcoin-OTC",
+ "label": "Bitcoin-OTC",
+ "split": "Audit",
+ "part": "A",
+ "quick": false,
+ "local": false,
+ "started": "2026-09-28T07:58:21Z",
+ "n": 5881,
+ "m": 21492,
+ "provenance": {
+  "url": "https://snap.stanford.edu/data/soc-sign-bitcoinotc.csv.gz",
+  "test_url_override": false,
+  "download": [
+   {
+    "attempt": 1,
+    "ok": true,
+    "time": 1790582302.0479617
+   }
+  ],
+  "compressed_sha256": "6424ac981dad3a019f697fc1b9fcd85c19d8d9f039797758e9ffb6fea100c373",
+  "edge_file_bytes": 1011180,
+  "sha256_matches_manifest": true,
+  "bytes_match_manifest": true,
+  "parse_seconds": 0.04349339999998847,
+  "dense_edges_sha256": "07da3945da636c5cd1edd9040cd2bb47c1df49d574312f0c47106d4bf6318c40"
+ },
+ "checks": {
+  "n_matches_artifact": true,
+  "m_matches_artifact": true,
+  "stored_neigh_labels": [
+   "NeighStored1"
+  ],
+  "stored_neigh_work": 115800,
+  "stored_neigh_work_matches": true,
+  "artifact_reference_work": 115800
+ },
+ "status": "done",
+ "finished": "2026-09-28T07:58:23Z",
+ "graph_seconds": 1.8150389000002178,
+ "reference": {
+  "label": "NeighStored1",
+  "work": 115800,
+  "forward_min": 115800,
+  "forward_min_label": "NeighStored1",
+  "candidate_works": {
+   "Natural": 218851,
+   "Natural-rev": 156373,
+   "Random": 169873,
+   "Random-rev": 169208,
+   "Degree": 134510,
+   "Degree-rev": 222601,
+   "Core": 163983,
+   "Core-rev": 233862,
+   "SmallestLast": 163415,
+   "SmallestLast-rev": 233727,
+   "Split": 133515,
+   "Split-rev": 133462,
+   "Check": 120769,
+   "Check-rev": 121891,
+   "NeighStored1": 115800,
+   "NeighStored1-rev": 116389
+  },
+  "builtin_seconds": {
+   "Natural": 6.100000064179767e-06,
+   "Random": 0.00016770000001997687,
+   "Degree": 0.0007267999999385211,
+   "Core": 0.042598999999881926,
+   "SmallestLast": 0.0009535999997751787,
+   "Split": 0.0007115000003068417,
+   "Check": 0.029879299999720388
+  },
+  "seconds": 0.08625720000009096,
+  "neigh_candidates": [
+   "NeighStored1"
+  ]
+ },
+ "T": {
+  "work": 104125,
+  "rounds": 15,
+  "improving_rounds": 14,
+  "start_work": 115800,
+  "first_round_s": 0.00019160000010742806,
+  "stopped": "converged",
+  "seconds": 0.002815499999996973
+ },
+ "DOVE": {
+  "work": 103755,
+  "seconds": 0.34206110000013723,
+  "inner_seconds": 0.34157490000006874,
+  "initial_work": 115800
+ },
+ "budget": 0.34206110000013723,
+ "TILS": {
+  "1": {
+   "work": 103302,
+   "info": {
+    "budget": 0.34206110000013723,
+    "seed": 1,
+    "start_work": 115800,
+    "T_phase": {
+     "rounds": 15,
+     "improving_rounds": 14,
+     "start_work": 115800,
+     "first_round_s": 0.00019199999996999395,
+     "stopped": "converged",
+     "seconds": 0.0027331000001140637,
+     "seconds_since_start": 0.004152299999987008,
+     "work": 104125
+    },
+    "reserve": 0.0027331000001140637,
+    "status": "finished",
+    "ils": {
+     "proposals": 45312,
+     "accepted": 5981,
+     "improving": 310,
+     "kicks": 0,
+     "chunks": 177,
+     "undone_moves": 0,
+     "incumbent_updates": 130,
+     "relabels": 9,
+     "relabel_work": 27,
+     "calls": 141,
+     "final_undo": 34
+    },
+    "ils_end": 0.33942960000013045,
+    "ils_incumbent_work": 103412,
+    "final_T": {
+     "rounds": 3,
+     "improving_rounds": 2,
+     "start_work": 103412,
+     "first_round_s": 0.0002075000002150773,
+     "stopped": "converged"
+    },
+    "total_seconds": 0.3403200000002471,
+    "overshoot": 0.0
+   }
+  },
+  "2": {
+   "work": 103299,
+   "info": {
+    "budget": 0.34206110000013723,
+    "seed": 2,
+    "start_work": 115800,
+    "T_phase": {
+     "rounds": 15,
+     "improving_rounds": 14,
+     "start_work": 115800,
+     "first_round_s": 0.00019179999981133733,
+     "stopped": "converged",
+     "seconds": 0.0033016000002135115,
+     "seconds_since_start": 0.004937799999879644,
+     "work": 104125
+    },
+    "reserve": 0.0033016000002135115,
+    "status": "finished",
+    "ils": {
+     "proposals": 46592,
+     "accepted": 6140,
+     "improving": 314,
+     "kicks": 0,
+     "chunks": 182,
+     "undone_moves": 0,
+     "incumbent_updates": 133,
+     "relabels": 9,
+     "relabel_work": 27,
+     "calls": 139,
+     "final_undo": 0
+    },
+    "ils_end": 0.33942339999975957,
+    "ils_incumbent_work": 103404,
+    "final_T": {
+     "rounds": 3,
+     "improving_rounds": 2,
+     "start_work": 103404,
+     "first_round_s": 0.00018890000001192675,
+     "stopped": "converged"
+    },
+    "total_seconds": 0.3401180999999269,
+    "overshoot": 0.0
+   }
+  },
+  "3": {
+   "work": 103299,
+   "info": {
+    "budget": 0.34206110000013723,
+    "seed": 3,
+    "start_work": 115800,
+    "T_phase": {
+     "rounds": 15,
+     "improving_rounds": 14,
+     "start_work": 115800,
+     "first_round_s": 0.00019500000007610652,
+     "stopped": "converged",
+     "seconds": 0.0028253999998923973,
+     "seconds_since_start": 0.004309099999773025,
+     "work": 104125
+    },
+    "reserve": 0.0028253999998923973,
+    "status": "finished",
+    "ils": {
+     "proposals": 47360,
+     "accepted": 6234,
+     "improving": 314,
+     "kicks": 0,
+     "chunks": 185,
+     "undone_moves": 0,
+     "incumbent_updates": 133,
+     "relabels": 9,
+     "relabel_work": 27,
+     "calls": 142,
+     "final_undo": 95
+    },
+    "ils_end": 0.33976229999962015,
+    "ils_incumbent_work": 103404,
+    "final_T": {
+     "rounds": 3,
+     "improving_rounds": 2,
+     "start_work": 103404,
+     "first_round_s": 0.0001878000002761837,
+     "stopped": "converged"
+    },
+    "total_seconds": 0.34053659999972297,
+    "overshoot": 0.0
+   }
+  }
+ },
+ "verification": {
+  "orders": {
+   "Rstar": {
+    "file": "D:\\Work\\Triangle Ordering\\pc_eval_results\\partA\\Bitcoin-OTC\\orders\\Rstar.npy",
+    "permutation": true,
+    "claimed": 115800,
+    "dove_work": 115800,
+    "lister_probes": 115800,
+    "triangles": 33493,
+    "ok": true
+   },
+   "T": {
+    "file": "D:\\Work\\Triangle Ordering\\pc_eval_results\\partA\\Bitcoin-OTC\\orders\\T.npy",
+    "permutation": true,
+    "claimed": 104125,
+    "dove_work": 104125,
+    "lister_probes": 104125,
+    "triangles": 33493,
+    "ok": true
+   },
+   "DOVE": {
+    "file": "D:\\Work\\Triangle Ordering\\pc_eval_results\\partA\\Bitcoin-OTC\\orders\\DOVE.npy",
+    "permutation": true,
+    "claimed": 103755,
+    "dove_work": 103755,
+    "lister_probes": 103755,
+    "triangles": 33493,
+    "ok": true
+   },
+   "TILS_seed1": {
+    "file": "D:\\Work\\Triangle Ordering\\pc_eval_results\\partA\\Bitcoin-OTC\\orders\\TILS_seed1.npy",
+    "permutation": true,
+    "claimed": 103302,
+    "dove_work": 103302,
+    "lister_probes": 103302,
+    "triangles": 33493,
+    "ok": true
+   },
+   "TILS_seed2": {
+    "file": "D:\\Work\\Triangle Ordering\\pc_eval_results\\partA\\Bitcoin-OTC\\orders\\TILS_seed2.npy",
+    "permutation": true,
+    "claimed": 103299,
+    "dove_work": 103299,
+    "lister_probes": 103299,
+    "triangles": 33493,
+    "ok": true
+   },
+   "TILS_seed3": {
+    "file": "D:\\Work\\Triangle Ordering\\pc_eval_results\\partA\\Bitcoin-OTC\\orders\\TILS_seed3.npy",
+    "permutation": true,
+    "claimed": 103299,
+    "dove_work": 103299,
+    "lister_probes": 103299,
+    "triangles": 33493,
+    "ok": true
+   }
+  },
+  "triangles": [
+   33493
+  ],
+  "all_ok": true,
+  "n_orders": 6
+ }
+}

@@ -1,0 +1,542 @@
+[2026-09-28T11:39:16Z] ====================================================================================================
+[2026-09-28T11:39:16Z] posthoc_eval start (POST-HOC, NOT PRE-REGISTERED): posthoc_eval.py --pc-eval D:\Work\Triangle Ordering\pc_eval --artifact D:\Work\Triangle Ordering\audit_workspace\DOVE_AISTATS_2027_code_and_data --results D:\Work\Triangle Ordering\pc_eval_results --data D:\Work\Triangle Ordering\pc_eval_data --out D:\Work\Triangle Ordering\pc_eval_posthoc_results
+[2026-09-28T11:39:16Z] numba warm-up 0.3s
+[2026-09-28T11:39:16Z] Facebook-page-page: status missing; skipped
+[2026-09-28T11:39:16Z] 41 completed graphs; estimated time about 3.1 h (9 ILS runs x B per graph, B summed = 1086s, plus checks)
+[2026-09-28T11:39:16Z] Ego-0: reloaded n=333 m=2,519; R* work 16,307 and all saved works match result.json; B=0.06s
+[2026-09-28T11:39:16Z] Ego-0: colouring best SL-asc work 18,221 (fixed DEG-desc: 22,675; R* 16,307)
+[2026-09-28T11:39:16Z] Ego-0: ILST seed 1 work 15,663 (0.06s of 0.06s; start R* 16,307; 25,344 proposals)
+[2026-09-28T11:39:16Z] Ego-0: ILST seed 2 work 15,665 (0.06s of 0.06s; start R* 16,307; 25,088 proposals)
+[2026-09-28T11:39:16Z] Ego-0: ILST seed 3 work 15,658 (0.06s of 0.06s; start R* 16,307; 25,088 proposals)
+[2026-09-28T11:39:16Z] Ego-0: CILST_fixed seed 1 work 15,745 (0.06s of 0.06s; start DEG-desc 22,675; 25,088 proposals)
+[2026-09-28T11:39:16Z] Ego-0: CILST_fixed seed 2 work 16,001 (0.06s of 0.06s; start DEG-desc 22,675; 25,088 proposals)
+[2026-09-28T11:39:16Z] Ego-0: CILST_fixed seed 3 work 15,673 (0.06s of 0.06s; start DEG-desc 22,675; 24,576 proposals)
+[2026-09-28T11:39:16Z] Ego-0: CILST_best seed 1 work 15,999 (0.06s of 0.06s; start SL-asc 18,221; 24,064 proposals)
+[2026-09-28T11:39:17Z] Ego-0: CILST_best seed 2 work 15,815 (0.06s of 0.06s; start SL-asc 18,221; 24,576 proposals)
+[2026-09-28T11:39:17Z] Ego-0: CILST_best seed 3 work 15,765 (0.06s of 0.06s; start SL-asc 18,221; 24,064 proposals)
+[2026-09-28T11:39:17Z] Ego-0: kernel median R* 0.035 ms; ratios T 0.9914, DOVE 0.9981, TILS_seed1 1.0081, ILST_seed1 1.0175
+[2026-09-28T11:39:17Z] Ego-0: posthoc verification PASSED (17 orders, triangles 10,740); 1.1s
+[2026-09-28T11:39:17Z] Ego-107: reloaded n=1,034 m=26,749; R* work 624,726 and all saved works match result.json; B=0.57s
+[2026-09-28T11:39:17Z] Ego-107: colouring best DEG-asc work 697,815 (fixed DEG-desc: 811,405; R* 624,726)
+[2026-09-28T11:39:18Z] Ego-107: ILST seed 1 work 613,198 (0.57s of 0.57s; start R* 624,726; 24,576 proposals)
+[2026-09-28T11:39:18Z] Ego-107: ILST seed 2 work 613,044 (0.57s of 0.57s; start R* 624,726; 26,880 proposals)
+[2026-09-28T11:39:19Z] Ego-107: ILST seed 3 work 613,108 (0.57s of 0.57s; start R* 624,726; 27,904 proposals)
+[2026-09-28T11:39:20Z] Ego-107: CILST_fixed seed 1 work 615,403 (0.57s of 0.57s; start DEG-desc 811,405; 24,064 proposals)
+[2026-09-28T11:39:20Z] Ego-107: CILST_fixed seed 2 work 617,221 (0.57s of 0.57s; start DEG-desc 811,405; 27,648 proposals)
+[2026-09-28T11:39:21Z] Ego-107: CILST_fixed seed 3 work 615,534 (0.57s of 0.57s; start DEG-desc 811,405; 27,648 proposals)
+[2026-09-28T11:39:21Z] Ego-107: CILST_best seed 1 work 612,653 (0.57s of 0.57s; start DEG-asc 697,815; 26,880 proposals)
+[2026-09-28T11:39:22Z] Ego-107: CILST_best seed 2 work 616,763 (0.57s of 0.57s; start DEG-asc 697,815; 26,368 proposals)
+[2026-09-28T11:39:23Z] Ego-107: CILST_best seed 3 work 612,259 (0.57s of 0.57s; start DEG-asc 697,815; 26,624 proposals)
+[2026-09-28T11:39:23Z] Ego-107: kernel median R* 0.998 ms; ratios T 1.0054, DOVE 1.0104, TILS_seed1 1.0284, ILST_seed1 1.0267
+[2026-09-28T11:39:23Z] Ego-107: posthoc verification PASSED (17 orders, triangles 420,329); 6.3s
+[2026-09-28T11:39:23Z] Ego-1684: reloaded n=786 m=14,024; R* work 201,862 and all saved works match result.json; B=0.22s
+[2026-09-28T11:39:23Z] Ego-1684: colouring best SL-asc work 222,574 (fixed DEG-desc: 254,583; R* 201,862)
+[2026-09-28T11:39:24Z] Ego-1684: ILST seed 1 work 197,051 (0.22s of 0.22s; start R* 201,862; 25,856 proposals)
+[2026-09-28T11:39:24Z] Ego-1684: ILST seed 2 work 197,395 (0.22s of 0.22s; start R* 201,862; 26,112 proposals)
+[2026-09-28T11:39:24Z] Ego-1684: ILST seed 3 work 197,395 (0.22s of 0.22s; start R* 201,862; 26,112 proposals)
+[2026-09-28T11:39:24Z] Ego-1684: CILST_fixed seed 1 work 197,416 (0.22s of 0.22s; start DEG-desc 254,583; 29,952 proposals)
+[2026-09-28T11:39:25Z] Ego-1684: CILST_fixed seed 2 work 197,469 (0.22s of 0.22s; start DEG-desc 254,583; 29,696 proposals)
+[2026-09-28T11:39:25Z] Ego-1684: CILST_fixed seed 3 work 197,474 (0.22s of 0.22s; start DEG-desc 254,583; 29,952 proposals)
+[2026-09-28T11:39:25Z] Ego-1684: CILST_best seed 1 work 197,082 (0.22s of 0.22s; start SL-asc 222,574; 28,416 proposals)
+[2026-09-28T11:39:25Z] Ego-1684: CILST_best seed 2 work 196,877 (0.22s of 0.22s; start SL-asc 222,574; 28,928 proposals)
+[2026-09-28T11:39:26Z] Ego-1684: CILST_best seed 3 work 196,836 (0.22s of 0.22s; start SL-asc 222,574; 28,928 proposals)
+[2026-09-28T11:39:26Z] Ego-1684: kernel median R* 0.407 ms; ratios T 1.0098, DOVE 1.0171, TILS_seed1 1.0127, ILST_seed1 1.0139
+[2026-09-28T11:39:26Z] Ego-1684: posthoc verification PASSED (17 orders, triangles 121,532); 2.9s
+[2026-09-28T11:39:26Z] Ego-1912: reloaded n=747 m=30,025; R* work 1,095,493 and all saved works match result.json; B=0.64s
+[2026-09-28T11:39:26Z] Ego-1912: colouring best DEG-asc work 1,179,778 (fixed DEG-desc: 1,302,705; R* 1,095,493)
+[2026-09-28T11:39:27Z] Ego-1912: ILST seed 1 work 1,080,630 (0.64s of 0.64s; start R* 1,095,493; 17,664 proposals)
+[2026-09-28T11:39:28Z] Ego-1912: ILST seed 2 work 1,081,856 (0.64s of 0.64s; start R* 1,095,493; 15,616 proposals)
+[2026-09-28T11:39:28Z] Ego-1912: ILST seed 3 work 1,081,294 (0.64s of 0.64s; start R* 1,095,493; 15,616 proposals)
+[2026-09-28T11:39:29Z] Ego-1912: CILST_fixed seed 1 work 1,078,658 (0.64s of 0.64s; start DEG-desc 1,302,705; 15,616 proposals)
+[2026-09-28T11:39:30Z] Ego-1912: CILST_fixed seed 2 work 1,080,194 (0.64s of 0.64s; start DEG-desc 1,302,705; 17,920 proposals)
+[2026-09-28T11:39:30Z] Ego-1912: CILST_fixed seed 3 work 1,080,494 (0.64s of 0.64s; start DEG-desc 1,302,705; 17,920 proposals)
+[2026-09-28T11:39:31Z] Ego-1912: CILST_best seed 1 work 1,080,560 (0.64s of 0.64s; start DEG-asc 1,179,778; 16,896 proposals)
+[2026-09-28T11:39:32Z] Ego-1912: CILST_best seed 2 work 1,079,635 (0.64s of 0.64s; start DEG-asc 1,179,778; 16,896 proposals)
+[2026-09-28T11:39:33Z] Ego-1912: CILST_best seed 3 work 1,082,229 (0.64s of 0.64s; start DEG-asc 1,179,778; 15,616 proposals)
+[2026-09-28T11:39:33Z] Ego-1912: kernel median R* 1.317 ms; ratios T 1.0008, DOVE 1.0014, TILS_seed1 1.0033, ILST_seed1 1.0032
+[2026-09-28T11:39:33Z] Ego-1912: posthoc verification PASSED (17 orders, triangles 916,277); 7.1s
+[2026-09-28T11:39:33Z] Ego-3437: reloaded n=534 m=4,813; R* work 31,251 and all saved works match result.json; B=0.09s
+[2026-09-28T11:39:33Z] Ego-3437: colouring best DEG-asc work 35,566 (fixed DEG-desc: 40,301; R* 31,251)
+[2026-09-28T11:39:33Z] Ego-3437: ILST seed 1 work 30,540 (0.09s of 0.09s; start R* 31,251; 41,728 proposals)
+[2026-09-28T11:39:33Z] Ego-3437: ILST seed 2 work 30,544 (0.09s of 0.09s; start R* 31,251; 40,448 proposals)
+[2026-09-28T11:39:34Z] Ego-3437: ILST seed 3 work 30,517 (0.09s of 0.09s; start R* 31,251; 40,192 proposals)
+[2026-09-28T11:39:34Z] Ego-3437: CILST_fixed seed 1 work 30,795 (0.09s of 0.09s; start DEG-desc 40,301; 40,704 proposals)
+[2026-09-28T11:39:34Z] Ego-3437: CILST_fixed seed 2 work 30,774 (0.09s of 0.09s; start DEG-desc 40,301; 40,448 proposals)
+[2026-09-28T11:39:34Z] Ego-3437: CILST_fixed seed 3 work 30,506 (0.09s of 0.09s; start DEG-desc 40,301; 40,704 proposals)
+[2026-09-28T11:39:34Z] Ego-3437: CILST_best seed 1 work 30,608 (0.09s of 0.09s; start DEG-asc 35,566; 39,680 proposals)
+[2026-09-28T11:39:34Z] Ego-3437: CILST_best seed 2 work 30,608 (0.09s of 0.09s; start DEG-asc 35,566; 39,680 proposals)
+[2026-09-28T11:39:34Z] Ego-3437: CILST_best seed 3 work 30,939 (0.09s of 0.09s; start DEG-asc 35,566; 39,168 proposals)
+[2026-09-28T11:39:35Z] Ego-3437: kernel median R* 0.095 ms; ratios T 1.0034, DOVE 1.0102, TILS_seed1 1.0112, ILST_seed1 1.0137
+[2026-09-28T11:39:35Z] Ego-3437: posthoc verification PASSED (17 orders, triangles 20,849); 1.5s
+[2026-09-28T11:39:35Z] Ego-348: reloaded n=224 m=3,192; R* work 34,870 and all saved works match result.json; B=0.07s
+[2026-09-28T11:39:35Z] Ego-348: colouring best DEG-asc work 38,720 (fixed DEG-desc: 43,720; R* 34,870)
+[2026-09-28T11:39:35Z] Ego-348: ILST seed 1 work 34,080 (0.07s of 0.07s; start R* 34,870; 15,360 proposals)
+[2026-09-28T11:39:35Z] Ego-348: ILST seed 2 work 34,175 (0.07s of 0.07s; start R* 34,870; 13,056 proposals)
+[2026-09-28T11:39:35Z] Ego-348: ILST seed 3 work 34,185 (0.07s of 0.07s; start R* 34,870; 15,360 proposals)
+[2026-09-28T11:39:35Z] Ego-348: CILST_fixed seed 1 work 34,349 (0.07s of 0.07s; start DEG-desc 43,720; 12,800 proposals)
+[2026-09-28T11:39:35Z] Ego-348: CILST_fixed seed 2 work 34,081 (0.07s of 0.07s; start DEG-desc 43,720; 15,104 proposals)
+[2026-09-28T11:39:35Z] Ego-348: CILST_fixed seed 3 work 34,161 (0.07s of 0.07s; start DEG-desc 43,720; 12,800 proposals)
+[2026-09-28T11:39:35Z] Ego-348: CILST_best seed 1 work 34,606 (0.07s of 0.07s; start DEG-asc 38,720; 14,592 proposals)
+[2026-09-28T11:39:35Z] Ego-348: CILST_best seed 2 work 34,445 (0.07s of 0.07s; start DEG-asc 38,720; 14,080 proposals)
+[2026-09-28T11:39:35Z] Ego-348: CILST_best seed 3 work 34,443 (0.07s of 0.07s; start DEG-asc 38,720; 14,080 proposals)
+[2026-09-28T11:39:36Z] Ego-348: kernel median R* 0.060 ms; ratios T 0.9916, DOVE 0.9892, TILS_seed1 0.9843, ILST_seed1 0.9973
+[2026-09-28T11:39:36Z] Ego-348: posthoc verification PASSED (17 orders, triangles 23,503); 1.2s
+[2026-09-28T11:39:36Z] Ego-3980: reloaded n=52 m=146; R* work 221 and all saved works match result.json; B=0.02s
+[2026-09-28T11:39:36Z] Ego-3980: colouring best DEG-asc work 272 (fixed DEG-desc: 283; R* 221)
+[2026-09-28T11:39:36Z] Ego-3980: ILST seed 1 work 218 (0.02s of 0.02s; start R* 221; 64,768 proposals)
+[2026-09-28T11:39:36Z] Ego-3980: ILST seed 2 work 218 (0.02s of 0.02s; start R* 221; 65,024 proposals)
+[2026-09-28T11:39:36Z] Ego-3980: ILST seed 3 work 218 (0.02s of 0.02s; start R* 221; 65,024 proposals)
+[2026-09-28T11:39:36Z] Ego-3980: CILST_fixed seed 1 work 218 (0.02s of 0.02s; start DEG-desc 283; 64,512 proposals)
+[2026-09-28T11:39:36Z] Ego-3980: CILST_fixed seed 2 work 218 (0.02s of 0.02s; start DEG-desc 283; 65,280 proposals)
+[2026-09-28T11:39:36Z] Ego-3980: CILST_fixed seed 3 work 218 (0.02s of 0.02s; start DEG-desc 283; 64,512 proposals)
+[2026-09-28T11:39:36Z] Ego-3980: CILST_best seed 1 work 218 (0.02s of 0.02s; start DEG-asc 272; 65,024 proposals)
+[2026-09-28T11:39:36Z] Ego-3980: CILST_best seed 2 work 218 (0.02s of 0.02s; start DEG-asc 272; 65,024 proposals)
+[2026-09-28T11:39:36Z] Ego-3980: CILST_best seed 3 work 218 (0.02s of 0.02s; start DEG-asc 272; 65,024 proposals)
+[2026-09-28T11:39:36Z] Ego-3980: kernel median R* 0.002 ms; ratios T 1.0002, DOVE 0.9958, TILS_seed1 0.9919, ILST_seed1 0.9880
+[2026-09-28T11:39:36Z] Ego-3980: posthoc verification PASSED (17 orders, triangles 168); 0.3s
+[2026-09-28T11:39:36Z] Ego-414: reloaded n=150 m=1,693; R* work 12,871 and all saved works match result.json; B=0.04s
+[2026-09-28T11:39:36Z] Ego-414: colouring best DEG-asc work 14,209 (fixed DEG-desc: 15,955; R* 12,871)
+[2026-09-28T11:39:36Z] Ego-414: ILST seed 1 work 12,747 (0.04s of 0.04s; start R* 12,871; 21,248 proposals)
+[2026-09-28T11:39:36Z] Ego-414: ILST seed 2 work 12,745 (0.05s of 0.04s; start R* 12,871; 21,248 proposals)
+[2026-09-28T11:39:36Z] Ego-414: ILST seed 3 work 12,748 (0.04s of 0.04s; start R* 12,871; 20,992 proposals)
+[2026-09-28T11:39:37Z] Ego-414: CILST_fixed seed 1 work 12,722 (0.04s of 0.04s; start DEG-desc 15,955; 20,992 proposals)
+[2026-09-28T11:39:37Z] Ego-414: CILST_fixed seed 2 work 12,717 (0.05s of 0.04s; start DEG-desc 15,955; 21,248 proposals)
+[2026-09-28T11:39:37Z] Ego-414: CILST_fixed seed 3 work 12,721 (0.05s of 0.04s; start DEG-desc 15,955; 20,992 proposals)
+[2026-09-28T11:39:37Z] Ego-414: CILST_best seed 1 work 12,736 (0.05s of 0.04s; start DEG-asc 14,209; 20,736 proposals)
+[2026-09-28T11:39:37Z] Ego-414: CILST_best seed 2 work 12,743 (0.05s of 0.04s; start DEG-asc 14,209; 20,736 proposals)
+[2026-09-28T11:39:37Z] Ego-414: CILST_best seed 3 work 12,736 (0.04s of 0.04s; start DEG-asc 14,209; 20,736 proposals)
+[2026-09-28T11:39:37Z] Ego-414: kernel median R* 0.024 ms; ratios T 1.0080, DOVE 0.9915, TILS_seed1 0.9971, ILST_seed1 0.9913
+[2026-09-28T11:39:37Z] Ego-414: posthoc verification PASSED (17 orders, triangles 10,618); 0.9s
+[2026-09-28T11:39:37Z] Ego-686: reloaded n=168 m=1,656; R* work 11,657 and all saved works match result.json; B=0.04s
+[2026-09-28T11:39:37Z] Ego-686: colouring best DEG-asc work 13,119 (fixed DEG-desc: 15,982; R* 11,657)
+[2026-09-28T11:39:37Z] Ego-686: ILST seed 1 work 11,307 (0.04s of 0.04s; start R* 11,657; 18,688 proposals)
+[2026-09-28T11:39:37Z] Ego-686: ILST seed 2 work 11,305 (0.04s of 0.04s; start R* 11,657; 18,688 proposals)
+[2026-09-28T11:39:37Z] Ego-686: ILST seed 3 work 11,304 (0.04s of 0.04s; start R* 11,657; 18,944 proposals)
+[2026-09-28T11:39:37Z] Ego-686: CILST_fixed seed 1 work 11,296 (0.04s of 0.04s; start DEG-desc 15,982; 18,688 proposals)
+[2026-09-28T11:39:37Z] Ego-686: CILST_fixed seed 2 work 11,415 (0.04s of 0.04s; start DEG-desc 15,982; 18,688 proposals)
+[2026-09-28T11:39:38Z] Ego-686: CILST_fixed seed 3 work 11,452 (0.04s of 0.04s; start DEG-desc 15,982; 18,688 proposals)
+[2026-09-28T11:39:38Z] Ego-686: CILST_best seed 1 work 11,506 (0.04s of 0.04s; start DEG-asc 13,119; 18,432 proposals)
+[2026-09-28T11:39:38Z] Ego-686: CILST_best seed 2 work 11,431 (0.04s of 0.04s; start DEG-asc 13,119; 18,688 proposals)
+[2026-09-28T11:39:38Z] Ego-686: CILST_best seed 3 work 11,419 (0.04s of 0.04s; start DEG-asc 13,119; 18,176 proposals)
+[2026-09-28T11:39:38Z] Ego-686: kernel median R* 0.023 ms; ratios T 1.0080, DOVE 1.0069, TILS_seed1 0.9937, ILST_seed1 0.9898
+[2026-09-28T11:39:38Z] Ego-686: posthoc verification PASSED (17 orders, triangles 7,945); 0.9s
+[2026-09-28T11:39:38Z] Ego-698: reloaded n=61 m=270; R* work 748 and all saved works match result.json; B=0.02s
+[2026-09-28T11:39:38Z] Ego-698: colouring best SL-asc work 817 (fixed DEG-desc: 913; R* 748)
+[2026-09-28T11:39:38Z] Ego-698: ILST seed 1 work 741 (0.02s of 0.02s; start R* 748; 45,056 proposals)
+[2026-09-28T11:39:38Z] Ego-698: ILST seed 2 work 741 (0.02s of 0.02s; start R* 748; 45,312 proposals)
+[2026-09-28T11:39:38Z] Ego-698: ILST seed 3 work 741 (0.02s of 0.02s; start R* 748; 45,568 proposals)
+[2026-09-28T11:39:38Z] Ego-698: CILST_fixed seed 1 work 743 (0.02s of 0.02s; start DEG-desc 913; 44,032 proposals)
+[2026-09-28T11:39:38Z] Ego-698: CILST_fixed seed 2 work 740 (0.02s of 0.02s; start DEG-desc 913; 44,544 proposals)
+[2026-09-28T11:39:38Z] Ego-698: CILST_fixed seed 3 work 752 (0.02s of 0.02s; start DEG-desc 913; 44,800 proposals)
+[2026-09-28T11:39:38Z] Ego-698: CILST_best seed 1 work 741 (0.02s of 0.02s; start SL-asc 817; 43,776 proposals)
+[2026-09-28T11:39:38Z] Ego-698: CILST_best seed 2 work 741 (0.02s of 0.02s; start SL-asc 817; 44,032 proposals)
+[2026-09-28T11:39:38Z] Ego-698: CILST_best seed 3 work 743 (0.02s of 0.02s; start SL-asc 817; 43,520 proposals)
+[2026-09-28T11:39:38Z] Ego-698: kernel median R* 0.003 ms; ratios T 0.9971, DOVE 1.0009, TILS_seed1 1.0004, ILST_seed1 1.0103
+[2026-09-28T11:39:38Z] Ego-698: posthoc verification PASSED (17 orders, triangles 679); 0.4s
+[2026-09-28T11:39:39Z] CA-GrQc: reloaded n=5,241 m=14,484; R* work 54,867 and all saved works match result.json; B=0.23s
+[2026-09-28T11:39:39Z] CA-GrQc: colouring best DEG-asc work 59,805 (fixed DEG-desc: 69,544; R* 54,867)
+[2026-09-28T11:39:39Z] CA-GrQc: ILST seed 1 work 54,117 (0.23s of 0.23s; start R* 54,867; 176,128 proposals)
+[2026-09-28T11:39:39Z] CA-GrQc: ILST seed 2 work 54,072 (0.23s of 0.23s; start R* 54,867; 181,760 proposals)
+[2026-09-28T11:39:39Z] CA-GrQc: ILST seed 3 work 54,072 (0.23s of 0.23s; start R* 54,867; 181,248 proposals)
+[2026-09-28T11:39:39Z] CA-GrQc: CILST_fixed seed 1 work 54,045 (0.23s of 0.23s; start DEG-desc 69,544; 180,480 proposals)
+[2026-09-28T11:39:40Z] CA-GrQc: CILST_fixed seed 2 work 54,103 (0.23s of 0.23s; start DEG-desc 69,544; 180,992 proposals)
+[2026-09-28T11:39:40Z] CA-GrQc: CILST_fixed seed 3 work 54,072 (0.23s of 0.23s; start DEG-desc 69,544; 179,712 proposals)
+[2026-09-28T11:39:40Z] CA-GrQc: CILST_best seed 1 work 54,121 (0.23s of 0.23s; start DEG-asc 59,805; 171,520 proposals)
+[2026-09-28T11:39:40Z] CA-GrQc: CILST_best seed 2 work 54,256 (0.23s of 0.23s; start DEG-asc 59,805; 171,264 proposals)
+[2026-09-28T11:39:41Z] CA-GrQc: CILST_best seed 3 work 54,115 (0.23s of 0.23s; start DEG-asc 59,805; 172,032 proposals)
+[2026-09-28T11:39:41Z] CA-GrQc: kernel median R* 0.295 ms; ratios T 1.0243, DOVE 1.0234, TILS_seed1 1.0385, ILST_seed1 1.0368
+[2026-09-28T11:39:41Z] CA-GrQc: posthoc verification PASSED (17 orders, triangles 48,260); 2.9s
+[2026-09-28T11:39:41Z] CA-CondMat: reloaded n=23,133 m=93,439; R* work 316,262 and all saved works match result.json; B=2.07s
+[2026-09-28T11:39:42Z] CA-CondMat: colouring best SL-asc work 386,625 (fixed DEG-desc: 437,392; R* 316,262)
+[2026-09-28T11:39:44Z] CA-CondMat: ILST seed 1 work 303,428 (2.06s of 2.07s; start R* 316,262; 998,144 proposals)
+[2026-09-28T11:39:46Z] CA-CondMat: ILST seed 2 work 303,426 (2.06s of 2.07s; start R* 316,262; 982,272 proposals)
+[2026-09-28T11:39:48Z] CA-CondMat: ILST seed 3 work 303,428 (2.06s of 2.07s; start R* 316,262; 1,006,848 proposals)
+[2026-09-28T11:39:50Z] CA-CondMat: CILST_fixed seed 1 work 302,214 (2.06s of 2.07s; start DEG-desc 437,392; 946,688 proposals)
+[2026-09-28T11:39:52Z] CA-CondMat: CILST_fixed seed 2 work 302,060 (2.06s of 2.07s; start DEG-desc 437,392; 948,736 proposals)
+[2026-09-28T11:39:54Z] CA-CondMat: CILST_fixed seed 3 work 301,251 (2.06s of 2.07s; start DEG-desc 437,392; 926,976 proposals)
+[2026-09-28T11:39:56Z] CA-CondMat: CILST_best seed 1 work 302,431 (2.06s of 2.07s; start SL-asc 386,625; 919,040 proposals)
+[2026-09-28T11:39:58Z] CA-CondMat: CILST_best seed 2 work 302,527 (2.06s of 2.07s; start SL-asc 386,625; 954,880 proposals)
+[2026-09-28T11:40:01Z] CA-CondMat: CILST_best seed 3 work 302,592 (2.06s of 2.07s; start SL-asc 386,625; 925,440 proposals)
+[2026-09-28T11:40:01Z] CA-CondMat: kernel median R* 2.297 ms; ratios T 1.0133, DOVE 0.9993, TILS_seed1 1.0182, ILST_seed1 1.0360
+[2026-09-28T11:40:01Z] CA-CondMat: posthoc verification PASSED (17 orders, triangles 173,361); 20.0s
+[2026-09-28T11:40:01Z] CA-HepPh: reloaded n=12,006 m=118,489; R* work 3,821,951 and all saved works match result.json; B=2.84s
+[2026-09-28T11:40:02Z] CA-HepPh: colouring best SL-asc work 4,082,810 (fixed DEG-desc: 5,484,008; R* 3,821,951)
+[2026-09-28T11:40:05Z] CA-HepPh: ILST seed 1 work 3,716,944 (2.85s of 2.84s; start R* 3,821,951; 53,248 proposals)
+[2026-09-28T11:40:08Z] CA-HepPh: ILST seed 2 work 3,716,820 (2.84s of 2.84s; start R* 3,821,951; 47,872 proposals)
+[2026-09-28T11:40:11Z] CA-HepPh: ILST seed 3 work 3,717,280 (2.85s of 2.84s; start R* 3,821,951; 48,128 proposals)
+[2026-09-28T11:40:14Z] CA-HepPh: CILST_fixed seed 1 work 3,720,800 (2.83s of 2.84s; start DEG-desc 5,484,008; 51,200 proposals)
+[2026-09-28T11:40:17Z] CA-HepPh: CILST_fixed seed 2 work 3,725,728 (2.86s of 2.84s; start DEG-desc 5,484,008; 52,224 proposals)
+[2026-09-28T11:40:20Z] CA-HepPh: CILST_fixed seed 3 work 3,721,387 (2.85s of 2.84s; start DEG-desc 5,484,008; 47,104 proposals)
+[2026-09-28T11:40:23Z] CA-HepPh: CILST_best seed 1 work 3,719,541 (2.83s of 2.84s; start SL-asc 4,082,810; 50,688 proposals)
+[2026-09-28T11:40:26Z] CA-HepPh: CILST_best seed 2 work 3,718,209 (2.84s of 2.84s; start SL-asc 4,082,810; 45,824 proposals)
+[2026-09-28T11:40:29Z] CA-HepPh: CILST_best seed 3 work 3,717,945 (2.85s of 2.84s; start SL-asc 4,082,810; 45,312 proposals)
+[2026-09-28T11:40:30Z] CA-HepPh: kernel median R* 5.354 ms; ratios T 1.0041, DOVE 1.0094, TILS_seed1 1.0077, ILST_seed1 1.0080
+[2026-09-28T11:40:30Z] CA-HepPh: posthoc verification PASSED (17 orders, triangles 3,358,499); 28.2s
+[2026-09-28T11:40:30Z] Wiki-Vote: reloaded n=7,115 m=100,762; R* work 1,891,565 and all saved works match result.json; B=2.13s
+[2026-09-28T11:40:30Z] Wiki-Vote: colouring best DEG-asc work 2,180,883 (fixed DEG-desc: 2,936,887; R* 1,891,565)
+[2026-09-28T11:40:33Z] Wiki-Vote: ILST seed 1 work 1,777,800 (2.14s of 2.13s; start R* 1,891,565; 48,384 proposals)
+[2026-09-28T11:40:35Z] Wiki-Vote: ILST seed 2 work 1,777,766 (2.13s of 2.13s; start R* 1,891,565; 54,272 proposals)
+[2026-09-28T11:40:37Z] Wiki-Vote: ILST seed 3 work 1,778,062 (2.13s of 2.13s; start R* 1,891,565; 47,616 proposals)
+[2026-09-28T11:40:39Z] Wiki-Vote: CILST_fixed seed 1 work 1,778,532 (2.14s of 2.13s; start DEG-desc 2,936,887; 44,544 proposals)
+[2026-09-28T11:40:41Z] Wiki-Vote: CILST_fixed seed 2 work 1,777,868 (2.13s of 2.13s; start DEG-desc 2,936,887; 44,800 proposals)
+[2026-09-28T11:40:44Z] Wiki-Vote: CILST_fixed seed 3 work 1,778,204 (2.13s of 2.13s; start DEG-desc 2,936,887; 48,384 proposals)
+[2026-09-28T11:40:46Z] Wiki-Vote: CILST_best seed 1 work 1,777,612 (2.13s of 2.13s; start DEG-asc 2,180,883; 43,264 proposals)
+[2026-09-28T11:40:48Z] Wiki-Vote: CILST_best seed 2 work 1,778,044 (2.13s of 2.13s; start DEG-asc 2,180,883; 44,800 proposals)
+[2026-09-28T11:40:50Z] Wiki-Vote: CILST_best seed 3 work 1,777,645 (2.13s of 2.13s; start DEG-asc 2,180,883; 42,240 proposals)
+[2026-09-28T11:40:51Z] Wiki-Vote: kernel median R* 3.638 ms; ratios T 0.9945, DOVE 1.0119, TILS_seed1 0.9951, ILST_seed1 0.9979
+[2026-09-28T11:40:51Z] Wiki-Vote: posthoc verification PASSED (17 orders, triangles 608,389); 21.4s
+[2026-09-28T11:40:51Z] Email-Enron: reloaded n=36,692 m=183,831; R* work 2,158,516 and all saved works match result.json; B=5.33s
+[2026-09-28T11:40:52Z] Email-Enron: colouring best DEG-asc work 2,238,827 (fixed DEG-desc: 3,647,254; R* 2,158,516)
+[2026-09-28T11:40:57Z] Email-Enron: ILST seed 1 work 1,924,322 (5.30s of 5.33s; start R* 2,158,516; 181,248 proposals)
+[2026-09-28T11:41:03Z] Email-Enron: ILST seed 2 work 1,922,996 (5.31s of 5.33s; start R* 2,158,516; 193,536 proposals)
+[2026-09-28T11:41:08Z] Email-Enron: ILST seed 3 work 1,925,072 (5.31s of 5.33s; start R* 2,158,516; 179,968 proposals)
+[2026-09-28T11:41:14Z] Email-Enron: CILST_fixed seed 1 work 1,930,995 (5.30s of 5.33s; start DEG-desc 3,647,254; 180,480 proposals)
+[2026-09-28T11:41:19Z] Email-Enron: CILST_fixed seed 2 work 1,939,189 (5.31s of 5.33s; start DEG-desc 3,647,254; 191,232 proposals)
+[2026-09-28T11:41:24Z] Email-Enron: CILST_fixed seed 3 work 1,928,843 (5.30s of 5.33s; start DEG-desc 3,647,254; 186,880 proposals)
+[2026-09-28T11:41:30Z] Email-Enron: CILST_best seed 1 work 1,926,839 (5.30s of 5.33s; start DEG-asc 2,238,827; 195,840 proposals)
+[2026-09-28T11:41:35Z] Email-Enron: CILST_best seed 2 work 1,925,436 (5.30s of 5.33s; start DEG-asc 2,238,827; 193,024 proposals)
+[2026-09-28T11:41:41Z] Email-Enron: CILST_best seed 3 work 1,924,484 (5.30s of 5.33s; start DEG-asc 2,238,827; 182,272 proposals)
+[2026-09-28T11:41:41Z] Email-Enron: kernel median R* 5.820 ms; ratios T 0.9745, DOVE 0.9926, TILS_seed1 0.9852, ILST_seed1 0.9845
+[2026-09-28T11:41:41Z] Email-Enron: posthoc verification PASSED (17 orders, triangles 727,044); 50.5s
+[2026-09-28T11:41:42Z] P2P-Gnutella31: reloaded n=62,586 m=147,892; R* work 203,725 and all saved works match result.json; B=4.23s
+[2026-09-28T11:41:42Z] P2P-Gnutella31: colouring best DEG-asc work 265,242 (fixed DEG-desc: 318,534; R* 203,725)
+[2026-09-28T11:41:46Z] P2P-Gnutella31: ILST seed 1 work 187,442 (4.22s of 4.23s; start R* 203,725; 5,058,560 proposals)
+[2026-09-28T11:41:51Z] P2P-Gnutella31: ILST seed 2 work 187,442 (4.22s of 4.23s; start R* 203,725; 5,362,688 proposals)
+[2026-09-28T11:41:55Z] P2P-Gnutella31: ILST seed 3 work 187,704 (4.22s of 4.23s; start R* 203,725; 5,132,032 proposals)
+[2026-09-28T11:41:59Z] P2P-Gnutella31: CILST_fixed seed 1 work 187,742 (4.22s of 4.23s; start DEG-desc 318,534; 5,142,528 proposals)
+[2026-09-28T11:42:03Z] P2P-Gnutella31: CILST_fixed seed 2 work 187,783 (4.22s of 4.23s; start DEG-desc 318,534; 5,082,624 proposals)
+[2026-09-28T11:42:08Z] P2P-Gnutella31: CILST_fixed seed 3 work 187,783 (4.22s of 4.23s; start DEG-desc 318,534; 5,145,856 proposals)
+[2026-09-28T11:42:12Z] P2P-Gnutella31: CILST_best seed 1 work 189,407 (4.22s of 4.23s; start DEG-asc 265,242; 5,030,656 proposals)
+[2026-09-28T11:42:16Z] P2P-Gnutella31: CILST_best seed 2 work 190,874 (4.22s of 4.23s; start DEG-asc 265,242; 5,058,048 proposals)
+[2026-09-28T11:42:20Z] P2P-Gnutella31: CILST_best seed 3 work 189,407 (4.22s of 4.23s; start DEG-asc 265,242; 5,148,416 proposals)
+[2026-09-28T11:42:21Z] P2P-Gnutella31: kernel median R* 3.300 ms; ratios T 1.0106, DOVE 0.9938, TILS_seed1 1.0002, ILST_seed1 0.9972
+[2026-09-28T11:42:21Z] P2P-Gnutella31: posthoc verification PASSED (17 orders, triangles 2,024); 39.7s
+[2026-09-28T11:42:21Z] CA-AstroPh: reloaded n=18,771 m=198,050; R* work 2,502,046 and all saved works match result.json; B=5.71s
+[2026-09-28T11:42:22Z] CA-AstroPh: colouring best SL-asc work 2,929,636 (fixed DEG-desc: 3,561,460; R* 2,502,046)
+[2026-09-28T11:42:28Z] CA-AstroPh: ILST seed 1 work 2,386,768 (5.69s of 5.71s; start R* 2,502,046; 394,752 proposals)
+[2026-09-28T11:42:34Z] CA-AstroPh: ILST seed 2 work 2,385,664 (5.69s of 5.71s; start R* 2,502,046; 401,152 proposals)
+[2026-09-28T11:42:40Z] CA-AstroPh: ILST seed 3 work 2,385,735 (5.69s of 5.71s; start R* 2,502,046; 399,872 proposals)
+[2026-09-28T11:42:45Z] CA-AstroPh: CILST_fixed seed 1 work 2,392,840 (5.69s of 5.71s; start DEG-desc 3,561,460; 394,496 proposals)
+[2026-09-28T11:42:51Z] CA-AstroPh: CILST_fixed seed 2 work 2,400,270 (5.70s of 5.71s; start DEG-desc 3,561,460; 393,216 proposals)
+[2026-09-28T11:42:57Z] CA-AstroPh: CILST_fixed seed 3 work 2,396,386 (5.69s of 5.71s; start DEG-desc 3,561,460; 427,264 proposals)
+[2026-09-28T11:43:03Z] CA-AstroPh: CILST_best seed 1 work 2,391,888 (5.69s of 5.71s; start SL-asc 2,929,636; 372,480 proposals)
+[2026-09-28T11:43:09Z] CA-AstroPh: CILST_best seed 2 work 2,391,818 (5.69s of 5.71s; start SL-asc 2,929,636; 379,904 proposals)
+[2026-09-28T11:43:14Z] CA-AstroPh: CILST_best seed 3 work 2,394,115 (5.69s of 5.71s; start SL-asc 2,929,636; 381,184 proposals)
+[2026-09-28T11:43:15Z] CA-AstroPh: kernel median R* 7.146 ms; ratios T 1.0190, DOVE 1.0206, TILS_seed1 1.0114, ILST_seed1 1.0104
+[2026-09-28T11:43:15Z] CA-AstroPh: posthoc verification PASSED (17 orders, triangles 1,351,441); 54.0s
+[2026-09-28T11:43:15Z] CA-HepTh: reloaded n=9,875 m=25,973; R* work 53,365 and all saved works match result.json; B=0.40s
+[2026-09-28T11:43:15Z] CA-HepTh: colouring best SL-asc work 63,786 (fixed DEG-desc: 70,769; R* 53,365)
+[2026-09-28T11:43:16Z] CA-HepTh: ILST seed 1 work 51,244 (0.40s of 0.40s; start R* 53,365; 487,936 proposals)
+[2026-09-28T11:43:16Z] CA-HepTh: ILST seed 2 work 51,243 (0.40s of 0.40s; start R* 53,365; 482,560 proposals)
+[2026-09-28T11:43:17Z] CA-HepTh: ILST seed 3 work 51,243 (0.40s of 0.40s; start R* 53,365; 483,840 proposals)
+[2026-09-28T11:43:17Z] CA-HepTh: CILST_fixed seed 1 work 51,788 (0.40s of 0.40s; start DEG-desc 70,769; 466,176 proposals)
+[2026-09-28T11:43:17Z] CA-HepTh: CILST_fixed seed 2 work 51,489 (0.40s of 0.40s; start DEG-desc 70,769; 464,128 proposals)
+[2026-09-28T11:43:18Z] CA-HepTh: CILST_fixed seed 3 work 51,716 (0.40s of 0.40s; start DEG-desc 70,769; 443,648 proposals)
+[2026-09-28T11:43:18Z] CA-HepTh: CILST_best seed 1 work 51,286 (0.40s of 0.40s; start SL-asc 63,786; 451,584 proposals)
+[2026-09-28T11:43:19Z] CA-HepTh: CILST_best seed 2 work 51,279 (0.40s of 0.40s; start SL-asc 63,786; 451,840 proposals)
+[2026-09-28T11:43:19Z] CA-HepTh: CILST_best seed 3 work 51,286 (0.40s of 0.40s; start SL-asc 63,786; 444,928 proposals)
+[2026-09-28T11:43:20Z] CA-HepTh: kernel median R* 0.585 ms; ratios T 1.0307, DOVE 1.0164, TILS_seed1 0.9910, ILST_seed1 0.9892
+[2026-09-28T11:43:20Z] CA-HepTh: posthoc verification PASSED (17 orders, triangles 28,339); 4.5s
+[2026-09-28T11:43:20Z] Soc-Epinions1: reloaded n=75,879 m=405,740; R* work 7,985,079 and all saved works match result.json; B=12.59s
+[2026-09-28T11:43:24Z] Soc-Epinions1: colouring best DEG-asc work 8,561,099 (fixed DEG-desc: 14,407,830; R* 7,985,079)
+[2026-09-28T11:43:36Z] Soc-Epinions1: ILST seed 1 work 7,002,844 (12.56s of 12.59s; start R* 7,985,079; 150,784 proposals)
+[2026-09-28T11:43:49Z] Soc-Epinions1: ILST seed 2 work 7,003,709 (12.55s of 12.59s; start R* 7,985,079; 161,280 proposals)
+[2026-09-28T11:44:02Z] Soc-Epinions1: ILST seed 3 work 7,003,507 (12.54s of 12.59s; start R* 7,985,079; 163,072 proposals)
+[2026-09-28T11:44:15Z] Soc-Epinions1: CILST_fixed seed 1 work 7,013,332 (12.56s of 12.59s; start DEG-desc 14,407,830; 173,568 proposals)
+[2026-09-28T11:44:28Z] Soc-Epinions1: CILST_fixed seed 2 work 7,012,462 (12.56s of 12.59s; start DEG-desc 14,407,830; 177,152 proposals)
+[2026-09-28T11:44:41Z] Soc-Epinions1: CILST_fixed seed 3 work 7,019,041 (12.59s of 12.59s; start DEG-desc 14,407,830; 189,696 proposals)
+[2026-09-28T11:44:53Z] Soc-Epinions1: CILST_best seed 1 work 7,002,646 (12.53s of 12.59s; start DEG-asc 8,561,099; 171,520 proposals)
+[2026-09-28T11:45:06Z] Soc-Epinions1: CILST_best seed 2 work 7,002,554 (12.56s of 12.59s; start DEG-asc 8,561,099; 168,704 proposals)
+[2026-09-28T11:45:19Z] Soc-Epinions1: CILST_best seed 3 work 7,003,901 (12.53s of 12.59s; start DEG-asc 8,561,099; 161,792 proposals)
+[2026-09-28T11:45:20Z] Soc-Epinions1: kernel median R* 17.405 ms; ratios T 0.9534, DOVE 0.9472, TILS_seed1 0.9424, ILST_seed1 0.9430
+[2026-09-28T11:45:20Z] Soc-Epinions1: posthoc verification PASSED (17 orders, triangles 1,624,481); 120.6s
+[2026-09-28T11:45:21Z] Soc-Slashdot0811: reloaded n=77,360 m=469,180; R* work 4,906,888 and all saved works match result.json; B=15.56s
+[2026-09-28T11:45:24Z] Soc-Slashdot0811: colouring best DEG-asc work 6,691,427 (fixed DEG-desc: 10,230,130; R* 4,906,888)
+[2026-09-28T11:45:40Z] Soc-Slashdot0811: ILST seed 1 work 4,345,564 (15.58s of 15.56s; start R* 4,906,888; 293,888 proposals)
+[2026-09-28T11:45:55Z] Soc-Slashdot0811: ILST seed 2 work 4,345,504 (15.51s of 15.56s; start R* 4,906,888; 260,096 proposals)
+[2026-09-28T11:46:11Z] Soc-Slashdot0811: ILST seed 3 work 4,345,363 (15.52s of 15.56s; start R* 4,906,888; 325,120 proposals)
+[2026-09-28T11:46:27Z] Soc-Slashdot0811: CILST_fixed seed 1 work 4,345,606 (15.54s of 15.56s; start DEG-desc 10,230,130; 303,616 proposals)
+[2026-09-28T11:46:43Z] Soc-Slashdot0811: CILST_fixed seed 2 work 4,343,470 (15.53s of 15.56s; start DEG-desc 10,230,130; 304,128 proposals)
+[2026-09-28T11:46:58Z] Soc-Slashdot0811: CILST_fixed seed 3 work 4,345,555 (15.54s of 15.56s; start DEG-desc 10,230,130; 312,064 proposals)
+[2026-09-28T11:47:14Z] Soc-Slashdot0811: CILST_best seed 1 work 4,342,525 (15.50s of 15.56s; start DEG-asc 6,691,427; 301,824 proposals)
+[2026-09-28T11:47:30Z] Soc-Slashdot0811: CILST_best seed 2 work 4,344,194 (15.51s of 15.56s; start DEG-asc 6,691,427; 308,736 proposals)
+[2026-09-28T11:47:46Z] Soc-Slashdot0811: CILST_best seed 3 work 4,343,391 (15.52s of 15.56s; start DEG-asc 6,691,427; 276,480 proposals)
+[2026-09-28T11:47:47Z] Soc-Slashdot0811: kernel median R* 17.477 ms; ratios T 0.9939, DOVE 0.9791, TILS_seed1 0.9719, ILST_seed1 0.9743
+[2026-09-28T11:47:47Z] Soc-Slashdot0811: posthoc verification PASSED (17 orders, triangles 551,724); 146.7s
+[2026-09-28T11:47:47Z] Cit-HepTh: reloaded n=27,769 m=352,285; R* work 4,212,943 and all saved works match result.json; B=10.53s
+[2026-09-28T11:47:49Z] Cit-HepTh: colouring best DEG-asc work 4,944,453 (fixed DEG-desc: 5,959,460; R* 4,212,943)
+[2026-09-28T11:48:00Z] Cit-HepTh: ILST seed 1 work 4,089,258 (10.46s of 10.53s; start R* 4,212,943; 343,040 proposals)
+[2026-09-28T11:48:11Z] Cit-HepTh: ILST seed 2 work 4,088,597 (10.46s of 10.53s; start R* 4,212,943; 361,216 proposals)
+[2026-09-28T11:48:21Z] Cit-HepTh: ILST seed 3 work 4,088,218 (10.47s of 10.53s; start R* 4,212,943; 364,288 proposals)
+[2026-09-28T11:48:32Z] Cit-HepTh: CILST_fixed seed 1 work 4,147,498 (10.48s of 10.53s; start DEG-desc 5,959,460; 316,672 proposals)
+[2026-09-28T11:48:42Z] Cit-HepTh: CILST_fixed seed 2 work 4,141,030 (10.47s of 10.53s; start DEG-desc 5,959,460; 370,688 proposals)
+[2026-09-28T11:48:53Z] Cit-HepTh: CILST_fixed seed 3 work 4,138,352 (10.50s of 10.53s; start DEG-desc 5,959,460; 374,016 proposals)
+[2026-09-28T11:49:04Z] Cit-HepTh: CILST_best seed 1 work 4,062,866 (10.49s of 10.53s; start DEG-asc 4,944,453; 380,416 proposals)
+[2026-09-28T11:49:14Z] Cit-HepTh: CILST_best seed 2 work 4,065,457 (10.48s of 10.53s; start DEG-asc 4,944,453; 390,656 proposals)
+[2026-09-28T11:49:25Z] Cit-HepTh: CILST_best seed 3 work 4,064,431 (10.47s of 10.53s; start DEG-asc 4,944,453; 389,120 proposals)
+[2026-09-28T11:49:26Z] Cit-HepTh: kernel median R* 12.891 ms; ratios T 1.0079, DOVE 1.0232, TILS_seed1 1.0114, ILST_seed1 1.0109
+[2026-09-28T11:49:26Z] Cit-HepTh: posthoc verification PASSED (17 orders, triangles 1,478,735); 99.1s
+[2026-09-28T11:49:27Z] Web-NotreDame: reloaded n=325,729 m=1,090,108; R* work 9,563,275 and all saved works match result.json; B=42.13s
+[2026-09-28T11:49:31Z] Web-NotreDame: colouring best DEG-asc work 10,164,341 (fixed DEG-desc: 10,757,259; R* 9,563,275)
+[2026-09-28T11:50:13Z] Web-NotreDame: ILST seed 1 work 9,521,712 (42.06s of 42.13s; start R* 9,563,275; 1,340,160 proposals)
+[2026-09-28T11:50:56Z] Web-NotreDame: ILST seed 2 work 9,521,849 (42.04s of 42.13s; start R* 9,563,275; 1,291,008 proposals)
+[2026-09-28T11:51:38Z] Web-NotreDame: ILST seed 3 work 9,521,830 (42.04s of 42.13s; start R* 9,563,275; 1,302,528 proposals)
+[2026-09-28T11:52:20Z] Web-NotreDame: CILST_fixed seed 1 work 9,575,491 (42.14s of 42.13s; start DEG-desc 10,757,259; 1,265,920 proposals)
+[2026-09-28T11:53:03Z] Web-NotreDame: CILST_fixed seed 2 work 9,578,344 (42.16s of 42.13s; start DEG-desc 10,757,259; 1,213,696 proposals)
+[2026-09-28T11:53:45Z] Web-NotreDame: CILST_fixed seed 3 work 9,578,971 (42.26s of 42.13s; start DEG-desc 10,757,259; 1,200,640 proposals)
+[2026-09-28T11:54:28Z] Web-NotreDame: CILST_best seed 1 work 9,582,866 (42.08s of 42.13s; start DEG-asc 10,164,341; 1,214,208 proposals)
+[2026-09-28T11:55:10Z] Web-NotreDame: CILST_best seed 2 work 9,582,494 (42.10s of 42.13s; start DEG-asc 10,164,341; 1,228,032 proposals)
+[2026-09-28T11:55:53Z] Web-NotreDame: CILST_best seed 3 work 9,578,992 (42.07s of 42.13s; start DEG-asc 10,164,341; 1,224,960 proposals)
+[2026-09-28T11:55:54Z] Web-NotreDame: kernel median R* 21.762 ms; ratios T 0.9621, DOVE 0.9618, TILS_seed1 0.9991, ILST_seed1 0.9862
+[2026-09-28T11:55:54Z] Web-NotreDame: posthoc verification PASSED (17 orders, triangles 8,910,005); 387.8s
+[2026-09-28T11:55:55Z] Com-Amazon: reloaded n=334,863 m=925,872; R* work 1,084,032 and all saved works match result.json; B=36.02s
+[2026-09-28T11:56:00Z] Com-Amazon: colouring best SL-asc-rev work 1,399,262 (fixed DEG-desc: 1,520,483; R* 1,084,032)
+[2026-09-28T11:56:36Z] Com-Amazon: ILST seed 1 work 1,057,618 (35.99s of 36.02s; start R* 1,084,032; 13,673,472 proposals)
+[2026-09-28T11:57:12Z] Com-Amazon: ILST seed 2 work 1,057,618 (35.98s of 36.02s; start R* 1,084,032; 13,761,024 proposals)
+[2026-09-28T11:57:49Z] Com-Amazon: ILST seed 3 work 1,057,618 (35.98s of 36.02s; start R* 1,084,032; 13,867,776 proposals)
+[2026-09-28T11:58:25Z] Com-Amazon: CILST_fixed seed 1 work 1,054,267 (35.98s of 36.02s; start DEG-desc 1,520,483; 13,710,592 proposals)
+[2026-09-28T11:59:01Z] Com-Amazon: CILST_fixed seed 2 work 1,054,732 (36.00s of 36.02s; start DEG-desc 1,520,483; 13,401,088 proposals)
+[2026-09-28T11:59:38Z] Com-Amazon: CILST_fixed seed 3 work 1,054,221 (35.98s of 36.02s; start DEG-desc 1,520,483; 13,691,392 proposals)
+[2026-09-28T12:00:14Z] Com-Amazon: CILST_best seed 1 work 1,054,073 (36.00s of 36.02s; start SL-asc-rev 1,399,262; 13,083,392 proposals)
+[2026-09-28T12:00:50Z] Com-Amazon: CILST_best seed 2 work 1,055,265 (35.98s of 36.02s; start SL-asc-rev 1,399,262; 13,077,248 proposals)
+[2026-09-28T12:01:27Z] Com-Amazon: CILST_best seed 3 work 1,054,251 (35.98s of 36.02s; start SL-asc-rev 1,399,262; 12,391,424 proposals)
+[2026-09-28T12:01:28Z] Com-Amazon: kernel median R* 23.527 ms; ratios T 1.0010, DOVE 0.9902, TILS_seed1 1.0019, ILST_seed1 1.0024
+[2026-09-28T12:01:28Z] Com-Amazon: posthoc verification PASSED (17 orders, triangles 667,129); 334.3s
+[2026-09-28T12:01:29Z] Com-DBLP: reloaded n=317,080 m=1,049,866; R* work 3,556,614 and all saved works match result.json; B=41.81s
+[2026-09-28T12:01:34Z] Com-DBLP: colouring best SL-asc work 4,048,860 (fixed DEG-desc: 4,945,163; R* 3,556,614)
+[2026-09-28T12:02:16Z] Com-DBLP: ILST seed 1 work 3,386,228 (41.72s of 41.81s; start R* 3,556,614; 7,385,856 proposals)
+[2026-09-28T12:02:59Z] Com-DBLP: ILST seed 2 work 3,386,352 (41.68s of 41.81s; start R* 3,556,614; 7,279,360 proposals)
+[2026-09-28T12:03:41Z] Com-DBLP: ILST seed 3 work 3,386,680 (41.71s of 41.81s; start R* 3,556,614; 7,333,632 proposals)
+[2026-09-28T12:04:23Z] Com-DBLP: CILST_fixed seed 1 work 3,383,338 (41.67s of 41.81s; start DEG-desc 4,945,163; 7,175,680 proposals)
+[2026-09-28T12:05:05Z] Com-DBLP: CILST_fixed seed 2 work 3,383,398 (41.66s of 41.81s; start DEG-desc 4,945,163; 7,166,208 proposals)
+[2026-09-28T12:05:47Z] Com-DBLP: CILST_fixed seed 3 work 3,385,106 (41.68s of 41.81s; start DEG-desc 4,945,163; 7,209,728 proposals)
+[2026-09-28T12:06:29Z] Com-DBLP: CILST_best seed 1 work 3,385,014 (41.73s of 41.81s; start SL-asc 4,048,860; 6,919,680 proposals)
+[2026-09-28T12:07:11Z] Com-DBLP: CILST_best seed 2 work 3,384,206 (41.66s of 41.81s; start SL-asc 4,048,860; 6,891,776 proposals)
+[2026-09-28T12:07:53Z] Com-DBLP: CILST_best seed 3 work 3,384,061 (41.66s of 41.81s; start SL-asc 4,048,860; 6,917,632 proposals)
+[2026-09-28T12:07:55Z] Com-DBLP: kernel median R* 30.872 ms; ratios T 1.0260, DOVE 1.0410, TILS_seed1 1.0300, ILST_seed1 1.0277
+[2026-09-28T12:07:55Z] Com-DBLP: posthoc verification PASSED (17 orders, triangles 2,224,385); 386.6s
+[2026-09-28T12:07:55Z] Email-EuAll: reloaded n=265,009 m=364,481; R* work 1,276,904 and all saved works match result.json; B=14.00s
+[2026-09-28T12:07:57Z] Email-EuAll: colouring best DEG-asc work 1,209,883 (fixed DEG-desc: 4,315,695; R* 1,276,904)
+[2026-09-28T12:08:11Z] Email-EuAll: ILST seed 1 work 1,012,458 (13.94s of 14.00s; start R* 1,276,904; 185,856 proposals)
+[2026-09-28T12:08:25Z] Email-EuAll: ILST seed 2 work 1,012,618 (13.93s of 14.00s; start R* 1,276,904; 182,784 proposals)
+[2026-09-28T12:08:39Z] Email-EuAll: ILST seed 3 work 1,010,476 (13.92s of 14.00s; start R* 1,276,904; 183,296 proposals)
+[2026-09-28T12:08:53Z] Email-EuAll: CILST_fixed seed 1 work 1,008,588 (13.91s of 14.00s; start DEG-desc 4,315,695; 270,336 proposals)
+[2026-09-28T12:09:08Z] Email-EuAll: CILST_fixed seed 2 work 1,013,855 (13.95s of 14.00s; start DEG-desc 4,315,695; 251,904 proposals)
+[2026-09-28T12:09:22Z] Email-EuAll: CILST_fixed seed 3 work 1,011,177 (13.87s of 14.00s; start DEG-desc 4,315,695; 268,032 proposals)
+[2026-09-28T12:09:36Z] Email-EuAll: CILST_best seed 1 work 1,010,596 (13.90s of 14.00s; start DEG-asc 1,209,883; 258,048 proposals)
+[2026-09-28T12:09:50Z] Email-EuAll: CILST_best seed 2 work 1,009,984 (13.91s of 14.00s; start DEG-asc 1,209,883; 245,760 proposals)
+[2026-09-28T12:10:04Z] Email-EuAll: CILST_best seed 3 work 1,009,978 (13.90s of 14.00s; start DEG-asc 1,209,883; 241,408 proposals)
+[2026-09-28T12:10:05Z] Email-EuAll: kernel median R* 8.228 ms; ratios T 0.9832, DOVE 0.9270, TILS_seed1 0.9900, ILST_seed1 0.9977
+[2026-09-28T12:10:05Z] Email-EuAll: posthoc verification PASSED (17 orders, triangles 267,313); 129.7s
+[2026-09-28T12:10:05Z] P2P-Gnutella04: reloaded n=10,876 m=39,994; R* work 73,280 and all saved works match result.json; B=0.73s
+[2026-09-28T12:10:05Z] P2P-Gnutella04: colouring best DEG-asc work 96,490 (fixed DEG-desc: 106,086; R* 73,280)
+[2026-09-28T12:10:06Z] P2P-Gnutella04: ILST seed 1 work 69,711 (0.73s of 0.73s; start R* 73,280; 783,872 proposals)
+[2026-09-28T12:10:06Z] P2P-Gnutella04: ILST seed 2 work 69,668 (0.73s of 0.73s; start R* 73,280; 787,712 proposals)
+[2026-09-28T12:10:07Z] P2P-Gnutella04: ILST seed 3 work 69,668 (0.73s of 0.73s; start R* 73,280; 787,968 proposals)
+[2026-09-28T12:10:08Z] P2P-Gnutella04: CILST_fixed seed 1 work 69,376 (0.73s of 0.73s; start DEG-desc 106,086; 764,416 proposals)
+[2026-09-28T12:10:09Z] P2P-Gnutella04: CILST_fixed seed 2 work 69,452 (0.73s of 0.73s; start DEG-desc 106,086; 747,264 proposals)
+[2026-09-28T12:10:09Z] P2P-Gnutella04: CILST_fixed seed 3 work 69,390 (0.73s of 0.73s; start DEG-desc 106,086; 737,536 proposals)
+[2026-09-28T12:10:10Z] P2P-Gnutella04: CILST_best seed 1 work 69,538 (0.73s of 0.73s; start DEG-asc 96,490; 745,472 proposals)
+[2026-09-28T12:10:11Z] P2P-Gnutella04: CILST_best seed 2 work 69,580 (0.73s of 0.73s; start DEG-asc 96,490; 735,744 proposals)
+[2026-09-28T12:10:12Z] P2P-Gnutella04: CILST_best seed 3 work 69,377 (0.73s of 0.73s; start DEG-asc 96,490; 741,120 proposals)
+[2026-09-28T12:10:12Z] P2P-Gnutella04: kernel median R* 0.827 ms; ratios T 0.9962, DOVE 0.9972, TILS_seed1 0.9998, ILST_seed1 0.9849
+[2026-09-28T12:10:12Z] P2P-Gnutella04: posthoc verification PASSED (17 orders, triangles 934); 7.6s
+[2026-09-28T12:10:12Z] Bitcoin-OTC: reloaded n=5,881 m=21,492; R* work 115,800 and all saved works match result.json; B=0.34s
+[2026-09-28T12:10:12Z] Bitcoin-OTC: colouring best DEG-asc work 125,934 (fixed DEG-desc: 192,793; R* 115,800)
+[2026-09-28T12:10:13Z] Bitcoin-OTC: ILST seed 1 work 103,254 (0.34s of 0.34s; start R* 115,800; 51,968 proposals)
+[2026-09-28T12:10:13Z] Bitcoin-OTC: ILST seed 2 work 103,133 (0.34s of 0.34s; start R* 115,800; 51,456 proposals)
+[2026-09-28T12:10:13Z] Bitcoin-OTC: ILST seed 3 work 103,356 (0.34s of 0.34s; start R* 115,800; 51,712 proposals)
+[2026-09-28T12:10:14Z] Bitcoin-OTC: CILST_fixed seed 1 work 104,899 (0.34s of 0.34s; start DEG-desc 192,793; 47,360 proposals)
+[2026-09-28T12:10:14Z] Bitcoin-OTC: CILST_fixed seed 2 work 104,675 (0.34s of 0.34s; start DEG-desc 192,793; 44,544 proposals)
+[2026-09-28T12:10:14Z] Bitcoin-OTC: CILST_fixed seed 3 work 104,845 (0.34s of 0.34s; start DEG-desc 192,793; 48,896 proposals)
+[2026-09-28T12:10:15Z] Bitcoin-OTC: CILST_best seed 1 work 105,211 (0.34s of 0.34s; start DEG-asc 125,934; 47,616 proposals)
+[2026-09-28T12:10:15Z] Bitcoin-OTC: CILST_best seed 2 work 104,239 (0.34s of 0.34s; start DEG-asc 125,934; 43,264 proposals)
+[2026-09-28T12:10:16Z] Bitcoin-OTC: CILST_best seed 3 work 104,889 (0.34s of 0.34s; start DEG-asc 125,934; 48,640 proposals)
+[2026-09-28T12:10:16Z] Bitcoin-OTC: kernel median R* 0.521 ms; ratios T 0.9999, DOVE 0.9998, TILS_seed1 0.9974, ILST_seed1 0.9993
+[2026-09-28T12:10:16Z] Bitcoin-OTC: posthoc verification PASSED (17 orders, triangles 33,493); 4.0s
+[2026-09-28T12:10:18Z] Web-Stanford: reloaded n=281,903 m=1,992,636; R* work 12,284,557 and all saved works match result.json; B=76.96s
+[2026-09-28T12:10:30Z] Web-Stanford: colouring best DEG-asc work 13,398,478 (fixed DEG-desc: 17,673,942; R* 12,284,557)
+[2026-09-28T12:11:47Z] Web-Stanford: ILST seed 1 work 12,212,069 (76.46s of 76.96s; start R* 12,284,557; 101,376 proposals)
+[2026-09-28T12:13:05Z] Web-Stanford: ILST seed 2 work 12,212,069 (76.34s of 76.96s; start R* 12,284,557; 101,632 proposals)
+[2026-09-28T12:14:22Z] Web-Stanford: ILST seed 3 work 12,212,069 (76.41s of 76.96s; start R* 12,284,557; 101,376 proposals)
+[2026-09-28T12:15:40Z] Web-Stanford: CILST_fixed seed 1 work 13,183,130 (76.82s of 76.96s; start DEG-desc 17,673,942; 110,080 proposals)
+[2026-09-28T12:16:57Z] Web-Stanford: CILST_fixed seed 2 work 13,181,606 (76.89s of 76.96s; start DEG-desc 17,673,942; 110,592 proposals)
+[2026-09-28T12:18:15Z] Web-Stanford: CILST_fixed seed 3 work 13,176,089 (76.89s of 76.96s; start DEG-desc 17,673,942; 111,360 proposals)
+[2026-09-28T12:19:33Z] Web-Stanford: CILST_best seed 1 work 12,606,498 (77.30s of 76.96s; start DEG-asc 13,398,478; 93,696 proposals)
+[2026-09-28T12:20:51Z] Web-Stanford: CILST_best seed 2 work 12,606,423 (77.20s of 76.96s; start DEG-asc 13,398,478; 94,208 proposals)
+[2026-09-28T12:22:10Z] Web-Stanford: CILST_best seed 3 work 12,605,831 (77.17s of 76.96s; start DEG-asc 13,398,478; 94,464 proposals)
+[2026-09-28T12:22:13Z] Web-Stanford: kernel median R* 57.024 ms; ratios T 1.0033, DOVE 0.9947, TILS_seed1 0.9950, ILST_seed1 0.9938
+[2026-09-28T12:22:13Z] Web-Stanford: posthoc verification PASSED (17 orders, triangles 11,329,473); 716.9s
+[2026-09-28T12:22:13Z] AS-Caida: reloaded n=26,475 m=53,381; R* work 131,589 and all saved works match result.json; B=1.03s
+[2026-09-28T12:22:13Z] AS-Caida: colouring best SL-asc work 146,268 (fixed DEG-desc: 255,551; R* 131,589)
+[2026-09-28T12:22:14Z] AS-Caida: ILST seed 1 work 107,878 (1.03s of 1.03s; start R* 131,589; 55,040 proposals)
+[2026-09-28T12:22:16Z] AS-Caida: ILST seed 2 work 107,932 (1.03s of 1.03s; start R* 131,589; 54,272 proposals)
+[2026-09-28T12:22:17Z] AS-Caida: ILST seed 3 work 107,923 (1.03s of 1.03s; start R* 131,589; 54,784 proposals)
+[2026-09-28T12:22:18Z] AS-Caida: CILST_fixed seed 1 work 112,991 (1.03s of 1.03s; start DEG-desc 255,551; 54,784 proposals)
+[2026-09-28T12:22:19Z] AS-Caida: CILST_fixed seed 2 work 111,888 (1.03s of 1.03s; start DEG-desc 255,551; 48,640 proposals)
+[2026-09-28T12:22:20Z] AS-Caida: CILST_fixed seed 3 work 110,931 (1.04s of 1.03s; start DEG-desc 255,551; 55,552 proposals)
+[2026-09-28T12:22:21Z] AS-Caida: CILST_best seed 1 work 114,039 (1.04s of 1.03s; start SL-asc 146,268; 48,896 proposals)
+[2026-09-28T12:22:22Z] AS-Caida: CILST_best seed 2 work 111,974 (1.04s of 1.03s; start SL-asc 146,268; 49,152 proposals)
+[2026-09-28T12:22:23Z] AS-Caida: CILST_best seed 3 work 111,976 (1.03s of 1.03s; start SL-asc 146,268; 48,640 proposals)
+[2026-09-28T12:22:24Z] AS-Caida: kernel median R* 1.200 ms; ratios T 0.9932, DOVE 0.9635, TILS_seed1 0.9885, ILST_seed1 0.9787
+[2026-09-28T12:22:24Z] AS-Caida: posthoc verification PASSED (17 orders, triangles 36,365); 10.4s
+[2026-09-28T12:22:24Z] Cit-HepPh: reloaded n=34,546 m=420,877; R* work 3,972,842 and all saved works match result.json; B=13.18s
+[2026-09-28T12:22:26Z] Cit-HepPh: colouring best DEG-asc work 4,839,165 (fixed DEG-desc: 5,687,003; R* 3,972,842)
+[2026-09-28T12:22:39Z] Cit-HepPh: ILST seed 1 work 3,836,851 (13.12s of 13.18s; start R* 3,972,842; 923,904 proposals)
+[2026-09-28T12:22:53Z] Cit-HepPh: ILST seed 2 work 3,836,097 (13.12s of 13.18s; start R* 3,972,842; 930,816 proposals)
+[2026-09-28T12:23:06Z] Cit-HepPh: ILST seed 3 work 3,835,660 (13.13s of 13.18s; start R* 3,972,842; 937,216 proposals)
+[2026-09-28T12:23:19Z] Cit-HepPh: CILST_fixed seed 1 work 3,737,527 (13.13s of 13.18s; start DEG-desc 5,687,003; 898,816 proposals)
+[2026-09-28T12:23:32Z] Cit-HepPh: CILST_fixed seed 2 work 3,741,635 (13.15s of 13.18s; start DEG-desc 5,687,003; 900,864 proposals)
+[2026-09-28T12:23:46Z] Cit-HepPh: CILST_fixed seed 3 work 3,736,561 (13.14s of 13.18s; start DEG-desc 5,687,003; 883,712 proposals)
+[2026-09-28T12:23:59Z] Cit-HepPh: CILST_best seed 1 work 3,730,174 (13.12s of 13.18s; start DEG-asc 4,839,165; 907,776 proposals)
+[2026-09-28T12:24:12Z] Cit-HepPh: CILST_best seed 2 work 3,729,323 (13.14s of 13.18s; start DEG-asc 4,839,165; 893,440 proposals)
+[2026-09-28T12:24:26Z] Cit-HepPh: CILST_best seed 3 work 3,728,985 (13.14s of 13.18s; start DEG-asc 4,839,165; 884,736 proposals)
+[2026-09-28T12:24:27Z] Cit-HepPh: kernel median R* 15.006 ms; ratios T 1.0112, DOVE 1.0099, TILS_seed1 1.0114, ILST_seed1 1.0105
+[2026-09-28T12:24:27Z] Cit-HepPh: posthoc verification PASSED (17 orders, triangles 1,276,868); 123.3s
+[2026-09-28T12:24:29Z] RoadNet-PA: reloaded n=1,088,092 m=1,541,898; R* work 395,391 and all saved works match result.json; B=72.38s
+[2026-09-28T12:24:36Z] RoadNet-PA: colouring best SL-asc-rev work 438,300 (fixed DEG-desc: 540,087; R* 395,391)
+[2026-09-28T12:25:48Z] RoadNet-PA: ILST seed 1 work 326,790 (72.39s of 72.38s; start R* 395,391; 80,904,960 proposals)
+[2026-09-28T12:27:01Z] RoadNet-PA: ILST seed 2 work 326,410 (72.38s of 72.38s; start R* 395,391; 80,003,072 proposals)
+[2026-09-28T12:28:14Z] RoadNet-PA: ILST seed 3 work 326,410 (72.38s of 72.38s; start R* 395,391; 80,837,632 proposals)
+[2026-09-28T12:29:27Z] RoadNet-PA: CILST_fixed seed 1 work 324,429 (72.34s of 72.38s; start DEG-desc 540,087; 80,108,544 proposals)
+[2026-09-28T12:30:40Z] RoadNet-PA: CILST_fixed seed 2 work 324,879 (72.38s of 72.38s; start DEG-desc 540,087; 79,824,128 proposals)
+[2026-09-28T12:31:53Z] RoadNet-PA: CILST_fixed seed 3 work 324,605 (72.34s of 72.38s; start DEG-desc 540,087; 79,800,320 proposals)
+[2026-09-28T12:33:06Z] RoadNet-PA: CILST_best seed 1 work 313,118 (72.35s of 72.38s; start SL-asc-rev 438,300; 76,225,792 proposals)
+[2026-09-28T12:34:19Z] RoadNet-PA: CILST_best seed 2 work 311,906 (72.38s of 72.38s; start SL-asc-rev 438,300; 76,826,624 proposals)
+[2026-09-28T12:35:31Z] RoadNet-PA: CILST_best seed 3 work 312,372 (72.35s of 72.38s; start SL-asc-rev 438,300; 76,660,480 proposals)
+[2026-09-28T12:35:33Z] RoadNet-PA: kernel median R* 24.483 ms; ratios T 1.0143, DOVE 1.0008, TILS_seed1 0.9560, ILST_seed1 0.9505
+[2026-09-28T12:35:33Z] RoadNet-PA: posthoc verification PASSED (17 orders, triangles 67,150); 666.4s
+[2026-09-28T12:35:34Z] Loc-Gowalla: reloaded n=196,591 m=950,327; R* work 8,631,304 and all saved works match result.json; B=35.33s
+[2026-09-28T12:35:40Z] Loc-Gowalla: colouring best DEG-asc work 9,607,460 (fixed DEG-desc: 14,394,170; R* 8,631,304)
+[2026-09-28T12:36:15Z] Loc-Gowalla: ILST seed 1 work 7,724,919 (35.07s of 35.33s; start R* 8,631,304; 371,968 proposals)
+[2026-09-28T12:36:51Z] Loc-Gowalla: ILST seed 2 work 7,724,938 (34.99s of 35.33s; start R* 8,631,304; 376,320 proposals)
+[2026-09-28T12:37:26Z] Loc-Gowalla: ILST seed 3 work 7,723,564 (35.10s of 35.33s; start R* 8,631,304; 374,016 proposals)
+[2026-09-28T12:38:02Z] Loc-Gowalla: CILST_fixed seed 1 work 7,837,432 (35.18s of 35.33s; start DEG-desc 14,394,170; 359,168 proposals)
+[2026-09-28T12:38:37Z] Loc-Gowalla: CILST_fixed seed 2 work 7,810,212 (35.20s of 35.33s; start DEG-desc 14,394,170; 361,472 proposals)
+[2026-09-28T12:39:13Z] Loc-Gowalla: CILST_fixed seed 3 work 7,769,655 (35.27s of 35.33s; start DEG-desc 14,394,170; 365,312 proposals)
+[2026-09-28T12:39:48Z] Loc-Gowalla: CILST_best seed 1 work 7,811,720 (35.09s of 35.33s; start DEG-asc 9,607,460; 387,584 proposals)
+[2026-09-28T12:40:24Z] Loc-Gowalla: CILST_best seed 2 work 7,802,477 (35.13s of 35.33s; start DEG-asc 9,607,460; 398,080 proposals)
+[2026-09-28T12:41:00Z] Loc-Gowalla: CILST_best seed 3 work 7,814,242 (35.13s of 35.33s; start DEG-asc 9,607,460; 393,728 proposals)
+[2026-09-28T12:41:01Z] Loc-Gowalla: kernel median R* 33.705 ms; ratios T 0.9920, DOVE 0.9986, TILS_seed1 0.9954, ILST_seed1 0.9901
+[2026-09-28T12:41:01Z] Loc-Gowalla: posthoc verification PASSED (17 orders, triangles 2,273,138); 328.0s
+[2026-09-28T12:41:01Z] Email-Eu-core: reloaded n=986 m=16,064; R* work 230,108 and all saved works match result.json; B=0.25s
+[2026-09-28T12:41:02Z] Email-Eu-core: colouring best DEG-asc work 243,462 (fixed DEG-desc: 296,445; R* 230,108)
+[2026-09-28T12:41:02Z] Email-Eu-core: ILST seed 1 work 208,142 (0.26s of 0.25s; start R* 230,108; 24,576 proposals)
+[2026-09-28T12:41:02Z] Email-Eu-core: ILST seed 2 work 208,002 (0.25s of 0.25s; start R* 230,108; 24,832 proposals)
+[2026-09-28T12:41:02Z] Email-Eu-core: ILST seed 3 work 207,821 (0.25s of 0.25s; start R* 230,108; 24,320 proposals)
+[2026-09-28T12:41:03Z] Email-Eu-core: CILST_fixed seed 1 work 208,065 (0.25s of 0.25s; start DEG-desc 296,445; 23,552 proposals)
+[2026-09-28T12:41:03Z] Email-Eu-core: CILST_fixed seed 2 work 208,020 (0.25s of 0.25s; start DEG-desc 296,445; 24,320 proposals)
+[2026-09-28T12:41:03Z] Email-Eu-core: CILST_fixed seed 3 work 208,219 (0.25s of 0.25s; start DEG-desc 296,445; 23,552 proposals)
+[2026-09-28T12:41:03Z] Email-Eu-core: CILST_best seed 1 work 207,657 (0.26s of 0.25s; start DEG-asc 243,462; 22,784 proposals)
+[2026-09-28T12:41:04Z] Email-Eu-core: CILST_best seed 2 work 207,621 (0.26s of 0.25s; start DEG-asc 243,462; 23,296 proposals)
+[2026-09-28T12:41:04Z] Email-Eu-core: CILST_best seed 3 work 207,677 (0.26s of 0.25s; start DEG-asc 243,462; 23,040 proposals)
+[2026-09-28T12:41:05Z] Email-Eu-core: kernel median R* 0.471 ms; ratios T 1.0172, DOVE 1.0191, TILS_seed1 1.0069, ILST_seed1 1.0066
+[2026-09-28T12:41:05Z] Email-Eu-core: posthoc verification PASSED (17 orders, triangles 105,461); 3.2s
+[2026-09-28T12:41:05Z] CollegeMsg: reloaded n=1,899 m=13,838; R* work 69,026 and all saved works match result.json; B=0.22s
+[2026-09-28T12:41:05Z] CollegeMsg: colouring best DEG-asc work 101,712 (fixed DEG-desc: 116,250; R* 69,026)
+[2026-09-28T12:41:05Z] CollegeMsg: ILST seed 1 work 54,329 (0.22s of 0.22s; start R* 69,026; 44,544 proposals)
+[2026-09-28T12:41:05Z] CollegeMsg: ILST seed 2 work 54,329 (0.22s of 0.22s; start R* 69,026; 44,544 proposals)
+[2026-09-28T12:41:05Z] CollegeMsg: ILST seed 3 work 54,330 (0.22s of 0.22s; start R* 69,026; 44,800 proposals)
+[2026-09-28T12:41:06Z] CollegeMsg: CILST_fixed seed 1 work 54,357 (0.22s of 0.22s; start DEG-desc 116,250; 41,472 proposals)
+[2026-09-28T12:41:06Z] CollegeMsg: CILST_fixed seed 2 work 54,470 (0.22s of 0.22s; start DEG-desc 116,250; 41,984 proposals)
+[2026-09-28T12:41:06Z] CollegeMsg: CILST_fixed seed 3 work 54,387 (0.22s of 0.22s; start DEG-desc 116,250; 41,472 proposals)
+[2026-09-28T12:41:06Z] CollegeMsg: CILST_best seed 1 work 54,350 (0.22s of 0.22s; start DEG-asc 101,712; 39,936 proposals)
+[2026-09-28T12:41:07Z] CollegeMsg: CILST_best seed 2 work 54,361 (0.22s of 0.22s; start DEG-asc 101,712; 40,448 proposals)
+[2026-09-28T12:41:07Z] CollegeMsg: CILST_best seed 3 work 54,337 (0.22s of 0.22s; start DEG-asc 101,712; 40,192 proposals)
+[2026-09-28T12:41:07Z] CollegeMsg: kernel median R* 0.304 ms; ratios T 0.9818, DOVE 0.9354, TILS_seed1 0.9285, ILST_seed1 0.9273
+[2026-09-28T12:41:07Z] CollegeMsg: posthoc verification PASSED (17 orders, triangles 14,319); 2.8s
+[2026-09-28T12:41:08Z] LastFM-Asia: reloaded n=7,624 m=27,806; R* work 95,968 and all saved works match result.json; B=0.44s
+[2026-09-28T12:41:08Z] LastFM-Asia: colouring best DEG-asc work 109,353 (fixed DEG-desc: 140,671; R* 95,968)
+[2026-09-28T12:41:08Z] LastFM-Asia: ILST seed 1 work 87,849 (0.44s of 0.44s; start R* 95,968; 206,592 proposals)
+[2026-09-28T12:41:08Z] LastFM-Asia: ILST seed 2 work 87,817 (0.44s of 0.44s; start R* 95,968; 217,088 proposals)
+[2026-09-28T12:41:09Z] LastFM-Asia: ILST seed 3 work 87,867 (0.44s of 0.44s; start R* 95,968; 208,384 proposals)
+[2026-09-28T12:41:09Z] LastFM-Asia: CILST_fixed seed 1 work 87,607 (0.44s of 0.44s; start DEG-desc 140,671; 207,872 proposals)
+[2026-09-28T12:41:10Z] LastFM-Asia: CILST_fixed seed 2 work 87,577 (0.44s of 0.44s; start DEG-desc 140,671; 206,336 proposals)
+[2026-09-28T12:41:10Z] LastFM-Asia: CILST_fixed seed 3 work 87,603 (0.44s of 0.44s; start DEG-desc 140,671; 215,296 proposals)
+[2026-09-28T12:41:11Z] LastFM-Asia: CILST_best seed 1 work 88,003 (0.44s of 0.44s; start DEG-asc 109,353; 204,544 proposals)
+[2026-09-28T12:41:11Z] LastFM-Asia: CILST_best seed 2 work 87,599 (0.44s of 0.44s; start DEG-asc 109,353; 205,824 proposals)
+[2026-09-28T12:41:12Z] LastFM-Asia: CILST_best seed 3 work 88,188 (0.44s of 0.44s; start DEG-asc 109,353; 206,848 proposals)
+[2026-09-28T12:41:12Z] LastFM-Asia: kernel median R* 0.675 ms; ratios T 1.0110, DOVE 0.9980, TILS_seed1 0.9916, ILST_seed1 0.9906
+[2026-09-28T12:41:12Z] LastFM-Asia: posthoc verification PASSED (17 orders, triangles 40,433); 4.9s
+[2026-09-28T12:41:12Z] Deezer-Europe: reloaded n=28,281 m=92,752; R* work 225,511 and all saved works match result.json; B=1.93s
+[2026-09-28T12:41:13Z] Deezer-Europe: colouring best SL-asc work 261,262 (fixed DEG-desc: 299,547; R* 225,511)
+[2026-09-28T12:41:15Z] Deezer-Europe: ILST seed 1 work 204,079 (1.92s of 1.93s; start R* 225,511; 1,432,832 proposals)
+[2026-09-28T12:41:17Z] Deezer-Europe: ILST seed 2 work 204,230 (1.92s of 1.93s; start R* 225,511; 1,504,768 proposals)
+[2026-09-28T12:41:19Z] Deezer-Europe: ILST seed 3 work 204,723 (1.92s of 1.93s; start R* 225,511; 1,453,312 proposals)
+[2026-09-28T12:41:21Z] Deezer-Europe: CILST_fixed seed 1 work 204,778 (1.92s of 1.93s; start DEG-desc 299,547; 1,380,352 proposals)
+[2026-09-28T12:41:23Z] Deezer-Europe: CILST_fixed seed 2 work 204,527 (1.92s of 1.93s; start DEG-desc 299,547; 1,483,520 proposals)
+[2026-09-28T12:41:24Z] Deezer-Europe: CILST_fixed seed 3 work 204,075 (1.92s of 1.93s; start DEG-desc 299,547; 1,353,728 proposals)
+[2026-09-28T12:41:26Z] Deezer-Europe: CILST_best seed 1 work 204,695 (1.92s of 1.93s; start SL-asc 261,262; 1,323,520 proposals)
+[2026-09-28T12:41:28Z] Deezer-Europe: CILST_best seed 2 work 205,110 (1.92s of 1.93s; start SL-asc 261,262; 1,363,712 proposals)
+[2026-09-28T12:41:30Z] Deezer-Europe: CILST_best seed 3 work 205,472 (1.92s of 1.93s; start SL-asc 261,262; 1,341,696 proposals)
+[2026-09-28T12:41:31Z] Deezer-Europe: kernel median R* 2.362 ms; ratios T 1.0143, DOVE 0.9931, TILS_seed1 0.9904, ILST_seed1 0.9909
+[2026-09-28T12:41:31Z] Deezer-Europe: posthoc verification PASSED (17 orders, triangles 45,034); 18.7s
+[2026-09-28T12:41:32Z] Amazon0302: reloaded n=262,111 m=899,792; R* work 1,376,154 and all saved works match result.json; B=34.11s
+[2026-09-28T12:41:36Z] Amazon0302: colouring best SL-asc-rev work 1,615,113 (fixed DEG-desc: 1,714,398; R* 1,376,154)
+[2026-09-28T12:42:10Z] Amazon0302: ILST seed 1 work 1,255,097 (34.02s of 34.11s; start R* 1,376,154; 15,452,928 proposals)
+[2026-09-28T12:42:44Z] Amazon0302: ILST seed 2 work 1,255,097 (34.01s of 34.11s; start R* 1,376,154; 15,527,424 proposals)
+[2026-09-28T12:43:19Z] Amazon0302: ILST seed 3 work 1,254,137 (34.01s of 34.11s; start R* 1,376,154; 15,548,160 proposals)
+[2026-09-28T12:43:53Z] Amazon0302: CILST_fixed seed 1 work 1,259,409 (34.03s of 34.11s; start DEG-desc 1,714,398; 15,162,112 proposals)
+[2026-09-28T12:44:27Z] Amazon0302: CILST_fixed seed 2 work 1,259,195 (34.08s of 34.11s; start DEG-desc 1,714,398; 15,305,728 proposals)
+[2026-09-28T12:45:02Z] Amazon0302: CILST_fixed seed 3 work 1,258,765 (34.06s of 34.11s; start DEG-desc 1,714,398; 14,903,552 proposals)
+[2026-09-28T12:45:36Z] Amazon0302: CILST_best seed 1 work 1,255,786 (34.05s of 34.11s; start SL-asc-rev 1,615,113; 15,021,824 proposals)
+[2026-09-28T12:46:10Z] Amazon0302: CILST_best seed 2 work 1,255,503 (34.01s of 34.11s; start SL-asc-rev 1,615,113; 14,746,368 proposals)
+[2026-09-28T12:46:44Z] Amazon0302: CILST_best seed 3 work 1,256,696 (34.01s of 34.11s; start SL-asc-rev 1,615,113; 14,753,536 proposals)
+[2026-09-28T12:46:46Z] Amazon0302: kernel median R* 21.129 ms; ratios T 0.9945, DOVE 0.9882, TILS_seed1 0.9853, ILST_seed1 0.9792
+[2026-09-28T12:46:46Z] Amazon0302: posthoc verification PASSED (17 orders, triangles 717,719); 314.7s
+[2026-09-28T12:46:52Z] Wiki-Talk: reloaded n=2,394,385 m=4,659,565; R* work 57,386,025 and all saved works match result.json; B=228.80s
+[2026-09-28T12:48:06Z] Wiki-Talk: colouring best SL-asc work 58,264,067 (fixed DEG-desc: 243,483,705; R* 57,386,025)
+[2026-09-28T12:51:59Z] Wiki-Talk: ILST seed 1 work 50,328,511 (229.24s of 228.80s; start R* 57,386,025; 73,216 proposals)
+[2026-09-28T12:55:53Z] Wiki-Talk: ILST seed 2 work 50,288,759 (229.00s of 228.80s; start R* 57,386,025; 70,912 proposals)
+[2026-09-28T13:00:03Z] Wiki-Talk: ILST seed 3 work 50,436,469 (234.90s of 228.80s; start R* 57,386,025; 61,184 proposals)
+[2026-09-28T13:04:04Z] Wiki-Talk: CILST_fixed seed 1 work 51,028,250 (237.27s of 228.80s; start DEG-desc 243,483,705; 78,848 proposals)
+[2026-09-28T13:08:06Z] Wiki-Talk: CILST_fixed seed 2 work 51,025,795 (238.44s of 228.80s; start DEG-desc 243,483,705; 87,808 proposals)
+[2026-09-28T13:12:08Z] Wiki-Talk: CILST_fixed seed 3 work 51,003,116 (238.19s of 228.80s; start DEG-desc 243,483,705; 86,272 proposals)
+[2026-09-28T13:16:05Z] Wiki-Talk: CILST_best seed 1 work 50,543,243 (232.87s of 228.80s; start SL-asc 58,264,067; 68,096 proposals)
+[2026-09-28T13:20:07Z] Wiki-Talk: CILST_best seed 2 work 50,566,211 (237.58s of 228.80s; start SL-asc 58,264,067; 70,400 proposals)
+[2026-09-28T13:24:07Z] Wiki-Talk: CILST_best seed 3 work 50,639,250 (235.88s of 228.80s; start SL-asc 58,264,067; 71,168 proposals)
+[2026-09-28T13:24:25Z] Wiki-Talk: kernel median R* 305.939 ms; ratios T 0.9839, DOVE 1.0058, TILS_seed1 0.9739, ILST_seed1 0.9882
+[2026-09-28T13:24:25Z] Wiki-Talk: posthoc verification PASSED (17 orders, triangles 9,203,519); 2259.7s
+[2026-09-28T13:24:29Z] com-Youtube: reloaded n=1,134,890 m=2,987,624; R* work 21,994,900 and all saved works match result.json; B=124.05s
+[2026-09-28T13:24:51Z] com-Youtube: colouring best DEG-asc work 21,529,884 (fixed DEG-desc: 41,579,799; R* 21,994,900)
+[2026-09-28T13:26:54Z] com-Youtube: ILST seed 1 work 16,575,592 (121.73s of 124.05s; start R* 21,994,900; 501,760 proposals)
+[2026-09-28T13:28:57Z] com-Youtube: ILST seed 2 work 16,575,593 (121.41s of 124.05s; start R* 21,994,900; 498,176 proposals)
+[2026-09-28T13:31:00Z] com-Youtube: ILST seed 3 work 16,582,512 (121.51s of 124.05s; start R* 21,994,900; 469,504 proposals)
+[2026-09-28T13:33:05Z] com-Youtube: CILST_fixed seed 1 work 16,136,685 (122.91s of 124.05s; start DEG-desc 41,579,799; 495,872 proposals)
+[2026-09-28T13:35:09Z] com-Youtube: CILST_fixed seed 2 work 16,278,543 (123.45s of 124.05s; start DEG-desc 41,579,799; 482,304 proposals)
+[2026-09-28T13:37:13Z] com-Youtube: CILST_fixed seed 3 work 16,275,253 (122.59s of 124.05s; start DEG-desc 41,579,799; 496,384 proposals)
+[2026-09-28T13:39:17Z] com-Youtube: CILST_best seed 1 work 15,789,452 (121.68s of 124.05s; start DEG-asc 21,529,884; 537,344 proposals)
+[2026-09-28T13:41:19Z] com-Youtube: CILST_best seed 2 work 15,789,245 (121.40s of 124.05s; start DEG-asc 21,529,884; 545,024 proposals)
+[2026-09-28T13:43:22Z] com-Youtube: CILST_best seed 3 work 15,789,503 (121.48s of 124.05s; start DEG-asc 21,529,884; 538,112 proposals)
+[2026-09-28T13:43:30Z] com-Youtube: kernel median R* 136.119 ms; ratios T 0.9406, DOVE 0.9269, TILS_seed1 0.9117, ILST_seed1 0.9137
+[2026-09-28T13:43:30Z] com-Youtube: posthoc verification PASSED (17 orders, triangles 3,056,386); 1144.2s
+[2026-09-28T13:43:35Z] web-Google: reloaded n=875,713 m=4,322,051; R* work 16,782,540 and all saved works match result.json; B=168.56s
+[2026-09-28T13:44:10Z] web-Google: colouring best DEG-asc work 18,402,249 (fixed DEG-desc: 21,885,863; R* 16,782,540)
+[2026-09-28T13:46:57Z] web-Google: ILST seed 1 work 15,913,380 (164.97s of 168.56s; start R* 16,782,540; 2,720,256 proposals)
+[2026-09-28T13:49:45Z] web-Google: ILST seed 2 work 15,913,834 (164.96s of 168.56s; start R* 16,782,540; 2,705,408 proposals)
+[2026-09-28T13:52:32Z] web-Google: ILST seed 3 work 15,913,085 (164.93s of 168.56s; start R* 16,782,540; 2,722,048 proposals)
+[2026-09-28T13:55:20Z] web-Google: CILST_fixed seed 1 work 16,158,801 (165.46s of 168.56s; start DEG-desc 21,885,863; 2,626,816 proposals)
+[2026-09-28T13:58:08Z] web-Google: CILST_fixed seed 2 work 16,178,787 (165.96s of 168.56s; start DEG-desc 21,885,863; 2,569,728 proposals)
+[2026-09-28T14:00:56Z] web-Google: CILST_fixed seed 3 work 16,163,028 (165.45s of 168.56s; start DEG-desc 21,885,863; 2,600,704 proposals)
+[2026-09-28T14:03:44Z] web-Google: CILST_best seed 1 work 16,033,465 (165.95s of 168.56s; start DEG-asc 18,402,249; 2,235,904 proposals)
+[2026-09-28T14:06:32Z] web-Google: CILST_best seed 2 work 16,034,593 (165.92s of 168.56s; start DEG-asc 18,402,249; 2,229,248 proposals)
+[2026-09-28T14:09:20Z] web-Google: CILST_best seed 3 work 16,033,088 (165.40s of 168.56s; start DEG-asc 18,402,249; 2,228,224 proposals)
+[2026-09-28T14:09:35Z] web-Google: kernel median R* 260.606 ms; ratios T 0.9936, DOVE 0.9378, TILS_seed1 0.9611, ILST_seed1 0.9641
+[2026-09-28T14:09:35Z] web-Google: posthoc verification PASSED (17 orders, triangles 13,391,903); 1565.1s
+[2026-09-28T14:09:39Z] roadNet-CA: reloaded n=1,965,206 m=2,766,607; R* work 861,594 and all saved works match result.json; B=130.40s
+[2026-09-28T14:09:52Z] roadNet-CA: colouring best SL-asc work 777,544 (fixed DEG-desc: 956,640; R* 861,594)
+[2026-09-28T14:12:03Z] roadNet-CA: ILST seed 1 work 571,096 (130.28s of 130.40s; start R* 861,594; 140,840,192 proposals)
+[2026-09-28T14:14:14Z] roadNet-CA: ILST seed 2 work 571,045 (130.28s of 130.40s; start R* 861,594; 141,298,688 proposals)
+[2026-09-28T14:16:25Z] roadNet-CA: ILST seed 3 work 570,996 (130.28s of 130.40s; start R* 861,594; 141,047,552 proposals)
+[2026-09-28T14:18:36Z] roadNet-CA: CILST_fixed seed 1 work 576,392 (130.27s of 130.40s; start DEG-desc 956,640; 139,803,648 proposals)
+[2026-09-28T14:20:48Z] roadNet-CA: CILST_fixed seed 2 work 576,392 (130.29s of 130.40s; start DEG-desc 956,640; 139,452,928 proposals)
+[2026-09-28T14:22:59Z] roadNet-CA: CILST_fixed seed 3 work 576,392 (130.26s of 130.40s; start DEG-desc 956,640; 139,462,912 proposals)
+[2026-09-28T14:25:10Z] roadNet-CA: CILST_best seed 1 work 552,208 (130.25s of 130.40s; start SL-asc 777,544; 133,602,816 proposals)
+[2026-09-28T14:27:21Z] roadNet-CA: CILST_best seed 2 work 553,233 (130.27s of 130.40s; start SL-asc 777,544; 133,752,832 proposals)
+[2026-09-28T14:29:32Z] roadNet-CA: CILST_best seed 3 work 552,700 (130.26s of 130.40s; start SL-asc 777,544; 133,893,120 proposals)
+[2026-09-28T14:29:36Z] roadNet-CA: kernel median R* 46.340 ms; ratios T 0.9688, DOVE 0.9587, TILS_seed1 0.9094, ILST_seed1 0.9059
+[2026-09-28T14:29:36Z] roadNet-CA: posthoc verification PASSED (17 orders, triangles 120,676); 1200.5s
+[2026-09-28T14:29:36Z] posthoc_eval finished; writing tables
+[2026-09-28T14:29:37Z] posthoc tables: suite 32 of 32, held-out 9 of 10 (Facebook-page-page: missing, download failed) -> D:\Work\Triangle Ordering\pc_eval_posthoc_results
+[2026-09-28T14:29:37Z] posthoc tables written
+[2026-09-28T14:29:37Z] all analysed graphs passed
